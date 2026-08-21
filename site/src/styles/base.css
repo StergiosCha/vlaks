@@ -2,7 +2,7 @@
 
 /* ---------- reset-ish ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; font-size: 110%; }
 body {
   margin: 0;
   background: var(--bg);
@@ -74,7 +74,7 @@ main { min-height: 60vh; }
 .fn-toggle:focus-visible + .fn-ref { outline: 3px solid var(--xryso-glitter); outline-offset: 2px; }
 .sidenote {
   font-family: var(--f-note);
-  font-size: .82rem;
+  font-size: .9rem;
   line-height: 1.55;
   color: color-mix(in srgb, var(--fg) 82%, var(--bg));
 }
