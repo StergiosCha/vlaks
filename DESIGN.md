@@ -205,7 +205,7 @@ stay Greek):
    Fuit Art Cafe videos from youtube.jsonl (Baildsa, Manitarock, Ζαμάνη, 12ος Πίθηκος,
    «fuit extreme party - toumpes»), clearly labeled as venue history, not ΒΛΑΞ sets.
 7. **Οι Βλάκες** — strict two columns: «ο ηλίθιος» / «ο μπατίρης». The names Στέργιος
-   Χατζηκυριακίδης and Αλέξανδρος Χατζής appear on the page but are **never mapped to the
+   Χατζηκυριακίδης and Αλέξανδρος Χαντζής appear on the page but are **never mapped to the
    labels** — footnote: «Το ποιος είναι ποιος δοκιμάστηκε σε βοηθό αποδείξεων. Δεν τερμάτισε.»
    Primary quotes that would reveal the mapping get the μαύρη-μπάρα treatment (§3). The «σοβαρά
    τώρα» toggle flips the columns to the real CVs (names → CVs mapped truthfully; labels → names
