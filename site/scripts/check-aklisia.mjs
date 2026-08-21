@@ -10,7 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const DIST = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist');
-const SANCTIONED = /(οι\s+βλάκες|ΟΙ\s+ΒΛΑΚΕΣ|Οι\s+Βλάκες)/g;
+const SANCTIONED = /$^/g; // καμία εξαίρεση: ούτε ο τίτλος «οι βλαξ» κλίνεται (διαταγή συγγραφέα, 22/08/2026)
 const DECLINED = /(ΒΛΑΚ|Βλάκ|βλάκ)/;
 
 let bad = [];

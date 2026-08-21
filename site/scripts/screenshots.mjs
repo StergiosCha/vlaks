@@ -18,7 +18,7 @@ const PAGES = [
   ['αφισες/', 'afises'],
   ['φωτογραφιες/', 'fotografies'],
   ['μουσικη/', 'mousiki'],
-  ['βλακες/', 'vlakes'],
+  ['βλαξ/', 'vlakes'],
   ['fuit/', 'fuit'],
   ['κρατησεις/', 'kratiseis'],
   ['κενα/', 'kena'],

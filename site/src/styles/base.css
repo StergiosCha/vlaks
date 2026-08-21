@@ -368,3 +368,12 @@ footer.site a { color: var(--xryso); }
 .center { text-align: center; }
 hr.double { border: none; border-top: 3px double var(--rule); margin: 2.5rem 0; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+/* ---------- sidenote lane on .shell (dark) pages ----------
+   headings/intros leave room for the margin notes; wide blocks clear them —
+   no note ever lands on top of a column again */
+@media (min-width: 64rem) {
+  .shell > h1, .shell > p.intro, .shell > p.book, .shell > p.epigraph { max-width: calc(100% - var(--margin-notes) - 4rem); }
+  .shell > .pair, .shell > section, .shell > aside, .shell > figure, .shell > hr,
+  .shell > .doors, .shell > .posterwall, .shell > .terms, .shell > .wall, .shell > .lipstick { clear: right; }
+}
