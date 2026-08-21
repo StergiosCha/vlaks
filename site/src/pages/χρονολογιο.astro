@@ -1,0 +1,77 @@
+---
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import EventCard from '../components/EventCard.astro';
+import { seriesEvents } from '../lib/archive';
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const { vlax, radical, athens } = seriesEvents();
+---
+<Base title="Χρονολόγιο — ΒΛΑΞ" current="χρονολογιο" palette="skyladiko"
+  description="Κάθε τεκμηριωμένο ΒΛΑΞ και κάθε Ράντικαλ Πάρτι: ημερομηνίες με αποδείξεις, άγνωστα με αστερίσκο, διαφωνίες σε δική τους σελίδα.">
+  <div class="shell">
+    <h1>ΧΡΟΝΟΛΟΓΙΟ</h1>
+    <p class="book intro">
+      Ό,τι γράφεται εδώ έχει πηγή· κάθε διορθωμένη ημερομηνία δείχνει το «πώς το ξέρουμε».
+      Ο κόκκινος αστερίσκος<Fn n="5">
+        * σημαίνει: δεν το ξέρουμε στα αλήθεια. Η ημερομηνία συνάγεται — από αρίθμηση τόμων,
+        από ημερομηνίες δημοσίευσης, από τη μνήμη ανθρώπων που εκείνο το βράδυ δεν κρατούσαν
+        σημειώσεις για ευνόητους λόγους. Αν ξέρεις καλύτερα: <a href={`${B}/κενα/`}>Κενά</a>.
+      </Fn> συνοδεύει ό,τι συνάγεται. Οι χρονιές που δεν έγιναν, γράφονται κι αυτές — το κενό
+      είναι μέρος του αρχείου. Και όπου τα στοιχεία διαφωνούν, δεν το κρύβουμε:
+      <a href={`${B}/διαφωνιες/`}>έχουν δική τους σελίδα</a>.
+    </p>
+
+    <section>
+      <h2 id="vlax">ΒΛΑΞ vol.</h2>
+      <p class="book small muted">Η χριστουγεννιάτικη σειρά του Fuit Art Cafe, Γρεβενά. Ξεκίνησε
+      29 Δεκεμβρίου 2016, στις 23:00 «πάνω κάτω». Τέσσερα έγιναν. Τέλος.<Fn n="7">
+        «4 βλαξ έχουν γίνει, τέλος» — προφορική κατάθεση ενός εκ των δύο βλαξ προς το αρχείο,
+        21 Αυγούστου 2026. Δεν διευκρίνισε ποιος από τους δύο είναι. Δεν ρωτήσαμε.
+      </Fn> Οι χρονιές 2020 και 2021 καταγράφονται ως μη-γενόμενες, με πηγές.</p>
+      {vlax.map((e) => <EventCard e={e} />)}
+    </section>
+
+    <hr class="double" />
+
+    <section>
+      <h2 id="radical">Radical Party</h2>
+      <p class="book small muted">Το road-show: Κουκάκι, Θεσσαλονίκη, Ελατοχώρι, Βασίλιτσα.
+      Live to Get Radical.</p>
+      {radical.map((e) => <EventCard e={e} />)}
+    </section>
+
+    <hr class="double" />
+
+    <section>
+      <h2 id="athens">Αθήνα vol.</h2>
+      <p class="book small muted">
+        Η αθηναϊκή αρίθμηση: το Κουκάκι μετράει τα δικά του.<Fn n="6">
+          Η 5η Ράντικαλ Πάρτι είναι ταυτόχρονα το «Αθήνα vol.02» — έτσι την ανήγγειλε το ίδιο το
+          fuitwashere.gr. Τα στοιχεία εδώ δεν διαφωνούν· απλώς πλεονάζουν. Καταχωρείται και στις
+          δύο σειρές, μία φορά στην πραγματικότητα.
+        </Fn>
+      </p>
+      {athens.map((e) => <EventCard e={e} />)}
+    </section>
+
+    <aside class="conflict-box">
+      <h3>⚠ ΤΑ ΣΤΟΙΧΕΙΑ ΔΙΑΦΩΝΟΥΝ</h3>
+      <p class="book">Μια λεζάντα λέει 14 Μαΐου 2023. Τα metadata λένε Κυριακή 7 Ιουλίου 2024.
+      Κάπως έτσι έγινε και με την καρέκλα. <a href={`${B}/διαφωνιες/`}>Ολόκληρη η διαφωνία →</a></p>
+    </aside>
+  </div>
+</Base>
+<style>
+  h1 { margin-top: 2rem; }
+  .intro { max-width: 44rem; font-size: 1.1rem; }
+  section h2 { margin-top: 1.5rem; }
+  .conflict-box {
+    margin: 3rem 0;
+    border: 2px solid var(--kokkino);
+    padding: 1.1rem 1.4rem;
+    background: color-mix(in srgb, var(--kokkino) 8%, transparent);
+  }
+  .conflict-box h3 { color: var(--kokkino); margin-bottom: .3rem; }
+  .conflict-box p { margin: 0; }
+</style>

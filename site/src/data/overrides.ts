@@ -100,7 +100,9 @@ export const OVERRIDES: Record<string, EventPatch> = {
     evidence: ['Διήμερο από τον τίτλο της αναγγελίας «VASILITSA 24-25/01 - Ράντικαλ Πάρτι» (δημ. 12/12/2024).'],
   },
   ev_089: {
-    // the 8-photo 5th-RP album was wrongly attached here; re-attached to rp-05 below
+    // the 8-photo 5th-RP album was wrongly attached here; re-attached to rp-05 below.
+    // also: a trip post, not a party — belongs to Other, not the party timeline
+    series: 'Other',
     dropGalleryPrefix: '2024-05-17_5th_Radical_Party',
     evidence: ['Το άλμπουμ της 5ης Ράντικαλ (8 φωτ.) ήταν κολλημένο σε αυτό το event· μεταφέρθηκε εκεί που ανήκει.'],
   },
@@ -111,6 +113,15 @@ export const OVERRIDES: Record<string, EventPatch> = {
   ev_109: { series: 'Merch' },
   ev_111: { series: 'Merch' },
   ev_113: { series: 'Merch' },
+
+  // ── fuitwashere blog posts that are not parties (trips, About, photo essays):
+  //    real material, wrong shelf — they feed the Fuit page, not the party timeline
+  ev_101: { series: 'Other' }, // Keep Vasilitsa Weird (trip post)
+  ev_106: { series: 'Other' }, // Fuit Was Here - Our People
+  ev_107: { series: 'Other' }, // Fuit was in Thessaloniki
+  ev_110: { series: 'Other' }, // Fuit was in Cyprus
+  ev_112: { series: 'Other' }, // Fuit Was Here - Our People (β΄)
+  ev_115: { series: 'Other' }, // About Us
 
   // ── mislabeled series
   ev_003: {
