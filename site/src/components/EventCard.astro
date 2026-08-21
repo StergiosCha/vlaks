@@ -18,7 +18,9 @@ const excerpt = e.announcement
       ? <Pic m={e.poster} alt={`Αφίσα: ${e.name}`} sizes="9rem" />
       : e.gallery.find((a) => a.local)
         ? <Pic m={e.gallery.find((a) => a.local)!.local!} alt={`Φωτογραφία από: ${e.name}`} sizes="9rem" />
-        : <div class="noposter book small">αφίσα:<br />ζητείται<br />(→ <a href={`${B}/κενα/`}>Κενά</a>)</div>}
+        : e.series === 'ΒΛΑΞ'
+          ? <div class="noposter book small">αφίσα:<br />ζητείται<br />(→ <a href={`${B}/κενα/`}>Κενά</a>)</div>
+          : <div class="noposter quiet" aria-hidden="true">·</div>}
   </div>
   <div>
     <time datetime={e.dateISO}>
@@ -51,6 +53,7 @@ const excerpt = e.announcement
 <style>
   .cancelled { opacity: .82; }
   .cancelled h3 s { text-decoration-color: var(--kokkino); text-decoration-thickness: 3px; }
+  .noposter.quiet { border-style: dotted; opacity: .35; min-height: 4rem; display: grid; place-items: center; }
   .noposter { padding: 1rem .8rem; border: 1px dashed var(--rule); text-align: center; color: var(--fg); opacity: .8; }
   details summary { cursor: pointer; }
 </style>

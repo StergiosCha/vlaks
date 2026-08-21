@@ -32,6 +32,7 @@ export interface ExtraEvent extends EventPatch {
   announcementFromUrl?: string;
   sources?: SourceRef[];
   galleryPrefix?: string;
+  galleryCredit?: string; // credit line for galleryPrefix galleries (default fuit.gr)
 }
 
 /** Announcement-only blog rows folded into their event; merch rows reclassified. */
@@ -243,6 +244,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
   // ── τα περίχωρα: the events around the series — stories, awards, lamps ──
   {
     id: 'per-pikatsu',
+    posterKey: 'pikatsu.jpg',
     name: 'Το λαμπατέρ πικατσού μπαίνει σε υπηρεσία',
     series: 'Περίχωρα',
     dateISO: '2016-12-25',
@@ -256,6 +258,9 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
   },
   {
     id: 'per-balkan-tour',
+    posterKey: 'balkan-4.jpg',
+    galleryPrefix: 'balkan-',
+    galleryCredit: 'αρχείο των ιδίων (FB 09/08/2017)',
     name: 'Μπάλκαν τουρ — ριπόρτ νούμερο 4 («σων’ χιλιόμετρα τώρα»)',
     series: 'Περίχωρα',
     dateISO: '2017-08-09',
@@ -288,6 +293,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
   },
   {
     id: 'per-masela',
+    posterKey: 'grover.jpg',
     name: '«Καμιά μασέλα γέρου» — ραδιοφωνική εμφάνιση και κλήρωση ενός «Γκρόβερ»',
     series: 'Περίχωρα',
     dateISO: '2019-03-19',
@@ -329,6 +335,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
   },
   {
     id: 'per-thanatos',
+    posterKey: 'thanatos-eikonografisi.jpg',
     name: 'Απόσπασμα: «Ο θάνατος του μπατζανάκη μου»',
     series: 'Περίχωρα',
     dateISO: '2025-04-02',
@@ -342,6 +349,9 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
   },
   {
     id: 'per-istories',
+    posterKey: 'istories-1.jpg',
+    galleryPrefix: 'istories-',
+    galleryCredit: 'αρχείο των ιδίων (FB 26/11/2025)',
     name: 'Κυκλοφορούν οι «Ιστορίες Απλής Λογικής και Λίγης Θλίψης»',
     series: 'Περίχωρα',
     dateISO: '2025-11-26',

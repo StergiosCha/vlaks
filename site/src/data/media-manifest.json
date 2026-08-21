@@ -7065,5 +7065,150 @@
   ],
   "fallback": "media/8b6c080ef051__960.jpg",
   "full": "media/8b6c080ef051__960.webp"
+ },
+ "pikatsu.jpg": {
+  "key": "pikatsu.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/e1cebbc67f08__480.webp"
+   }
+  ],
+  "fallback": "media/e1cebbc67f08__480.jpg",
+  "full": "media/e1cebbc67f08__480.webp"
+ },
+ "grover.jpg": {
+  "key": "grover.jpg",
+  "w": 1080,
+  "h": 1449,
+  "variants": [
+   {
+    "w": 480,
+    "h": 644,
+    "file": "media/2de4ad19d7d7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1288,
+    "file": "media/2de4ad19d7d7__960.webp"
+   }
+  ],
+  "fallback": "media/2de4ad19d7d7__960.jpg",
+  "full": "media/2de4ad19d7d7__960.webp"
+ },
+ "istories-1.jpg": {
+  "key": "istories-1.jpg",
+  "w": 960,
+  "h": 1280,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/fbf8756b4519__480.webp"
+   }
+  ],
+  "fallback": "media/fbf8756b4519__480.jpg",
+  "full": "media/fbf8756b4519__480.webp"
+ },
+ "istories-2.jpg": {
+  "key": "istories-2.jpg",
+  "w": 960,
+  "h": 1280,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/2f21997bf560__480.webp"
+   }
+  ],
+  "fallback": "media/2f21997bf560__480.jpg",
+  "full": "media/2f21997bf560__480.webp"
+ },
+ "thanatos-eikonografisi.jpg": {
+  "key": "thanatos-eikonografisi.jpg",
+  "w": 852,
+  "h": 852,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/a9edfa68586e__480.webp"
+   }
+  ],
+  "fallback": "media/a9edfa68586e__480.jpg",
+  "full": "media/a9edfa68586e__480.webp"
+ },
+ "balkan-1.jpg": {
+  "key": "balkan-1.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/390d898d26b0__480.webp"
+   }
+  ],
+  "fallback": "media/390d898d26b0__480.jpg",
+  "full": "media/390d898d26b0__480.webp"
+ },
+ "balkan-2.jpg": {
+  "key": "balkan-2.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/c858108848a7__480.webp"
+   }
+  ],
+  "fallback": "media/c858108848a7__480.jpg",
+  "full": "media/c858108848a7__480.webp"
+ },
+ "balkan-3.jpg": {
+  "key": "balkan-3.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/247452e6a80c__480.webp"
+   }
+  ],
+  "fallback": "media/247452e6a80c__480.jpg",
+  "full": "media/247452e6a80c__480.webp"
+ },
+ "balkan-4.jpg": {
+  "key": "balkan-4.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/a94cbdc100dd__480.webp"
+   }
+  ],
+  "fallback": "media/a94cbdc100dd__480.jpg",
+  "full": "media/a94cbdc100dd__480.webp"
+ },
+ "balkan-5.jpg": {
+  "key": "balkan-5.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/ecc1e4b18e50__480.webp"
+   }
+  ],
+  "fallback": "media/ecc1e4b18e50__480.jpg",
+  "full": "media/ecc1e4b18e50__480.webp"
  }
 }

@@ -42,6 +42,17 @@ const LOOSE = [
   ['raw/own/gleifitzouria-kaktos.jpg', 'gleifitzouria-kaktos.jpg'],
   ['raw/own/kolara.jpg', 'kolara.jpg'],
   ['raw/own/trio-gyalia.jpg', 'trio-gyalia.jpg'],
+  // extracted from the saved FB PDF (21/08/2026) — τα περίχωρα
+  ['raw/own/pikatsu.jpg', 'pikatsu.jpg'],
+  ['raw/own/grover.jpg', 'grover.jpg'],
+  ['raw/own/istories-1.jpg', 'istories-1.jpg'],
+  ['raw/own/istories-2.jpg', 'istories-2.jpg'],
+  ['raw/own/thanatos-eikonografisi.jpg', 'thanatos-eikonografisi.jpg'],
+  ['raw/own/balkan-1.jpg', 'balkan-1.jpg'],
+  ['raw/own/balkan-2.jpg', 'balkan-2.jpg'],
+  ['raw/own/balkan-3.jpg', 'balkan-3.jpg'],
+  ['raw/own/balkan-4.jpg', 'balkan-4.jpg'],
+  ['raw/own/balkan-5.jpg', 'balkan-5.jpg'],
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });

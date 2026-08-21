@@ -192,7 +192,7 @@ export function loadEvents(): ArchiveEvent[] {
         eventId: ev.id,
         remoteUrl: '',
         local: m,
-        credit: 'fuit.gr',
+        credit: extra.galleryCredit ?? 'fuit.gr',
       }));
     }
     if (extra.announcementFromUrl) {

@@ -7,7 +7,7 @@ import Pic from '../components/Pic.astro';
 import { seriesEvents, media } from '../lib/archive';
 
 const B = import.meta.env.BASE_URL.replace(/\/$/, '');
-const { vlax } = seriesEvents();
+const { vlax, perixora } = seriesEvents();
 const undated = [
   {
     key: 'mittas-gleifitzouria.jpg',
@@ -108,6 +108,24 @@ const undated = [
         ) : (
           <p class="book none">Καμία φωτογραφία δεν σώζεται στο αρχείο. Ήταν όλοι απασχολημένοι.</p>
         )}
+      </section>
+    ))}
+
+    <hr class="double" />
+
+    <section id="perixora-fotos">
+      <h2>Τα περίχωρα</h2>
+      <p class="book small muted">Ό,τι φωτογραφικό συνοδεύει τα γεγονότα γύρω από τη σειρά — το τουρ, τα βιβλία.</p>
+    </section>
+    {perixora.filter((e) => e.gallery.filter((a) => a.local).length > 0).map((e) => (
+      <section id={e.id}>
+        <h3>{e.name}</h3>
+        <p class="small muted">{e.dateDisplay}</p>
+        <div class="wall">
+          {e.gallery.filter((a) => a.local).map((a) => (
+            <Pic m={a.local!} alt={`Φωτογραφία: ${e.name}`} sizes="(max-width: 44rem) 100vw, 30rem" caption={`πηγή: ${a.credit}`} />
+          ))}
+        </div>
       </section>
     ))}
 
