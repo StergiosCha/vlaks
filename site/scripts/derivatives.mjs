@@ -28,6 +28,20 @@ const LOOSE = [
   ['vlaks5.jpg', 'vlaks5.jpg'], // vol.3 «οι ντένεξ» tin-cans poster
   ['vlaks.jpg', 'xeirografo.jpg'], // the handwritten note
   ['texts/afisa-2016-apo-fb.jpg', 'afisa-2016.jpg'], // vol.01 poster, extracted from the FB PDF
+  // raw/own/: photos supplied directly by the owners (21/08/2026)
+  ['raw/own/afisa-vol02.jpg', 'afisa-vol02.jpg'],
+  ['raw/own/afisa-vol02-ston-dromo.jpg', 'afisa-vol02-ston-dromo.jpg'],
+  ['raw/own/afisa-vol04-hires.jpg', 'afisa-vol04-hires.jpg'],
+  ['raw/own/nixta.jpg', 'nixta.jpg'],
+  ['raw/own/mittas-gleifitzouria.jpg', 'mittas-gleifitzouria.jpg'],
+  ['raw/own/mittas-leopar.jpg', 'mittas-leopar.jpg'],
+  ['raw/own/arkoudotoixos.jpg', 'arkoudotoixos.jpg'],
+  ['raw/own/arkoudoparathyro.jpg', 'arkoudoparathyro.jpg'],
+  ['raw/own/agiovasilides.jpg', 'agiovasilides.jpg'],
+  ['raw/own/xotiko-sombrero.jpg', 'xotiko-sombrero.jpg'],
+  ['raw/own/gleifitzouria-kaktos.jpg', 'gleifitzouria-kaktos.jpg'],
+  ['raw/own/kolara.jpg', 'kolara.jpg'],
+  ['raw/own/trio-gyalia.jpg', 'trio-gyalia.jpg'],
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });

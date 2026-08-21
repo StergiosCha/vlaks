@@ -6853,5 +6853,217 @@
   ],
   "fallback": "media/e143bc059bfc__480.jpg",
   "full": "media/e143bc059bfc__480.webp"
+ },
+ "afisa-vol02.jpg": {
+  "key": "afisa-vol02.jpg",
+  "w": 676,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 682,
+    "file": "media/b5804c7237af__480.webp"
+   }
+  ],
+  "fallback": "media/b5804c7237af__480.jpg",
+  "full": "media/b5804c7237af__480.webp"
+ },
+ "afisa-vol02-ston-dromo.jpg": {
+  "key": "afisa-vol02-ston-dromo.jpg",
+  "w": 958,
+  "h": 787,
+  "variants": [
+   {
+    "w": 480,
+    "h": 394,
+    "file": "media/aeba1bdfeb9f__480.webp"
+   }
+  ],
+  "fallback": "media/aeba1bdfeb9f__480.jpg",
+  "full": "media/aeba1bdfeb9f__480.webp"
+ },
+ "afisa-vol04-hires.jpg": {
+  "key": "afisa-vol04-hires.jpg",
+  "w": 1080,
+  "h": 1533,
+  "variants": [
+   {
+    "w": 480,
+    "h": 681,
+    "file": "media/eb9aaef39418__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1363,
+    "file": "media/eb9aaef39418__960.webp"
+   }
+  ],
+  "fallback": "media/eb9aaef39418__960.jpg",
+  "full": "media/eb9aaef39418__960.webp"
+ },
+ "nixta.jpg": {
+  "key": "nixta.jpg",
+  "w": 848,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 543,
+    "file": "media/d6947de9fd08__480.webp"
+   }
+  ],
+  "fallback": "media/d6947de9fd08__480.jpg",
+  "full": "media/d6947de9fd08__480.webp"
+ },
+ "mittas-gleifitzouria.jpg": {
+  "key": "mittas-gleifitzouria.jpg",
+  "w": 1080,
+  "h": 718,
+  "variants": [
+   {
+    "w": 480,
+    "h": 319,
+    "file": "media/e220af09a711__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 638,
+    "file": "media/e220af09a711__960.webp"
+   }
+  ],
+  "fallback": "media/e220af09a711__960.jpg",
+  "full": "media/e220af09a711__960.webp"
+ },
+ "mittas-leopar.jpg": {
+  "key": "mittas-leopar.jpg",
+  "w": 2048,
+  "h": 1362,
+  "variants": [
+   {
+    "w": 480,
+    "h": 319,
+    "file": "media/0769c87ad9f5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 638,
+    "file": "media/0769c87ad9f5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1064,
+    "file": "media/0769c87ad9f5__1600.webp"
+   }
+  ],
+  "fallback": "media/0769c87ad9f5__960.jpg",
+  "full": "media/0769c87ad9f5__1600.webp"
+ },
+ "arkoudotoixos.jpg": {
+  "key": "arkoudotoixos.jpg",
+  "w": 960,
+  "h": 1280,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/94a8f0a6235a__480.webp"
+   }
+  ],
+  "fallback": "media/94a8f0a6235a__480.jpg",
+  "full": "media/94a8f0a6235a__480.webp"
+ },
+ "arkoudoparathyro.jpg": {
+  "key": "arkoudoparathyro.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/c41d5260a2e3__480.webp"
+   }
+  ],
+  "fallback": "media/c41d5260a2e3__480.jpg",
+  "full": "media/c41d5260a2e3__480.webp"
+ },
+ "agiovasilides.jpg": {
+  "key": "agiovasilides.jpg",
+  "w": 720,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/f04c192a017d__480.webp"
+   }
+  ],
+  "fallback": "media/f04c192a017d__480.jpg",
+  "full": "media/f04c192a017d__480.webp"
+ },
+ "xotiko-sombrero.jpg": {
+  "key": "xotiko-sombrero.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/ebd5a5bb6f50__480.webp"
+   }
+  ],
+  "fallback": "media/ebd5a5bb6f50__480.jpg",
+  "full": "media/ebd5a5bb6f50__480.webp"
+ },
+ "gleifitzouria-kaktos.jpg": {
+  "key": "gleifitzouria-kaktos.jpg",
+  "w": 960,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/d6e66c6d6abe__480.webp"
+   }
+  ],
+  "fallback": "media/d6e66c6d6abe__480.jpg",
+  "full": "media/d6e66c6d6abe__480.webp"
+ },
+ "kolara.jpg": {
+  "key": "kolara.jpg",
+  "w": 1316,
+  "h": 640,
+  "variants": [
+   {
+    "w": 480,
+    "h": 233,
+    "file": "media/6b1710429cc4__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 467,
+    "file": "media/6b1710429cc4__960.webp"
+   }
+  ],
+  "fallback": "media/6b1710429cc4__960.jpg",
+  "full": "media/6b1710429cc4__960.webp"
+ },
+ "trio-gyalia.jpg": {
+  "key": "trio-gyalia.jpg",
+  "w": 1440,
+  "h": 1080,
+  "variants": [
+   {
+    "w": 480,
+    "h": 360,
+    "file": "media/8b6c080ef051__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 720,
+    "file": "media/8b6c080ef051__960.webp"
+   }
+  ],
+  "fallback": "media/8b6c080ef051__960.jpg",
+  "full": "media/8b6c080ef051__960.webp"
  }
 }
