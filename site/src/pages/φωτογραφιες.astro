@@ -1,0 +1,86 @@
+---
+/** Φωτογραφίες: κακές φλας φωτογραφίες μπαρ στις 3 τα ξημερώματα, μεγάλες, άκοπες.
+    Το αρχείο των ΒΛΑΞ είναι φωτογραφικά φτωχό και το λέμε δυνατά — αυτό είναι η σελίδα. */
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import Pic from '../components/Pic.astro';
+import { seriesEvents, media } from '../lib/archive';
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const { vlax } = seriesEvents();
+const undated = [
+  {
+    key: 'vlaks1.jpg',
+    alt: 'Άντρας όρθιος πάνω στο μπαρ παίζει τρομπόνι· στη βιτρίνα πίσω του χριστουγεννιάτικος τάρανδος και ένα αρκουδάκι· από κάτω πορτοκαλί τηλέφωνο με καντράν.',
+    caption: 'Τρομπόνι στο μπαρ. Αρκουδάκι στη βιτρίνα. Πορτοκαλί τηλέφωνο. Όλα στη θέση τους.',
+  },
+  {
+    key: 'vlaks3.jpg',
+    alt: 'Οι δυο βλαξ με μαύρα πουκάμισα και λευκά κολάρα καθολικών παπάδων πιάνονται από τα χέρια μπροστά στο μπαρ· πινακίδες Route 66 και China Town στον τοίχο.',
+    caption: 'Οι δυο, με τα κολάρα. Υπογραφή φωτογράφου: «LMP» — αν ξέρεις ποιος είναι, ψάχνουμε να τον ευχαριστήσουμε.',
+  },
+  {
+    key: 'vlaks4.jpg',
+    alt: 'Γραμμένο με κραγιόν σε τέντα μαγαζιού, ανάμεσα σε χιονονιφάδες: ΔΕΝ ΔΕΧΟΜΕΘΑ ΠΑΡΑΓΓΕΛΙΕΣ! ΞΕΦΤΙΛΙΖΟΜΑΣΤΕ ΚΑΙ ΜΟΝΟΙ ΜΑΣ!',
+    caption: '«ΔΕΝ ΔΕΧΟΜΕΘΑ ΠΑΡΑΓΓΕΛΙΕΣ! ΞΕΦΤΙΛΙΖΟΜΑΣΤΕ ΚΑΙ ΜΟΝΟΙ ΜΑΣ!» — δόγμα, γραμμένο με το κραγιόν της κ. Μυρτώς.',
+  },
+];
+---
+<Base title="Φωτογραφίες — ΒΛΑΞ" current="φωτογραφιες" palette="lounapark"
+  description="Ό,τι φωτογραφικό σώζεται από τα τέσσερα ΒΛΑΞ: λίγο, φλας, 3 τα ξημερώματα, και το λέμε δυνατά.">
+  <div class="shell">
+    <h1>ΦΩΤΟΓΡΑΦΙΕΣ</h1>
+    <p class="book intro">
+      Να είμαστε ειλικρινείς: το φωτογραφικό αρχείο των ΒΛΑΞ είναι φτωχό. Τέσσερα πάρτι,
+      μία (1) επίσημη φωτογραφία, τρεις αχρονολόγητες, κανένας πιστοποιημένος φωτογράφος.<Fn n="9">
+        Στα δεδομένα του αρχείου δεν υπάρχει ούτε ένα όνομα φωτογράφου — μόνο ονόματα ιστοσελίδων.
+        Ό,τι ξέρουμε: μια υπογραφή «LMP» σε μία φωτογραφία. Καμία φωτογραφία δεν «καλλωπίστηκε»·
+        είναι κακές φλας φωτογραφίες μπαρ στις 3 τα ξημερώματα, και ακριβώς έτσι πρέπει.
+      </Fn>
+      Όποιος έχει περισσότερες: <a href={`${B}/κενα/`}>Κενά</a>. Οι τσέπες, τα κινητά του
+      2016–2019, οι σκληροί δίσκοι — κάπου υπάρχουν.
+    </p>
+
+    {vlax.filter((e) => !e.cancelled).map((e) => (
+      <section id={e.id}>
+        <h2>{e.name}</h2>
+        <p class="small muted">{e.dateDisplay}{e.confidence !== 'exact' && <span class="asterisk"> *</span>}</p>
+        {e.gallery.filter((a) => a.local).length > 0 ? (
+          <div class="wall">
+            {e.gallery.filter((a) => a.local).map((a) => (
+              <Pic
+                m={a.local!}
+                alt={`Φωτογραφία από ${e.name}`}
+                sizes="(max-width: 44rem) 100vw, 30rem"
+                original={a.remoteUrl || undefined}
+                caption={`πηγή: ${a.credit} · φωτογράφος: άγνωστος (ξέρεις; πες μας)`}
+              />
+            ))}
+          </div>
+        ) : (
+          <p class="book none">Καμία φωτογραφία δεν σώζεται στο αρχείο. Ήταν όλοι απασχολημένοι.</p>
+        )}
+      </section>
+    ))}
+
+    <hr class="double" />
+
+    <section id="axronologita">
+      <h2>Αχρονολόγητα</h2>
+      <p class="book small muted">Η καρέκλα θα καταλάβαινε: ξέρουμε ότι συνέβησαν, δεν ξέρουμε πότε.</p>
+      <div class="wall">
+        {undated.map((u) => {
+          const m = media(u.key);
+          return m ? <Pic m={m} alt={u.alt} sizes="(max-width: 44rem) 100vw, 30rem" caption={u.caption} /> : null;
+        })}
+      </div>
+    </section>
+  </div>
+</Base>
+<style>
+  h1 { margin-top: 2rem; color: var(--accent); }
+  .intro { max-width: 44rem; font-size: 1.1rem; }
+  section { margin: 2.5rem 0; }
+  section h2 { color: var(--accent); }
+  .none { border: 1px dashed var(--rule); padding: 1.2rem; max-width: 34rem; }
+</style>

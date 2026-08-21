@@ -1,0 +1,86 @@
+---
+/** Fuit: the café, the REAL manifesto in full (About-Fuit, signed GRAO), the documented
+    awards, the hedgehog, and a napkin map. */
+import fs from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import { NORMALIZED_DIR } from '../lib/paths';
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+// the pinned About-Fuit manifesto, straight from the archive (blogs.jsonl)
+const aboutUrl = 'https://www.fuit.gr/2019/02/about-fuit-grevena.html';
+let manifesto = '';
+for (const line of fs.readFileSync(path.join(NORMALIZED_DIR, 'blogs.jsonl'), 'utf8').split('\n')) {
+  if (!line) continue;
+  try {
+    const r = JSON.parse(line);
+    if (r.source_url === aboutUrl) { manifesto = r.text; break; }
+  } catch {}
+}
+const paras = manifesto.split('\n').map((s: string) => s.trim()).filter(Boolean);
+---
+<Base title="Fuit Art Cafe — ΒΛΑΞ" current="fuit" palette="charti"
+  description="Το καλύτερο καφέ της Γης (εκτός Γης ακόμα δεν έχουν ψάξει): Fuit Art Cafe, Ηλία Φάσσα 2, Γρεβενά. Το μανιφέστο, τα βραβεία, ο σκαντζόχοιρος.">
+  <article class="reading">
+    <h1>Fuit Art Cafe</h1>
+    <p class="book small muted">Ηλία Φάσσα 2, Γρεβενά · «το καλύτερο καφέ της Γης (εκτός Γης
+    ακόμα δεν έχουμε ψάξει)» — αφίσα ΒΛΑΞ vol.01, 2016</p>
+
+    <p>
+      Εδώ γεννήθηκαν και τα τέσσερα ΒΛΑΞ. Ιδιοκτήτης: ο Γιάννης «Μπάλκαν Φούιτ» Ευαγγελόπουλος,
+      ποιητής της Δυτικής Μακεδονίας, τρομπονίστας του ίδιου του μπαρ του.<Fn n="15">
+        Το παρατσούκλι «φούιτ» προέρχεται, κατά το μανιφέστο, «ούτε από το Λατινικό, ούτε από
+        Γαλλικό fuit, αλλά από το Βορειοελλαδίτικο φούιτ, τουτέστιν "το έχω ντιπ χαμένο"».
+        Η ετυμολογία είναι ζήτημα σοβαρό· ρωτήστε τον αφηγητή του διηγήματος.
+      </Fn>
+    </p>
+
+    <h2>Το μανιφέστο</h2>
+    <p class="small muted">Αυτούσιο το «About us» του fuit.gr, υπογραφή GRAO — η μοναδική
+    επέμβασή μας είναι η στοιχειοθεσία:<Fn n="16">
+      Από αυτό το κείμενο δανείζεται και το σημείωμα για τα κούκις αυτού του ιστότοπου το
+      «ζήτα το με συνέπεια»: «Οι υπάλληλοι: ακριβολόγοι, υπέρμαχοι της σαφήνειας και πολέμιοι
+      της γλωσσικής αδιαφάνειας. Αν θες να πιεις αυτό που θες, ζήτα το με συνέπεια.»
+    </Fn></p>
+    <blockquote class="manifesto">
+      {paras.map((p: string) => <p>{p}</p>)}
+    </blockquote>
+
+    <h2>Τα βραβεία (πραγματικά, με πηγές)</h2>
+    <ul>
+      <li><strong>TripAdvisor Certificate of Excellence</strong> — 2018 και 2019, δύο συνεχόμενες
+      χρονιές (fuit.gr, 29/05/2019).</li>
+      <li><strong>Restaurant Guru</strong> — 1ο από 48 καφέ και 1ο από 135 καταστήματα εστίασης
+      στα Γρεβενά (fuit.gr, 21/08/2019).</li>
+      <li><strong>TripAdvisor Travelers' Choice 2020</strong> — στο κορυφαίο 10% παγκοσμίως
+      (fuit.gr, 29/08/2020).</li>
+      <li><strong>Βραβείο Νόμπελ Νύχτας</strong> — απονεμήθηκε <em>εντός</em> του καταστήματος,
+      20/08/2018, από τον έναν μπατζανάκη στον άλλο. Δεν αφορά το κατάστημα, αλλά έγινε εδώ και
+      το καταγράφουμε· τέτοια πράγματα δεν γίνονται όπου να 'ναι.</li>
+    </ul>
+
+    <h2>Πού είναι</h2>
+    <p>Ηλία Φάσσα 2, Γρεβενά. Τα Γρεβενά είναι μικρά· θα το βρεις. Αν χαθείς, ρώτα για το καφέ
+    με τον σκαντζόχοιρο στην ταμπέλα, ή απλά αφουγκράσου τα χάλκινα.
+    <a href="https://www.openstreetmap.org/search?query=Fuit%20Art%20Cafe%20%CE%93%CF%81%CE%B5%CE%B2%CE%B5%CE%BD%CE%AC" target="_blank" rel="noopener">Χάρτης</a>
+    για τους τυπικούς.</p>
+
+    <p class="book small muted">Keep Grevena Weird — έτσι υπογράφει το μαγαζί, από το 2019
+    τουλάχιστον, και δεν βλέπουμε λόγο να διαφωνήσουμε με τα στοιχεία, μια φορά που συμφωνούν.</p>
+  </article>
+</Base>
+<style>
+  h1 { color: var(--fg); }
+  h2 { color: var(--accent); font-size: 1.5rem; margin-top: 2.2rem; }
+  .manifesto {
+    margin: 1.5rem 0;
+    padding: 1.2rem 1.5rem;
+    background: var(--surface);
+    border-left: 4px solid var(--accent-2);
+    font-family: var(--f-book);
+  }
+  .manifesto p { margin-bottom: 1em; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: .7rem; }
+</style>

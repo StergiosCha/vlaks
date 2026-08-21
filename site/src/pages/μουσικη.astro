@@ -1,0 +1,80 @@
+---
+/** Μουσική: ο φάκελος των ειδών, με πηγές. Και η απόδειξη της απουσίας:
+    καμία ηχογράφηση δεν υπάρχει — το ψάξαμε τόσο που βρήκαμε τη Βίβλο στα Ρομανί. */
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import Quote from '../components/Quote.astro';
+import Pic from '../components/Pic.astro';
+import { media } from '../lib/archive';
+import { FB } from '../data/fbPosts';
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const trombone = media('vlaks1.jpg');
+---
+<Base title="Μουσική — ΒΛΑΞ" current="μουσικη" palette="lounapark"
+  description="Το ρεπερτόριο των ΒΛΑΞ με πηγές: Νίνο, Καρβέλας, Βανδή, ΠΑΟΚ σε τρεις εκτελέσεις, σκα, πανκ, Τρύπες, ηπειρώτικα. Καμία ηχογράφηση δεν σώζεται — αποδεδειγμένα.">
+  <div class="shell">
+    <h1>ΜΟΥΣΙΚΗ</h1>
+    <p class="book epigraph">«Τζάμπα κέφι και τζάμπα παρεξηγήσεις.»<Fn n="10">
+      Κωστής Παπαγιώργης, για την ανατομία της διασκέδασης σε αθηναϊκό σκυλάδικο· οκτώ χρόνια
+      επιτόπιας έρευνας, ωμέγα κατηγορίας, κακό ουίσκι. Ο αφηγητής του διηγήματος τον ευχαριστεί
+      «που μας έβαλε σε μια σειρά και μας εξήγησε λίγο τι είμαστε, τι δεν είμαστε και γιατί αυτό
+      που είμαστε δεν πρέπει να είναι οι ενοχές μας».
+    </Fn></p>
+
+    <section class="pair">
+      <div>
+        <h2>Το πρόγραμμα, κατά το διήγημα</h2>
+        <ul class="book">
+          <li><strong>Νίνο</strong> — «μπατζανάκη μου, ο πρώτος Νίνο της βραδιάς» (τον ανακοινώνει όποιος προλάβει)</li>
+          <li><strong>Καρβέλας</strong> — «ο πρώτος κ. Καρβέλας για σήμερα»</li>
+          <li><strong>Δέσποινα Βανδή</strong> — «ιστορική στιγμή, μπατζανάκη μου»</li>
+          <li><strong>Το σύνθημα του ΠΑΟΚ</strong> — σε δυο-τρεις εκτελέσεις, με παύση· στο φινάλε του Ντίσελντορφ έφτασαν τις έντεκα</li>
+          <li><strong>Οι δύο έτοιμες λίστες του γιουτιουμπ</strong> — σύνολο εξήντα εφτά ώρες μουσική και οι δυο μαζί</li>
+          <li><strong>Τα προτεινόμενα του αλγορίθμου</strong> — «όσο περνάνε τα χρόνια τους επιτρέπει να παίζουν ακόμα χειρότερα»</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Το πρόγραμμα, κατά τις πηγές</h2>
+        <Quote q={FB.mousikes2016} />
+        <Quote q={FB.ipirotika2016} />
+        <Quote q={FB.proetoimasia2016} />
+      </div>
+    </section>
+
+    {trombone && (
+      <figure class="hero-photo">
+        <Pic m={trombone} alt="Άντρας όρθιος πάνω στο μπαρ του Fuit παίζει τρομπόνι· χριστουγεννιάτικη βιτρίνα με τάρανδο και αρκουδάκι από πίσω." sizes="(max-width: 44rem) 100vw, 44rem"
+          caption="Τα χάλκινα δεν ήταν μεταφορά. Ο Φούιτ, στο μπαρ, «να φτάει νότες στο τρομπόνι»." />
+      </figure>
+    )}
+
+    <section>
+      <h2>Οι ηχογραφήσεις</h2>
+      <p class="book">
+        Δεν υπάρχουν. Πουθενά. Το ψάξαμε με μηχανή: πενήντα έξι αποτελέσματα σε Mixcloud και
+        SoundCloud για «vlax», «fuit», «Γρεβενά» — και ούτε ένα δικό τους.<Fn n="11">
+          Τι βρήκαμε αντ' αυτών, κατάλογος ενδεικτικός: γαλλικές ραδιοφωνικές εκπομπές περί
+          «fuite» (διαρροή/φυγή)· μία Ολλανδή παρουσιάστρια ονόματι Hetty Fuit· δεκαεπτά
+          αναγνώσεις της Βίβλου στη διάλεκτο Ρομανί Vlax («Romane Vlax Biblia»)· έναν Λατίνο
+          τράπερ ονόματι VLAX· δίσκους της Vlax Records (Šaban Bajramović — τουλάχιστον αυτό ήταν
+          βαλκανικό)· και προθέρμανση ομάδας lacrosse. Η απουσία είναι πλήρως τεκμηριωμένη.
+        </Fn>
+        Εξήντα εφτά ώρες μουσικής παίχτηκαν από ένα λάπτοπ με ένα τζακ, τέσσερις φορές, και
+        χάθηκαν στον αέρα των Γρεβενών, όπως πρέπει σε ό,τι είναι τζάμπα.
+      </p>
+      <p class="book small muted">Αν έχεις έστω δέκα δευτερόλεπτα βίντεο με ήχο από οποιοδήποτε
+      vol.: <a href={`${B}/κενα/`}>Κενά</a>. Θα το μεταχειριστούμε σαν τον Δίσκο της Φαιστού.</p>
+    </section>
+  </div>
+</Base>
+<style>
+  h1 { margin-top: 2rem; color: var(--accent); }
+  .epigraph { font-size: 1.35rem; max-width: 34rem; margin: 1rem 0 2rem; }
+  h2 { color: var(--accent); font-size: 1.4rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: .6rem; }
+  .hero-photo { margin: 2.5rem auto; max-width: 44rem; }
+  .hero-photo :global(img) { border: 4px solid #241a12; }
+  .hero-photo :global(figcaption) { font-family: var(--f-note); font-size: .85rem; padding-top: .5rem; }
+</style>

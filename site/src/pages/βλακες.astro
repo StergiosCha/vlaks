@@ -1,0 +1,138 @@
+---
+/** Οι Βλάκες: two strict columns, labels never mapped to names. The «σοβαρά τώρα»
+    toggle flips to the real CVs (names truthfully attributed; labels still never). */
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import Quote from '../components/Quote.astro';
+import Pic from '../components/Pic.astro';
+import { media } from '../lib/archive';
+import { FB } from '../data/fbPosts';
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const duo = media('vlaks3.jpg');
+---
+<Base title="Οι Βλάκες — ΒΛΑΞ" current="βλακες" palette="skyladiko"
+  description="Ο ηλίθιος και ο μπατίρης. Δεν λέμε ποιος είναι ποιος· ο βοηθός αποδείξεων δεν τερμάτισε. Με πραγματικά βιογραφικά πίσω από το «σοβαρά τώρα».">
+  <div class="shell">
+    <h1>ΟΙ ΒΛΑΚΕΣ<Fn n="12">
+      Μοναδική επιτρεπόμενη κλιτή εμφάνιση της λέξης σε όλον τον ιστότοπο: εδώ ο τίτλος
+      παραθέτει ανθρώπους, όχι το όνομα. Το όνομα δεν κλίνεται. Οι άνθρωποι κλίνονται
+      κανονικότατα, ιδίως μετά τις τρεις.
+    </Fn></h1>
+
+    <p class="book intro">
+      «dj set, live performance, κεράσματα, ξεφτιλίκια» — έτσι αυτοσυστήθηκαν στην πρώτη αφίσα.
+      Δύο επαρχιώτες ολκής που επέμεναν να διαμένουν σε μη επαρχιακές πόλεις του εσωτερικού ή
+      του εξωτερικού, και αποφάσισαν να γίνουν μπατζανάκια πριν βρουν τις αδερφές.<Fn n="13">
+        Θεολογικά ανάποδο και άρα σωστό. Το ζήτημα του ποιος είναι «ο ηλίθιος» και ποιος
+        «ο μπατίρης» υποβλήθηκε σε βοηθό αποδείξεων. Δεν τερμάτισε. Η αναστολή αποχαρακτηρισμού
+        ανανεώνεται ετησίως, κάθε 30 Δεκεμβρίου, στις 4 το απόγευμα.
+      </Fn>
+    </p>
+
+    <div class="pair" id="prosopa">
+      <section class="misos">
+        <h2>Ο ΗΛΙΘΙΟΣ</h2>
+        <ul class="book">
+          <li>Παντελώς ηλίθιος (κατά γενική ομολογία).</li>
+          <li>Φέρνει το ιστορικό λάπτοπ· το κουμπώνει με καρφί (το τζακ που λέμε).</li>
+          <li>Ξέρει τουλάχιστον κανένα τραγούδι.</li>
+          <li>Δεν λέμε ποιος είναι.</li>
+        </ul>
+      </section>
+      <section class="misos">
+        <h2>Ο ΜΠΑΤΙΡΗΣ</h2>
+        <ul class="book">
+          <li>Παντελώς μπατίρης (ομοίως).</li>
+          <li>Λιποθυμά ανά πέντε δευτερόλεπτα· να μην τον ταράζετε.</li>
+          <li>Ξέρει πιο κανένα τραγούδι από τον άλλο.</li>
+          <li>Δεν λέμε ποιος είναι.</li>
+        </ul>
+      </section>
+    </div>
+
+    {duo && (
+      <figure class="duo-photo">
+        <Pic m={duo} alt="Οι δυο βλαξ με μαύρα πουκάμισα και λευκά κολάρα καθολικών παπάδων, πιασμένοι χέρι-χέρι μπροστά στο μπαρ του Fuit." sizes="(max-width: 44rem) 100vw, 40rem"
+          caption="Τα ονόματα: Στέργιος Χατζηκυριακίδης και Αλέξανδρος Χατζής. Η αντιστοίχιση με τις στήλες παραπάνω: απόρρητη. (Φωτ.: «LMP».)" />
+      </figure>
+    )}
+
+    <section>
+      <h2>Τα πρωτεία</h2>
+      <Quote q={FB.nobel2018} />
+      <Quote q={FB.matai2021} />
+      <p class="book small muted">Οι μαύρες μπάρες είναι δικές μας, όχι των πηγών. Το αρχείο
+      ξέρει· ο ιστότοπος αρνείται.</p>
+    </section>
+
+    <section class="sovara">
+      <h2>Σοβαρά τώρα;</h2>
+      <input type="checkbox" id="sovara-toggle" class="fn-toggle" />
+      <label for="sovara-toggle" class="sovara-btn" role="button" tabindex="0"
+        onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.previousElementSibling.checked=!this.previousElementSibling.checked;}">
+        σοβαρά τώρα
+      </label>
+      <div class="cv-wrap">
+        <div class="pair">
+          <section>
+            <h3>Στέργιος Χατζηκυριακίδης</h3>
+            <p class="book">Γλωσσολόγος· εργάζεται σε πανεπιστήμιο του εξωτερικού, με έδρα το
+            Γκέτεμποργκ επί σειρά ετών.<Fn n="14">
+              Η πληροφορία τεκμηριώνεται και προφορικά, από πιτσιρικά στο vol.3: «κ. Γιάννη,
+              αυτόν που τον φωνάζετε κ. καθηγητή […] είναι αλήθεια ότι δουλεύει σε πανεπιστήμιο
+              στο εξωτερικό;» — «Αλήθεια είναι», είπε ο Φούιτ. Ο πιτσιρικάς αναθάρρησε:
+              «αν τα κατάφερε αυτός ο μαλάκας, όλα γίνονται». Είμαστε εδώ για να δίνουμε ελπίδα.
+            </Fn>
+            Συγγραφέας: «Γκρόβερ» (μυθιστόρημα, εκδ. Δίαυλος)· «Ιστορίες Απλής Λογικής και Λίγης
+            Θλίψης» (διηγήματα, εκδ. νήσος, 2025)· ετοιμάζει τις «Βατσ'νιές: Πυκνές καρτ-ποστάλ
+            από τα Βαλκάνια», απ' όπου και το <a href={`${B}/διηγημα/`}>διήγημα</a>.</p>
+          </section>
+          <section>
+            <h3>Αλέξανδρος Χατζής</h3>
+            <p class="book">Ραδιοφωνικός παραγωγός — εκπομπή «Καμιά μασέλα γέρου»
+            (radiobubble.gr), όπου το 2019 κληρώθηκε ένα «Γκρόβερ» ζωντανά. Θεσμοθέτησε το
+            Βραβείο Νόμπελ Νύχτας (2018) και το απένειμε ιδιοχείρως. Κατά δήλωσή του, «ο μισός
+            μου Βλαξ» είναι ο άλλος.</p>
+          </section>
+        </div>
+        <blockquote class="book thanatos">
+          <p>«Ο μπατζανάκης μου, λοιπόν, αφού με ρωτάτε, ήταν μια ιδιοφυία της νύχτας. […] ήταν
+          παντελώς βλαξ σε δεκάδες άξονες, αλλά ήταν ιδιοφυία σε έναν και μόνο: τον άξονα του
+          "κάνω νύχτα" (γνωστός και ως άξονας του νυ).»</p>
+          <footer class="small muted">— «Ο θάνατος του μπατζανάκη μου», από τις «Ιστορίες Απλής
+          Λογικής και Λίγης Θλίψης» (εκδ. νήσος, 2025). Οποιαδήποτε ομοιότητα, ως γνωστόν,
+          συμπτωματική.</footer>
+        </blockquote>
+      </div>
+    </section>
+  </div>
+</Base>
+<style>
+  h1 { margin-top: 2rem; }
+  .intro { max-width: 44rem; font-size: 1.15rem; }
+  .misos { border: 1px solid var(--rule); padding: 1.2rem 1.4rem; background: var(--surface); }
+  .misos h2 { margin: 0 0 .5rem; }
+  .misos ul { margin: 0; padding-left: 1.1rem; }
+  .misos li { margin-bottom: .4rem; }
+  .duo-photo { margin: 2.5rem auto; max-width: 40rem; }
+  .duo-photo :global(img) { border: 4px solid #241a12; }
+  .duo-photo :global(figcaption) { font-family: var(--f-note); font-size: .85rem; color: #b8a88e; padding-top: .5rem; }
+  section h2 { color: var(--xryso); }
+  .sovara { margin: 3rem 0; }
+  .sovara-btn {
+    display: inline-block;
+    font-family: var(--f-ui);
+    font-weight: 800;
+    padding: .5rem 1.1rem;
+    border: 2px solid var(--xryso);
+    color: var(--xryso);
+    cursor: pointer;
+    user-select: none;
+  }
+  .sovara-btn:hover { background: var(--xryso); color: var(--mavro); }
+  .cv-wrap { display: none; margin-top: 1.5rem; }
+  #sovara-toggle:checked ~ .cv-wrap { display: block; }
+  .cv-wrap h3 { color: var(--charti); }
+  .thanatos { border-left: 3px solid var(--xryso); padding-left: 1rem; margin: 2rem 0 0; }
+</style>

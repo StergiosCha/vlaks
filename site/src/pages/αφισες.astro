@@ -1,0 +1,99 @@
+---
+/** Ο τοίχος: μία αφίσα ανά vol., πλήρης ανάλυση, καμία περικοπή.
+    Το vol.02 εκτίθεται ως αυτό που είναι: κενό. */
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import Pic from '../components/Pic.astro';
+import { media } from '../lib/archive';
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const walls = [
+  {
+    key: 'afisa-2016.jpg',
+    vol: 'vol.01',
+    date: '29 Δεκεμβρίου 2016',
+    alt: 'Αφίσα ΒΛΑΞ vol.01: πορτοκαλί κολάζ με μωβ γραφομηχανή, τηλέφωνο με καντράν, αεροπλάνο, και τους δυο βλαξ — ο ένας με αυτιά γαϊδάρου. «ΟΙ ΒΛΑΞ (dj set, live performance, κεράσματα, ξεφτιλίκια). Πού; Στο καλύτερο καφέ της Γης (εκτός Γης ακόμα δεν έχουμε ψάξει)»',
+    caption: '«Πού; Στο καλύτερο καφέ της Γης (εκτός Γης ακόμα δεν έχουμε ψάξει).» Ανακτήθηκε από αποθηκευμένο PDF σε 552×773 — το πρωτότυπο ζητείται.',
+  },
+  {
+    key: null,
+    vol: 'vol.02',
+    date: 'Δεκ 2017 – Ιαν 2018*',
+    alt: '',
+    caption: 'Αφίσα δεν έχει βρεθεί. Ούτε ανάρτηση. Ούτε φωτογραφία. Το πάρτι έγινε — κάπου εκεί. Αν την έχεις: Κενά.',
+  },
+  {
+    key: 'vlaks5.jpg',
+    vol: 'vol.03 «οι ντένεξ»',
+    date: '27 Δεκεμβρίου 2018',
+    alt: 'Αφίσα ΒΛΑΞ vol.03: μαύρο φόντο, λευκή Didot: «Ο ηλίθιος ντενεκές και ο μπατίρης ντενεκές. Χώρια δεν αντέχονται. Αλλά μαζί είναι: οι βλάξ». Δύο ντενεκέδες λαδιού: μεγάλος + μικρός = μούρλια.',
+    caption: '«Ο ηλίθιος ντενεκές και ο μπατίρης ντενεκές. Χώρια δεν αντέχονται.» + = μούρλια.',
+  },
+  {
+    key: 'vlaks2.jpg',
+    vol: 'vol.04',
+    date: 'Σάββατο 28 Δεκεμβρίου 2019, 18:00',
+    alt: 'Αφίσα ΒΛΑΞ vol.04: γκρι φόντο, κόκκινος απαγορευτικός κύκλος πάνω στη φράση «οι βλάξ», και τέσσερα απαγορευτικά: τσιγάρο, φεγγάρι, γλειφιτζούρι, αρκουδάκι. Λογότυπο fuit art cafe.',
+    caption: 'Απαγορεύονται: το κάπνισμα, ο ύπνος, τα γλειφιτζούρια, τα αρκουδάκια, οι βλάξ. Προσήλθαν όλοι.',
+  },
+];
+---
+<Base title="Αφίσες — ΒΛΑΞ" current="αφισες" palette="skyladiko"
+  description="Οι αφίσες των τεσσάρων ΒΛΑΞ σε πλήρη ανάλυση — και το κενό κάδρο του vol.02.">
+  <div class="shell">
+    <h1>ΑΦΙΣΕΣ</h1>
+    <p class="book intro">
+      Τέσσερα vol., τρεις σωζόμενες αφίσες, ένα κενό κάδρο. Καμία περικοπή, καμία «επιμέλεια» —
+      ό,τι κρεμάστηκε στον τοίχο του Fuit, κρεμιέται κι εδώ.<Fn n="8">
+        Παρατήρηση στοιχειοθεσίας: οι πραγματικές αφίσες του 2018 και του 2019 είναι στημένες σε
+        Didot πάνω σε μαύρο και γκρι — η «τυπογραφημένη κακογουστιά» αυτού του ιστότοπου δεν είναι
+        εύρημα, είναι αποκατάσταση. Ο αφηγητής είναι γλωσσολόγος· οι αφίσες το ήξεραν πρώτες.
+      </Fn>
+    </p>
+
+    <div class="posterwall halftone">
+      {walls.map((p) => {
+        const m = p.key ? media(p.key) : undefined;
+        return (
+          <figure class={m ? 'poster-item' : 'poster-item wanted'}>
+            <h2>{p.vol}</h2>
+            <p class="small muted">{p.date}</p>
+            {m
+              ? <Pic m={m} alt={p.alt} sizes="(max-width: 44rem) 100vw, 40rem" caption={p.caption} />
+              : (
+                <div class="empty-frame">
+                  <p class="book">ΖΗΤΕΙΤΑΙ</p>
+                  <p class="book small">{p.caption}</p>
+                  <a href={`${B}/κενα/`}>→ Κενά</a>
+                </div>
+              )}
+          </figure>
+        );
+      })}
+    </div>
+  </div>
+</Base>
+<style>
+  h1 { margin-top: 2rem; }
+  .intro { max-width: 44rem; font-size: 1.1rem; }
+  .posterwall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+    gap: 2.5rem;
+    padding: 2rem 0 3rem;
+  }
+  .poster-item { margin: 0; }
+  .poster-item h2 { margin-bottom: 0; }
+  .poster-item :global(img) { width: 100%; border: 4px solid #241a12; box-shadow: 0 8px 30px rgb(0 0 0 / .6); }
+  .poster-item :global(figcaption) { font-family: var(--f-note); font-size: .85rem; color: #b8a88e; padding-top: .5rem; }
+  .empty-frame {
+    border: 4px dashed var(--rule);
+    min-height: 24rem;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: .5rem;
+    padding: 1.5rem;
+  }
+  .empty-frame p:first-child { font-size: 2rem; color: var(--kokkino); margin: 0; }
+</style>

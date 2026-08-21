@@ -1,0 +1,94 @@
+---
+/** Κενά: gaps.md as a page — what we're looking for, loudly. Closes with the
+    manuscript's own words: «Όποιος γνωρίζει, ας κάνει το βήμα και ας μας πει». */
+import fs from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import Pic from '../components/Pic.astro';
+import { ARCHIVE_DIR } from '../lib/paths';
+import { media } from '../lib/archive';
+
+const gapsMd = fs.readFileSync(path.join(ARCHIVE_DIR, 'gaps.md'), 'utf8');
+const xeiro = media('xeirografo.jpg');
+---
+<Base title="Κενά — ΒΛΑΞ" current="κενα" palette="charti"
+  description="Τι λείπει από το αρχείο ΒΛΑΞ και το ζητάμε δυνατά: η αφίσα του vol.02, φωτογραφίες, δέκα δευτερόλεπτα ήχου, όποιον θυμάται.">
+  <article class="reading">
+    <h1>Κενά</h1>
+    <p>
+      Ένα αρχείο που ντρέπεται για τα κενά του καταλήγει να τα γεμίζει με ψέματα. Εμείς τα
+      απαριθμούμε. Δυνατά.
+    </p>
+
+    <h2>Ζητούνται</h2>
+    <ul>
+      <li><strong>Η αφίσα του ΒΛΑΞ vol.02</strong> (Δεκ 2017 – Ιαν 2018). Ξέρουμε ότι υπήρξε
+      πάρτι· δεν ξέρουμε ούτε τη μέρα. Οποιοδήποτε τεκμήριο — αφίσα, story, θολή φωτογραφία
+      τοίχου — αναβαθμίζει τον κόκκινο αστερίσκο σε ημερομηνία.</li>
+      <li><strong>Το πρωτότυπο της αφίσας του vol.01</strong> (2016, η πορτοκαλί με τη
+      γραφομηχανή). Τη σώσαμε από ένα PDF σε 552×773. Της αξίζουν περισσότερα pixel.</li>
+      <li><strong>Φωτογραφίες από οποιοδήποτε vol.</strong> Το επίσημο σώμα: μία (1) φωτογραφία.
+      Κάπου στα κινητά του 2016–2019 υπάρχουν δεκάδες. Ψάξτε δίπλα στα screenshots.</li>
+      <li><strong>Ήχος.</strong> Έστω δέκα δευτερόλεπτα βίντεο με τον πρώτο Νίνο της βραδιάς.
+      Θα το μεταχειριστούμε σαν τον Δίσκο της Φαιστού.</li>
+      <li><strong>Τον φωτογράφο «LMP»</strong> — υπογράφει την ασπρόμαυρη με το τρομπόνι και τη
+      φωτογραφία με τα κολάρα. Θέλουμε να τον ευχαριστήσουμε και να τον πιστώσουμε.</li>
+      <li><strong>Το κείμενο της υποσημείωσης [1]</strong> του διηγήματος. Ο εκδότης του
+      παρόντος το ζητά από τον συγγραφέα ανά τακτά διαστήματα. Ο συγγραφέας γνωρίζει.</li>
+    </ul>
+
+    <h2>Το αρχείο των κενών, αυτούσιο</h2>
+    <p class="small muted">gaps.md, όπως το παρέδωσε η μηχανή — μαζί με τα κενά που δεν μας
+    αφορούν πια, γιατί τα κενά δεν τα ξεδιαλέγεις:<Fn n="19">
+      Οι γραμμές περί Radical Party διατηρούνται τιμής ένεκεν: ο ιστότοπος αφορά τα τέσσερα
+      ΒΛΑΞ, αλλά το αρχείο παραμένει αρχείο. Τα κενά των άλλων είναι κι αυτά κάπου κενά.
+    </Fn></p>
+    <pre class="mdraw" lang="en">{gapsMd}</pre>
+
+    <h2>Το χειρόγραφο</h2>
+    {xeiro && (
+      <figure class="xeiro">
+        <Pic m={xeiro} alt="Χειρόγραφη σελίδα σε ριγέ χαρτί, μπλε μελάνι, δυσανάγνωστα κεφαλαία." sizes="(max-width: 44rem) 100vw, 30rem" />
+      </figure>
+    )}
+    <p>
+      Σώζεται και ένα χειρόγραφο, σε ριγέ χαρτί, μπλε μελάνι, δυσανάγνωστο όσο πρέπει.
+      Η μεταγραφή, από τον ίδιο τον γράφοντα:
+    </p>
+    <blockquote>
+      <p>«Το 1970 ήμουνα αυτός που ήμουνα πάντα. Αυτό δεν εκλήφθη καλώς(α) από ντενεκέδες τους
+      οποίους δεν γνωρίζω, αλλά αυτό δεν σημαίνει οτιδήποτε. Πώς άλλωστε θα απαρνιόμουν αυτό που
+      δεν έχω ιδέα ότι είμαι αν δεν υπήρχε πιο πριν κάτι που να μην ορίζει κανέναν πόσο μάλλον
+      εμένα. Στην τελική, δεν χρειάζεται να συζητηθεί πολύ, όταν εγώ δεν γνωρίζω ποιος γνωρίζει.
+      Όποιος γνωρίζει, ας κάνει το βήμα και ας μας πει.»</p>
+    </blockquote>
+
+    <h2 id="epikoinonia">Όποιος γνωρίζει, ας κάνει το βήμα και ας μας πει</h2>
+    <p>
+      Στείλε ό,τι έχεις — φωτογραφία, ημερομηνία, ανάμνηση, διαφωνία — με μήνυμα στους ίδιους:
+      <a href="https://www.facebook.com/alexandros.chantzis" target="_blank" rel="noopener">εδώ</a>.
+      Αν η ανάμνησή σου διαφωνεί με το αρχείο, ακόμα καλύτερα: θα καταγραφούν και οι δύο εκδοχές,
+      όπως με την καρέκλα.
+    </p>
+  </article>
+</Base>
+<style>
+  h1 { color: var(--fg); }
+  h2 { color: var(--accent); font-size: 1.5rem; margin-top: 2.2rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: .8rem; }
+  .mdraw {
+    font-family: var(--f-matrix);
+    font-size: .78rem;
+    line-height: 1.5;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 1rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+  }
+  .xeiro { max-width: 30rem; margin: 1.5rem 0; }
+  .xeiro :global(img) { border: 1px solid var(--rule); }
+  blockquote { border-left: 3px solid var(--accent-2); padding-left: 1rem; margin: 1.5rem 0; }
+</style>
