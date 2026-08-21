@@ -4,6 +4,9 @@ venv/
 __pycache__/
 *.pyc
 
+# the 1.55 GB of scraped originals live in Dropbox, never in git
+raw/blogs/
+
 # site build outputs (regenerable; derivatives are built from raw/ locally)
 site/node_modules/
 site/dist/
