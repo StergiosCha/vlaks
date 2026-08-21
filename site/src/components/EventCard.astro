@@ -1,0 +1,56 @@
+---
+/** One event of the Χρονολόγιο. Honesty first: uncertain dates carry the red asterisk,
+    cancelled years render as events (the negative space is part of the record),
+    evidence lines say WHY we believe a date. */
+import type { ArchiveEvent } from '../lib/archive';
+import Pic from './Pic.astro';
+interface Props { e: ArchiveEvent }
+const { e } = Astro.props;
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const uncertain = e.confidence !== 'exact';
+const excerpt = e.announcement
+  ? e.announcement.length > 420 ? e.announcement.slice(0, 420).trimEnd() + '…' : e.announcement
+  : undefined;
+---
+<article class={`event${e.cancelled ? ' cancelled' : ''}`} id={e.id}>
+  <div class="poster">
+    {e.poster
+      ? <Pic m={e.poster} alt={`Αφίσα: ${e.name}`} sizes="9rem" />
+      : e.gallery.find((a) => a.local)
+        ? <Pic m={e.gallery.find((a) => a.local)!.local!} alt={`Φωτογραφία από: ${e.name}`} sizes="9rem" />
+        : <div class="noposter book small">αφίσα:<br />ζητείται<br />(→ <a href={`${B}/κενα/`}>Κενά</a>)</div>}
+  </div>
+  <div>
+    <time datetime={e.dateISO}>
+      {e.weekday ? `${e.weekday} ` : ''}{e.dateDisplay}{uncertain && <span class="asterisk" title="δεν το ξέρουμε στα αλήθεια"> *</span>}
+    </time>
+    <h3>{e.cancelled ? <s>{e.name.replace(/ — δεν έγινε$/, '')}</s> : e.name}{e.cancelled && <span class="badge">δεν έγινε</span>}</h3>
+    <p class="venue">
+      {e.volume && <span class="badge">{e.volume}</span>}
+      {e.dual && <span class="badge">και {e.dual.series} {e.dual.volume}</span>}
+      {e.venue}{e.city && e.venue !== 'άγνωστο' ? `, ${e.city}` : e.city ? ` — ${e.city}` : ''}{e.time ? ` · ${e.time}` : ''}
+    </p>
+    {excerpt && <p class="ann">«{excerpt}»</p>}
+    {e.evidence && (
+      <details class="small">
+        <summary class="muted">πώς το ξέρουμε</summary>
+        <ul class="book small">{e.evidence.map((x) => <li>{x}</li>)}</ul>
+      </details>
+    )}
+    {e.conflictNote && (
+      <p class="small"><a href={`${B}/διαφωνιες/`}>⚠ τα στοιχεία διαφωνούν</a></p>
+    )}
+    <p class="src muted">
+      {e.gallery.filter((a) => a.local).length > 0 && (
+        <a href={`${B}/φωτογραφιες/#${e.id}`}>γκάλερι ({e.gallery.filter((a) => a.local).length}) </a>
+      )}
+      {e.sources.map((s) => <> · <a href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}
+    </p>
+  </div>
+</article>
+<style>
+  .cancelled { opacity: .82; }
+  .cancelled h3 s { text-decoration-color: var(--kokkino); text-decoration-thickness: 3px; }
+  .noposter { padding: 1rem .8rem; border: 1px dashed var(--rule); text-align: center; color: var(--fg); opacity: .8; }
+  details summary { cursor: pointer; }
+</style>

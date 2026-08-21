@@ -1,0 +1,103 @@
+---
+import '../styles/base.css';
+interface Props {
+  title: string;
+  description?: string;
+  palette?: 'skyladiko' | 'lounapark' | 'charti';
+  current?: string;
+}
+const { title, description = 'ΒΛΑΞ — το ντουέτο και το συμβάν. Fuit Art Cafe, Γρεβενά. Δεν κλίνεται.', palette = 'skyladiko', current = '' } = Astro.props;
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const NAV = [
+  ['', 'αρχική'],
+  ['διηγημα', 'το διήγημα'],
+  ['χρονολογιο', 'χρονολόγιο'],
+  ['αφισες', 'αφίσες'],
+  ['φωτογραφιες', 'φωτογραφίες'],
+  ['μουσικη', 'μουσική'],
+  ['βλακες', 'οι βλάκες'],
+  ['fuit', 'fuit'],
+  ['κρατησεις', 'κρατήσεις'],
+  ['κενα', 'κενά'],
+];
+---
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wdth,wght@0,62.5..75,400..900;1,62.5..75,400..900&family=Commissioner:wght@400;700;800&family=GFS+Didot&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,700;1,7..72,400&display=swap"
+  />
+  <link rel="icon" href={`data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="#0a0605"/><text x="16" y="24" font-size="22" font-family="serif" font-weight="bold" fill="#d9a92f" text-anchor="middle">ξ</text></svg>')}`} />
+</head>
+<body class={`palette-${palette}`}>
+  <a class="visually-hidden" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="site">
+    <div class="shell">
+      <nav class="site-nav" aria-label="Κύρια πλοήγηση">
+        {NAV.map(([slug, label]) => (
+          <a
+            href={`${B}/${slug}${slug ? '/' : ''}`}
+            aria-current={current === slug ? 'page' : undefined}
+          >{label}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <slot />
+  </main>
+
+  <footer class="site">
+    <div class="shell">
+      <div class="pair">
+        <div>
+          <p><strong>ΒΛΑΞ</strong> — Fuit Art Cafe, Ηλία Φάσσα 2, Γρεβενά.<br />
+          Keep Grevena Weird · Live to Get Radical · Keep Koukaki Weird.</p>
+          <p class="small"><a href={`${B}/en/`}>In English, reluctantly</a></p>
+        </div>
+        <div class="kolofonas">
+          <p>Κολοφώνας: Το όνομα δεν κλίνεται πουθενά σε αυτόν τον ιστότοπο — το ελέγχει και μηχανή.
+          Οι υποσημειώσεις αριθμούνται συνεχόμενα σε όλο τον ιστότοπο σαν ένα ενιαίο κείμενο, με αρχή το διήγημα.
+          Το πέρασμα του δείκτη πάνω από τη λέξη ΒΛΑΞ προσμετράται στα σκρολτς· αυτό είναι κανόνας, όχι σφάλμα.
+          Στοιχειοθεσία: Noto Sans Display (φωνή), Commissioner (σκελετός), GFS Didot &amp; Literata (περιθώριο).
+          Καμία καρέκλα δεν χρονολογήθηκε οριστικά κατά την κατασκευή.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a id="aderfes" href="https://www.facebook.com/alexandros.chantzis" target="_blank" rel="noopener">Αδερφές;</a>
+
+  <div id="skrolts" role="status" aria-live="polite">
+    <span class="toast" id="skrolts-toast"></span>
+    σκρολτς: <span id="skrolts-n">0</span>
+  </div>
+
+  <div id="kafetiera" hidden>
+    <strong>Κούκις δεν έχουμε.</strong> Έχουμε γλειφιτζούρια (2€ η κατοστάδα, σε αφήνουν χρώμα στη
+    γλώσσα). Το μόνο που κρατάμε είναι το ρεκόρ σκρολτς σου, στο δικό σου μηχάνημα. Θες κάτι άλλο;
+    Ζήτα το με συνέπεια.
+    <div class="row">
+      <button id="kafetiera-yes">Να σου αναγομώσω την καφετιέρα;</button>
+      <button id="kafetiera-no" class="ghost">Στην υγειά σας</button>
+    </div>
+  </div>
+
+  <div id="pano" role="dialog" aria-label="Πανό" tabindex="-1">
+    <div>
+      <div class="fabric">ΤΟΥΜΠΑ ΙΡΑΝ<br />ΒΛΑΞ ΒΙΕΤΝΑΜ</div>
+      <p class="ekt center" id="pano-ekt"></p>
+    </div>
+  </div>
+
+  <script src="../scripts/site.js"></script>
+</body>
+</html>

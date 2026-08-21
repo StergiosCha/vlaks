@@ -1,0 +1,38 @@
+---
+/**
+ * A photo from the archive: webp srcset + jpg fallback, real dimensions from the
+ * manifest, lazy by default, uncropped always. Optional «πρωτότυπο» link to the
+ * public Blogger /s0/ original (originals never ship with the site — 1.55 GB).
+ */
+import type { MediaEntry } from '../lib/archive';
+interface Props {
+  m: MediaEntry;
+  alt: string;
+  sizes?: string;
+  eager?: boolean;
+  original?: string; // remote /s0/ URL
+  caption?: string;
+}
+const { m, alt, sizes = '(max-width: 44rem) 100vw, 44rem', eager = false, original, caption } = Astro.props;
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const srcset = m.variants.map((v) => `${B}/${v.file} ${v.w}w`).join(', ');
+---
+<figure>
+  <picture>
+    <source type="image/webp" srcset={srcset} sizes={sizes} />
+    <img
+      src={`${B}/${m.fallback}`}
+      width={m.w}
+      height={m.h}
+      alt={alt}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+  </picture>
+  {(caption || original) && (
+    <figcaption>
+      {caption}
+      {original && <> · <a href={original} target="_blank" rel="noopener">πρωτότυπο</a></>}
+    </figcaption>
+  )}
+</figure>

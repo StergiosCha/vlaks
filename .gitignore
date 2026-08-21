@@ -1,0 +1,17 @@
+# python
+venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# site build outputs (regenerable; derivatives are built from raw/ locally)
+site/node_modules/
+site/dist/
+site/.astro/
+site/public/media/
+
+# saved-page PDFs: contain third-party Facebook chrome/content — stay local
+*.pdf
+
+# macOS
+.DS_Store

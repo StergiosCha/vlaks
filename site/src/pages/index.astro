@@ -1,0 +1,125 @@
+---
+import Base from '../layouts/Base.astro';
+import Wordmark from '../components/Wordmark.astro';
+import Fn from '../components/Fn.astro';
+import { seriesEvents } from '../lib/archive';
+
+const B = import.meta.env.BASE_URL.replace(/\/$/, '');
+const { vlax, radical } = seriesEvents();
+const tape = [...vlax, ...radical]
+  .filter((e) => !e.cancelled)
+  .sort((a, b) => (a.dateISO ?? '9999').localeCompare(b.dateISO ?? '9999'))
+  .map((e) => `${e.dateDisplay}${e.confidence !== 'exact' ? '*' : ''} — ${e.venue}${e.city && e.venue !== 'άγνωστο' ? `, ${e.city}` : ''}`);
+---
+<Base title="ΒΛΑΞ" current="" palette="skyladiko">
+  <div class="bus-sign" aria-hidden="true">
+    <span class="track">{Array(8).fill('προς ΒΛΑΞ').join(' ◆ ') + ' ◆ '}</span>
+  </div>
+
+  <section class="hero shell halftone">
+    <h1 class="visually-hidden">ΒΛΑΞ</h1>
+    <p class="center" style="margin:2.5rem 0 0;"><Wordmark /></p>
+    <p class="tagline center book">
+      Το ντουέτο και το συμβάν. Πάρτι 80s που έγινε ό,τι έγινε. Fuit Art Cafe, Γρεβενά, από το
+      2016. Δεν κλίνεται.<Fn n="2">
+        Είναι οι βλαξ, να τοι οι βλάξ, είναι των βλαξ, το έδωσε στους βλαξ. Η μορφολογία υπέκυψε
+        πρώτη. Πρωτογενής πηγή, 27/12/2018: «είμαστε οι βλαξ και δεν κλινόμαστε. […] Αδυναμία
+        συμμόρφωσης σημαίνει έξοδος από το κατάστημα με χωρίς γλειφιτζούρι.»
+      </Fn>
+    </p>
+
+    <div class="next">
+      <h2>ΕΠΟΜΕΝΟ ΠΑΡΤΙ</h2>
+      <p class="book">Άγνωστο. Όπως οι αδερφές: υπάρχει σε κάποιο επίπεδο και θα εμφανιστεί στην
+      τελευταία παράγραφο.<Fn n="3">
+        Οι κρατήσεις πάντως γίνονται πολύ επιλεκτικά — βλ. <a href={`${B}/κρατησεις/`}>Κρατήσεις</a>.
+        Η τελευταία τεκμηριωμένη εμφάνιση: 6η Ράντικαλ Πάρτι, Βασίλιτσα, Ιανουάριος 2025.
+      </Fn></p>
+    </div>
+  </section>
+
+  <div class="tape" aria-label="Ημερομηνίες από το χρονολόγιο">
+    <span class="track">{tape.join(' ◆ ')} ◆ </span>
+  </div>
+
+  <section class="shell" style="padding-top:2.5rem;">
+    <div class="pair">
+      <div class="misos">
+        <h2>Ο ΗΛΙΘΙΟΣ</h2>
+        <p class="book">Ξέρει τουλάχιστον κανένα τραγούδι. Φέρνει το λάπτοπ, που κουμπώνει
+        κατευθείαν με καρφί (το τζακ που λέμε) στην κονσόλα του μαγαζιού. Δεν λέμε ποιος είναι.</p>
+      </div>
+      <div class="misos">
+        <h2>Ο ΜΠΑΤΙΡΗΣ</h2>
+        <p class="book">Ξέρει πιο κανένα τραγούδι από τον άλλο. Λιποθυμά ανά πέντε δευτερόλεπτα·
+        να μην τον ταράζετε. Δεν λέμε ποιος είναι.</p>
+      </div>
+    </div>
+    <p class="center book small muted" style="margin:1.5rem auto;">
+      Χώρια δεν αντέχονται. Αλλά μαζί είναι: οι βλάξ. + = μούρλια.<Fn n="4">
+        Από την αφίσα της 27ης Δεκεμβρίου 2018 («οι βλαξ vol. 3: οι ντένεξ»), όπου η πρόσθεση
+        δύο ντενεκέδων αποδεικνύεται εφικτή και το αποτέλεσμά της μούρλια. Το ποιος είναι ποιος
+        δοκιμάστηκε σε βοηθό αποδείξεων· δεν τερμάτισε.
+      </Fn>
+    </p>
+  </section>
+
+  <section class="shell doors">
+    <div class="pair">
+      <a class="door" href={`${B}/διηγημα/`}>
+        <h3>Το διήγημα</h3>
+        <p class="book small">«Βλαξ», από τις «Βατσ'νιές». Ο επίσημος βιογράφος μιλά. Με τη μία
+        (1) πραγματική υποσημείωση.</p>
+      </a>
+      <a class="door" href={`${B}/χρονολογιο/`}>
+        <h3>Το χρονολόγιο</h3>
+        <p class="book small">Ό,τι ξέρουμε, με αποδείξεις. Ό,τι δεν ξέρουμε, με αστερίσκο.
+        Ό,τι διαφωνεί, σε δική του σελίδα.</p>
+      </a>
+    </div>
+  </section>
+</Base>
+<style>
+  .hero { padding-bottom: 2.5rem; }
+  .tagline { font-size: 1.25rem; max-width: 38rem; margin: 1.2rem auto 0; }
+  .next {
+    max-width: 30rem;
+    margin: 2.5rem auto 0;
+    border: 2px solid var(--xryso);
+    padding: 1.1rem 1.4rem;
+    background: var(--surface);
+  }
+  .next h2 { font-size: 1.2rem; margin: 0 0 .3rem; }
+  .next p { margin: 0; }
+  .tape {
+    background: var(--kokkino);
+    color: #fff;
+    font-family: var(--f-display);
+    font-weight: 900;
+    font-stretch: 62.5%;
+    font-size: 1.05rem;
+    letter-spacing: .05em;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: .5rem 0;
+  }
+  .tape .track { display: inline-block; padding-left: 100%; animation: bus 45s linear infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .tape { white-space: normal; font-size: .9rem; }
+    .tape .track { animation: none; padding-left: 1rem; }
+  }
+  .misos { border: 1px solid var(--rule); padding: 1.2rem 1.4rem; background: var(--surface); }
+  .misos h2 { margin: 0 0 .4rem; }
+  .misos p { margin: 0; }
+  .doors { margin: 2rem auto 0; }
+  .door {
+    display: block;
+    border: 1px solid var(--rule);
+    padding: 1.1rem 1.3rem;
+    text-decoration: none;
+    background: color-mix(in srgb, var(--surface) 60%, transparent);
+  }
+  .door:hover { border-color: var(--xryso); }
+  .door h3 { color: var(--xryso); margin-bottom: .3rem; }
+  .door p { margin: 0; color: var(--fg); }
+</style>

@@ -1,0 +1,30 @@
+---
+/** The ΒΛΑΞ wordmark. The ξ bites — its right edge carries tooth marks (clip-path).
+    Hovering it scores a σκρολτς (see colophon). */
+interface Props { size?: string }
+const { size = 'clamp(4rem, 18vw, 12rem)' }: Props = Astro.props;
+---
+<span class="wordmark glitter" style={`font-size:${size}`} title="δεν κλίνεται">
+  ΒΛΑ<span class="xi">Ξ</span>
+</span>
+<style>
+  .wordmark {
+    font-family: var(--f-display);
+    font-weight: 900;
+    font-stretch: 62.5%;
+    line-height: .9;
+    letter-spacing: .015em;
+    color: var(--xryso);
+    display: inline-block;
+    user-select: none;
+  }
+  .xi {
+    display: inline-block;
+    color: var(--kokkino);
+    clip-path: polygon(
+      0 0, 100% 0, 100% 38%,
+      86% 46%, 100% 54%, 84% 62%, 98% 70%, 86% 78%,
+      100% 86%, 100% 100%, 0 100%
+    );
+  }
+</style>

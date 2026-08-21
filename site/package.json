@@ -1,0 +1,19 @@
+{
+  "name": "vlax-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "derivatives": "node scripts/derivatives.mjs",
+    "build": "node scripts/derivatives.mjs && astro build",
+    "preview": "astro preview",
+    "shots": "node scripts/screenshots.mjs",
+    "check:aklisia": "node scripts/check-aklisia.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.1.0",
+    "csv-parse": "^5.6.0",
+    "sharp": "^0.33.5"
+  }
+}

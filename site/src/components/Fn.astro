@@ -1,0 +1,18 @@
+---
+/**
+ * Footnote of the site-wide machine. `n` is the continuous number («2», «7α» for nested).
+ * Desktop: always-visible margin sidenote. Mobile: the number toggles the note inline.
+ * Numbering starts inside the story (its real footnote is [1]) and continues across
+ * the site in nav order — see the colophon.
+ */
+interface Props { n: string; nested?: boolean }
+const { n, nested = false } = Astro.props;
+const id = `fn-${n}`;
+---
+<input type="checkbox" id={id} class="fn-toggle" aria-hidden="true" tabindex="-1" />
+<label for={id} class="fn-ref" role="button" tabindex="0" aria-label={`Υποσημείωση ${n}`}
+  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.previousElementSibling.checked=!this.previousElementSibling.checked;}"
+>[{n}]</label>
+<span class={`sidenote${nested ? ' nested' : ''}`} role="note">
+  <span class="fn-no">{n}.</span><slot />
+</span>
