@@ -1,0 +1,6843 @@
+{
+ "2020-01-13_ΒΛΑΞ_vol_04__0.jpg": {
+  "key": "2020-01-13_ΒΛΑΞ_vol_04__0.jpg",
+  "w": 1600,
+  "h": 1102,
+  "variants": [
+   {
+    "w": 480,
+    "h": 331,
+    "file": "media/f25bbcfb40df__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 661,
+    "file": "media/f25bbcfb40df__960.webp"
+   }
+  ],
+  "fallback": "media/f25bbcfb40df__960.jpg",
+  "full": "media/f25bbcfb40df__960.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_0.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_0.jpg",
+  "w": 960,
+  "h": 417,
+  "variants": [
+   {
+    "w": 480,
+    "h": 209,
+    "file": "media/9017a92445cb__480.webp"
+   }
+  ],
+  "fallback": "media/9017a92445cb__480.jpg",
+  "full": "media/9017a92445cb__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_1.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_1.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/87928e691765__480.webp"
+   }
+  ],
+  "fallback": "media/87928e691765__480.jpg",
+  "full": "media/87928e691765__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_10.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_10.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/b28d8e998612__480.webp"
+   }
+  ],
+  "fallback": "media/b28d8e998612__480.jpg",
+  "full": "media/b28d8e998612__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_11.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_11.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/caa6c3718a26__480.webp"
+   }
+  ],
+  "fallback": "media/caa6c3718a26__480.jpg",
+  "full": "media/caa6c3718a26__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_12.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_12.jpg",
+  "w": 748,
+  "h": 1000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 642,
+    "file": "media/f26a753a22a2__480.webp"
+   }
+  ],
+  "fallback": "media/f26a753a22a2__480.jpg",
+  "full": "media/f26a753a22a2__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_13.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_13.jpg",
+  "w": 540,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/f97e05712380__480.webp"
+   }
+  ],
+  "fallback": "media/f97e05712380__480.jpg",
+  "full": "media/f97e05712380__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_14.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_14.jpg",
+  "w": 563,
+  "h": 1000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/3804862cbdb7__480.webp"
+   }
+  ],
+  "fallback": "media/3804862cbdb7__480.jpg",
+  "full": "media/3804862cbdb7__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_15.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_15.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/e5c965e4336c__480.webp"
+   }
+  ],
+  "fallback": "media/e5c965e4336c__480.jpg",
+  "full": "media/e5c965e4336c__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_16.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_16.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/0151b5390e95__480.webp"
+   }
+  ],
+  "fallback": "media/0151b5390e95__480.jpg",
+  "full": "media/0151b5390e95__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_17.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_17.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/52bbf6e42a20__480.webp"
+   }
+  ],
+  "fallback": "media/52bbf6e42a20__480.jpg",
+  "full": "media/52bbf6e42a20__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_18.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_18.jpg",
+  "w": 1201,
+  "h": 629,
+  "variants": [
+   {
+    "w": 480,
+    "h": 251,
+    "file": "media/27fd6e0a89fb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 503,
+    "file": "media/27fd6e0a89fb__960.webp"
+   }
+  ],
+  "fallback": "media/27fd6e0a89fb__960.jpg",
+  "full": "media/27fd6e0a89fb__960.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_19.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_19.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/026f02c8860f__480.webp"
+   }
+  ],
+  "fallback": "media/026f02c8860f__480.jpg",
+  "full": "media/026f02c8860f__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_2.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_2.jpg",
+  "w": 2016,
+  "h": 1134,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/e2f3464ebdae__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/e2f3464ebdae__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/e2f3464ebdae__1600.webp"
+   }
+  ],
+  "fallback": "media/e2f3464ebdae__960.jpg",
+  "full": "media/e2f3464ebdae__1600.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_20.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_20.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/df405c12c1cd__480.webp"
+   }
+  ],
+  "fallback": "media/df405c12c1cd__480.jpg",
+  "full": "media/df405c12c1cd__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_21.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_21.jpg",
+  "w": 628,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 734,
+    "file": "media/e70c1beb64ed__480.webp"
+   }
+  ],
+  "fallback": "media/e70c1beb64ed__480.jpg",
+  "full": "media/e70c1beb64ed__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_22.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_22.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/bd2a1b5f4691__480.webp"
+   }
+  ],
+  "fallback": "media/bd2a1b5f4691__480.jpg",
+  "full": "media/bd2a1b5f4691__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_23.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_23.jpg",
+  "w": 980,
+  "h": 520,
+  "variants": [
+   {
+    "w": 480,
+    "h": 255,
+    "file": "media/64321d3caeb3__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 509,
+    "file": "media/64321d3caeb3__960.webp"
+   }
+  ],
+  "fallback": "media/64321d3caeb3__960.jpg",
+  "full": "media/64321d3caeb3__960.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_24.png": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_24.png",
+  "w": 800,
+  "h": 520,
+  "variants": [
+   {
+    "w": 480,
+    "h": 312,
+    "file": "media/0499c6f3aba1__480.webp"
+   }
+  ],
+  "fallback": "media/0499c6f3aba1__480.jpg",
+  "full": "media/0499c6f3aba1__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_25.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_25.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/78f3477acdaf__480.webp"
+   }
+  ],
+  "fallback": "media/78f3477acdaf__480.jpg",
+  "full": "media/78f3477acdaf__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_26.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_26.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/6b4c636b5fe6__480.webp"
+   }
+  ],
+  "fallback": "media/6b4c636b5fe6__480.jpg",
+  "full": "media/6b4c636b5fe6__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_3.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_3.jpg",
+  "w": 1008,
+  "h": 567,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/f6903eae1c87__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/f6903eae1c87__960.webp"
+   }
+  ],
+  "fallback": "media/f6903eae1c87__960.jpg",
+  "full": "media/f6903eae1c87__960.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_4.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_4.jpg",
+  "w": 1080,
+  "h": 668,
+  "variants": [
+   {
+    "w": 480,
+    "h": 297,
+    "file": "media/013ecb6346ff__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 594,
+    "file": "media/013ecb6346ff__960.webp"
+   }
+  ],
+  "fallback": "media/013ecb6346ff__960.jpg",
+  "full": "media/013ecb6346ff__960.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_5.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_5.jpg",
+  "w": 731,
+  "h": 731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/51dc91fba08b__480.webp"
+   }
+  ],
+  "fallback": "media/51dc91fba08b__480.jpg",
+  "full": "media/51dc91fba08b__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_6.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_6.jpg",
+  "w": 540,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/d0f3a2f8ad48__480.webp"
+   }
+  ],
+  "fallback": "media/d0f3a2f8ad48__480.jpg",
+  "full": "media/d0f3a2f8ad48__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_7.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_7.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/6cce853b7f4d__480.webp"
+   }
+  ],
+  "fallback": "media/6cce853b7f4d__480.jpg",
+  "full": "media/6cce853b7f4d__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_8.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_8.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/06d8c571f1f5__480.webp"
+   }
+  ],
+  "fallback": "media/06d8c571f1f5__480.jpg",
+  "full": "media/06d8c571f1f5__480.webp"
+ },
+ "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_9.jpg": {
+  "key": "2020-12-28_ΑΝΑΣΚΟΠΗΣΗ_2020___Κι_όμως_υπήρ_9.jpg",
+  "w": 960,
+  "h": 540,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/f30c961ec317__480.webp"
+   }
+  ],
+  "fallback": "media/f30c961ec317__480.jpg",
+  "full": "media/f30c961ec317__480.webp"
+ },
+ "2023-01-01_About_Us_0.jpg": {
+  "key": "2023-01-01_About_Us_0.jpg",
+  "w": 1192,
+  "h": 363,
+  "variants": [
+   {
+    "w": 480,
+    "h": 146,
+    "file": "media/eda2d9bf3836__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 292,
+    "file": "media/eda2d9bf3836__960.webp"
+   }
+  ],
+  "fallback": "media/eda2d9bf3836__960.jpg",
+  "full": "media/eda2d9bf3836__960.webp"
+ },
+ "2023-03-05_Fuit_Was_Here___Our_People_0.jpeg": {
+  "key": "2023-03-05_Fuit_Was_Here___Our_People_0.jpeg",
+  "w": 2048,
+  "h": 1366,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/fed1779fe7ab__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/fed1779fe7ab__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/fed1779fe7ab__1600.webp"
+   }
+  ],
+  "fallback": "media/fed1779fe7ab__960.jpg",
+  "full": "media/fed1779fe7ab__1600.webp"
+ },
+ "2023-03-05_Fuit_Was_Here___Our_People_1.jpeg": {
+  "key": "2023-03-05_Fuit_Was_Here___Our_People_1.jpeg",
+  "w": 2048,
+  "h": 1366,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/d623773be8af__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/d623773be8af__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/d623773be8af__1600.webp"
+   }
+  ],
+  "fallback": "media/d623773be8af__960.jpg",
+  "full": "media/d623773be8af__1600.webp"
+ },
+ "2023-03-05_Fuit_Was_Here___Our_People_2.jpeg": {
+  "key": "2023-03-05_Fuit_Was_Here___Our_People_2.jpeg",
+  "w": 2048,
+  "h": 1366,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/6ec30163f939__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/6ec30163f939__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/6ec30163f939__1600.webp"
+   }
+  ],
+  "fallback": "media/6ec30163f939__960.jpg",
+  "full": "media/6ec30163f939__1600.webp"
+ },
+ "2023-03-10_Fuit_Was_in_Vasilitsa_0.jpg": {
+  "key": "2023-03-10_Fuit_Was_in_Vasilitsa_0.jpg",
+  "w": 642,
+  "h": 856,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/2592a3867300__480.webp"
+   }
+  ],
+  "fallback": "media/2592a3867300__480.jpg",
+  "full": "media/2592a3867300__480.webp"
+ },
+ "2023-03-10_Fuit_was_in_Rotterdam__0.jpg": {
+  "key": "2023-03-10_Fuit_was_in_Rotterdam__0.jpg",
+  "w": 828,
+  "h": 1104,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/5c0f611171b9__480.webp"
+   }
+  ],
+  "fallback": "media/5c0f611171b9__480.jpg",
+  "full": "media/5c0f611171b9__480.webp"
+ },
+ "2023-03-10_Fuit_was_in_Rotterdam__1.jpg": {
+  "key": "2023-03-10_Fuit_was_in_Rotterdam__1.jpg",
+  "w": 826,
+  "h": 1102,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/dfeba6210876__480.webp"
+   }
+  ],
+  "fallback": "media/dfeba6210876__480.jpg",
+  "full": "media/dfeba6210876__480.webp"
+ },
+ "2023-03-10_Fuit_was_in_Rotterdam__2.jpg": {
+  "key": "2023-03-10_Fuit_was_in_Rotterdam__2.jpg",
+  "w": 828,
+  "h": 1104,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/b593bfa54585__480.webp"
+   }
+  ],
+  "fallback": "media/b593bfa54585__480.jpg",
+  "full": "media/b593bfa54585__480.webp"
+ },
+ "2023-03-11_Fuit_Was_Here___Our_People__0.jpeg": {
+  "key": "2023-03-11_Fuit_Was_Here___Our_People__0.jpeg",
+  "w": 2048,
+  "h": 1366,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/13396c85789b__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/13396c85789b__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/13396c85789b__1600.webp"
+   }
+  ],
+  "fallback": "media/13396c85789b__960.jpg",
+  "full": "media/13396c85789b__1600.webp"
+ },
+ "2023-03-11_Fuit_Was_Here___Our_People__1.jpeg": {
+  "key": "2023-03-11_Fuit_Was_Here___Our_People__1.jpeg",
+  "w": 1639,
+  "h": 2048,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/8fb99a6e18f6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/8fb99a6e18f6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1999,
+    "file": "media/8fb99a6e18f6__1600.webp"
+   }
+  ],
+  "fallback": "media/8fb99a6e18f6__960.jpg",
+  "full": "media/8fb99a6e18f6__1600.webp"
+ },
+ "2023-03-11_Fuit_Was_Here___Our_People__2.jpeg": {
+  "key": "2023-03-11_Fuit_Was_Here___Our_People__2.jpeg",
+  "w": 1638,
+  "h": 2048,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/136eb8898d11__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/136eb8898d11__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2000,
+    "file": "media/136eb8898d11__1600.webp"
+   }
+  ],
+  "fallback": "media/136eb8898d11__960.jpg",
+  "full": "media/136eb8898d11__1600.webp"
+ },
+ "2023-03-13_Fuit_Was_Here___Our_People_0.jpeg": {
+  "key": "2023-03-13_Fuit_Was_Here___Our_People_0.jpeg",
+  "w": 2048,
+  "h": 1366,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/8b140ea30174__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/8b140ea30174__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/8b140ea30174__1600.webp"
+   }
+  ],
+  "fallback": "media/8b140ea30174__960.jpg",
+  "full": "media/8b140ea30174__1600.webp"
+ },
+ "2023-03-13_Fuit_Was_Here___Our_People_1.jpeg": {
+  "key": "2023-03-13_Fuit_Was_Here___Our_People_1.jpeg",
+  "w": 1639,
+  "h": 2048,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/7c7431938744__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/7c7431938744__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1999,
+    "file": "media/7c7431938744__1600.webp"
+   }
+  ],
+  "fallback": "media/7c7431938744__960.jpg",
+  "full": "media/7c7431938744__1600.webp"
+ },
+ "2023-03-14_Enamel_Camping_Mug___White___L_0.png": {
+  "key": "2023-03-14_Enamel_Camping_Mug___White___L_0.png",
+  "w": 1080,
+  "h": 977,
+  "variants": [
+   {
+    "w": 480,
+    "h": 434,
+    "file": "media/381e6b44488e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 868,
+    "file": "media/381e6b44488e__960.webp"
+   }
+  ],
+  "fallback": "media/381e6b44488e__960.jpg",
+  "full": "media/381e6b44488e__960.webp"
+ },
+ "2023-03-14_Enamel_Camping_Mug___White___L_1.jpg": {
+  "key": "2023-03-14_Enamel_Camping_Mug___White___L_1.jpg",
+  "w": 1600,
+  "h": 1081,
+  "variants": [
+   {
+    "w": 480,
+    "h": 324,
+    "file": "media/0c0ca13cafd1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 649,
+    "file": "media/0c0ca13cafd1__960.webp"
+   }
+  ],
+  "fallback": "media/0c0ca13cafd1__960.jpg",
+  "full": "media/0c0ca13cafd1__960.webp"
+ },
+ "2023-03-14_Enamel_Camping_Mug___White___L_2.jpg": {
+  "key": "2023-03-14_Enamel_Camping_Mug___White___L_2.jpg",
+  "w": 1600,
+  "h": 1302,
+  "variants": [
+   {
+    "w": 480,
+    "h": 391,
+    "file": "media/6be5d2015cc8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 781,
+    "file": "media/6be5d2015cc8__960.webp"
+   }
+  ],
+  "fallback": "media/6be5d2015cc8__960.jpg",
+  "full": "media/6be5d2015cc8__960.webp"
+ },
+ "2023-03-14_Enamel_Camping_Mug___White___L_3.jpg": {
+  "key": "2023-03-14_Enamel_Camping_Mug___White___L_3.jpg",
+  "w": 1600,
+  "h": 900,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/c50409ad7775__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/c50409ad7775__960.webp"
+   }
+  ],
+  "fallback": "media/c50409ad7775__960.jpg",
+  "full": "media/c50409ad7775__960.webp"
+ },
+ "2023-03-14_Enamel_Camping_Mug___White___L_4.jpg": {
+  "key": "2023-03-14_Enamel_Camping_Mug___White___L_4.jpg",
+  "w": 1600,
+  "h": 900,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/7f71b9d3c082__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/7f71b9d3c082__960.webp"
+   }
+  ],
+  "fallback": "media/7f71b9d3c082__960.jpg",
+  "full": "media/7f71b9d3c082__960.webp"
+ },
+ "2023-03-14_Enamel_Camping_Mug___White___L_5.jpg": {
+  "key": "2023-03-14_Enamel_Camping_Mug___White___L_5.jpg",
+  "w": 900,
+  "h": 1600,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/ca95cc514386__480.webp"
+   }
+  ],
+  "fallback": "media/ca95cc514386__480.jpg",
+  "full": "media/ca95cc514386__480.webp"
+ },
+ "2023-03-18_Fuit_was_in_Cyprus__0.jpeg": {
+  "key": "2023-03-18_Fuit_was_in_Cyprus__0.jpeg",
+  "w": 3024,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/949af8dc92a2__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "media/949af8dc92a2__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "file": "media/949af8dc92a2__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3413,
+    "file": "media/949af8dc92a2__2560.webp"
+   }
+  ],
+  "fallback": "media/949af8dc92a2__960.jpg",
+  "full": "media/949af8dc92a2__2560.webp"
+ },
+ "2023-03-18_Fuit_was_in_Cyprus__1.jpeg": {
+  "key": "2023-03-18_Fuit_was_in_Cyprus__1.jpeg",
+  "w": 3024,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/140c95d2a4d5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "media/140c95d2a4d5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "file": "media/140c95d2a4d5__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3413,
+    "file": "media/140c95d2a4d5__2560.webp"
+   }
+  ],
+  "fallback": "media/140c95d2a4d5__960.jpg",
+  "full": "media/140c95d2a4d5__2560.webp"
+ },
+ "2023-03-18_Fuit_was_in_Cyprus__2.jpeg": {
+  "key": "2023-03-18_Fuit_was_in_Cyprus__2.jpeg",
+  "w": 3024,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/1f6c4e32c502__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "media/1f6c4e32c502__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "file": "media/1f6c4e32c502__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3413,
+    "file": "media/1f6c4e32c502__2560.webp"
+   }
+  ],
+  "fallback": "media/1f6c4e32c502__960.jpg",
+  "full": "media/1f6c4e32c502__2560.webp"
+ },
+ "2023-03-19_Fuit_Was_Here___Our_People__0.jpeg": {
+  "key": "2023-03-19_Fuit_Was_Here___Our_People__0.jpeg",
+  "w": 2048,
+  "h": 1366,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/ca7d7280c4b0__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/ca7d7280c4b0__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/ca7d7280c4b0__1600.webp"
+   }
+  ],
+  "fallback": "media/ca7d7280c4b0__960.jpg",
+  "full": "media/ca7d7280c4b0__1600.webp"
+ },
+ "2023-03-20_Enamel_Travel_Bottle___White___0.png": {
+  "key": "2023-03-20_Enamel_Travel_Bottle___White___0.png",
+  "w": 1080,
+  "h": 970,
+  "variants": [
+   {
+    "w": 480,
+    "h": 431,
+    "file": "media/896ff841cd8c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 862,
+    "file": "media/896ff841cd8c__960.webp"
+   }
+  ],
+  "fallback": "media/896ff841cd8c__960.jpg",
+  "full": "media/896ff841cd8c__960.webp"
+ },
+ "2023-03-20_Enamel_Travel_Bottle___White___1.jpg": {
+  "key": "2023-03-20_Enamel_Travel_Bottle___White___1.jpg",
+  "w": 1600,
+  "h": 1100,
+  "variants": [
+   {
+    "w": 480,
+    "h": 330,
+    "file": "media/e5f9acca9502__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 660,
+    "file": "media/e5f9acca9502__960.webp"
+   }
+  ],
+  "fallback": "media/e5f9acca9502__960.jpg",
+  "full": "media/e5f9acca9502__960.webp"
+ },
+ "2023-03-20_Enamel_Travel_Bottle___White___2.jpg": {
+  "key": "2023-03-20_Enamel_Travel_Bottle___White___2.jpg",
+  "w": 1600,
+  "h": 900,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/5013563e87e1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/5013563e87e1__960.webp"
+   }
+  ],
+  "fallback": "media/5013563e87e1__960.jpg",
+  "full": "media/5013563e87e1__960.webp"
+ },
+ "2023-03-20_Enamel_Travel_Bottle___White___3.jpg": {
+  "key": "2023-03-20_Enamel_Travel_Bottle___White___3.jpg",
+  "w": 1600,
+  "h": 1302,
+  "variants": [
+   {
+    "w": 480,
+    "h": 391,
+    "file": "media/3c8dc1737800__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 781,
+    "file": "media/3c8dc1737800__960.webp"
+   }
+  ],
+  "fallback": "media/3c8dc1737800__960.jpg",
+  "full": "media/3c8dc1737800__960.webp"
+ },
+ "2023-03-20_Enamel_Travel_Bottle___White___4.jpg": {
+  "key": "2023-03-20_Enamel_Travel_Bottle___White___4.jpg",
+  "w": 3840,
+  "h": 2160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/03b9ab80cfc4__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/03b9ab80cfc4__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/03b9ab80cfc4__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/03b9ab80cfc4__2560.webp"
+   }
+  ],
+  "fallback": "media/03b9ab80cfc4__960.jpg",
+  "full": "media/03b9ab80cfc4__2560.webp"
+ },
+ "2023-03-20_Enamel_Travel_Bottle___White___5.jpg": {
+  "key": "2023-03-20_Enamel_Travel_Bottle___White___5.jpg",
+  "w": 3840,
+  "h": 2160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/2079d64db813__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/2079d64db813__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/2079d64db813__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/2079d64db813__2560.webp"
+   }
+  ],
+  "fallback": "media/2079d64db813__960.jpg",
+  "full": "media/2079d64db813__2560.webp"
+ },
+ "2023-04-01_Fuit_was_in_Thessaloniki__0.jpg": {
+  "key": "2023-04-01_Fuit_was_in_Thessaloniki__0.jpg",
+  "w": 3000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/29acf34d1c45__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "media/29acf34d1c45__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "file": "media/29acf34d1c45__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3413,
+    "file": "media/29acf34d1c45__2560.webp"
+   }
+  ],
+  "fallback": "media/29acf34d1c45__960.jpg",
+  "full": "media/29acf34d1c45__2560.webp"
+ },
+ "2023-04-01_Fuit_was_in_Thessaloniki__1.jpg": {
+  "key": "2023-04-01_Fuit_was_in_Thessaloniki__1.jpg",
+  "w": 1080,
+  "h": 1425,
+  "variants": [
+   {
+    "w": 480,
+    "h": 633,
+    "file": "media/6ee798457c2c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1267,
+    "file": "media/6ee798457c2c__960.webp"
+   }
+  ],
+  "fallback": "media/6ee798457c2c__960.jpg",
+  "full": "media/6ee798457c2c__960.webp"
+ },
+ "2023-04-01_Fuit_was_in_Thessaloniki__2.jpg": {
+  "key": "2023-04-01_Fuit_was_in_Thessaloniki__2.jpg",
+  "w": 3000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/cb06af677bab__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "media/cb06af677bab__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2133,
+    "file": "media/cb06af677bab__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3413,
+    "file": "media/cb06af677bab__2560.webp"
+   }
+  ],
+  "fallback": "media/cb06af677bab__960.jpg",
+  "full": "media/cb06af677bab__2560.webp"
+ },
+ "2023-04-01_Fuit_was_in_Thessaloniki__3.jpg": {
+  "key": "2023-04-01_Fuit_was_in_Thessaloniki__3.jpg",
+  "w": 1080,
+  "h": 1421,
+  "variants": [
+   {
+    "w": 480,
+    "h": 632,
+    "file": "media/6e127a77e616__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1263,
+    "file": "media/6e127a77e616__960.webp"
+   }
+  ],
+  "fallback": "media/6e127a77e616__960.jpg",
+  "full": "media/6e127a77e616__960.webp"
+ },
+ "2023-04-03_Fuit_Was_Here___Our_People__0.jpeg": {
+  "key": "2023-04-03_Fuit_Was_Here___Our_People__0.jpeg",
+  "w": 4096,
+  "h": 2731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/76ebc3a3c70c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/76ebc3a3c70c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/76ebc3a3c70c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/76ebc3a3c70c__2560.webp"
+   }
+  ],
+  "fallback": "media/76ebc3a3c70c__960.jpg",
+  "full": "media/76ebc3a3c70c__2560.webp"
+ },
+ "2023-04-03_Fuit_Was_Here___Our_People__1.jpeg": {
+  "key": "2023-04-03_Fuit_Was_Here___Our_People__1.jpeg",
+  "w": 4096,
+  "h": 2731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/6c6aef7697dc__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/6c6aef7697dc__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/6c6aef7697dc__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/6c6aef7697dc__2560.webp"
+   }
+  ],
+  "fallback": "media/6c6aef7697dc__960.jpg",
+  "full": "media/6c6aef7697dc__2560.webp"
+ },
+ "2023-04-03_Fuit_Was_Here___Our_People__2.jpeg": {
+  "key": "2023-04-03_Fuit_Was_Here___Our_People__2.jpeg",
+  "w": 4096,
+  "h": 2731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/98810f7501b8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/98810f7501b8__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/98810f7501b8__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/98810f7501b8__2560.webp"
+   }
+  ],
+  "fallback": "media/98810f7501b8__960.jpg",
+  "full": "media/98810f7501b8__2560.webp"
+ },
+ "2023-04-03_Fuit_Was_Here___Our_People__3.jpeg": {
+  "key": "2023-04-03_Fuit_Was_Here___Our_People__3.jpeg",
+  "w": 4096,
+  "h": 2731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/e8fcae2f8204__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/e8fcae2f8204__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/e8fcae2f8204__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/e8fcae2f8204__2560.webp"
+   }
+  ],
+  "fallback": "media/e8fcae2f8204__960.jpg",
+  "full": "media/e8fcae2f8204__2560.webp"
+ },
+ "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__0.png": {
+  "key": "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__0.png",
+  "w": 2283,
+  "h": 2283,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/4cc5a26a39cc__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/4cc5a26a39cc__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/4cc5a26a39cc__1600.webp"
+   }
+  ],
+  "fallback": "media/4cc5a26a39cc__960.jpg",
+  "full": "media/4cc5a26a39cc__1600.webp"
+ },
+ "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__1.jpg": {
+  "key": "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__1.jpg",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/aa586ff81909__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/aa586ff81909__960.webp"
+   }
+  ],
+  "fallback": "media/aa586ff81909__960.jpg",
+  "full": "media/aa586ff81909__960.webp"
+ },
+ "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__2.png": {
+  "key": "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__2.png",
+  "w": 1080,
+  "h": 790,
+  "variants": [
+   {
+    "w": 480,
+    "h": 351,
+    "file": "media/5416c8fff401__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 702,
+    "file": "media/5416c8fff401__960.webp"
+   }
+  ],
+  "fallback": "media/5416c8fff401__960.jpg",
+  "full": "media/5416c8fff401__960.webp"
+ },
+ "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__3.png": {
+  "key": "2023-04-19_ATHENS_14_05___Ράντικαλ_Πάρτι__3.png",
+  "w": 1080,
+  "h": 629,
+  "variants": [
+   {
+    "w": 480,
+    "h": 280,
+    "file": "media/a27becc765c9__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 559,
+    "file": "media/a27becc765c9__960.webp"
+   }
+  ],
+  "fallback": "media/a27becc765c9__960.jpg",
+  "full": "media/a27becc765c9__960.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_0.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_0.jpg",
+  "w": 5200,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/6f1f387309a2__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/6f1f387309a2__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/6f1f387309a2__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/6f1f387309a2__2560.webp"
+   }
+  ],
+  "fallback": "media/6f1f387309a2__960.jpg",
+  "full": "media/6f1f387309a2__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_1.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_1.jpg",
+  "w": 4160,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/ccf28e882371__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/ccf28e882371__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/ccf28e882371__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/ccf28e882371__2560.webp"
+   }
+  ],
+  "fallback": "media/ccf28e882371__960.jpg",
+  "full": "media/ccf28e882371__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_10.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_10.jpg",
+  "w": 6240,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/ac166c83e009__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/ac166c83e009__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/ac166c83e009__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/ac166c83e009__2560.webp"
+   }
+  ],
+  "fallback": "media/ac166c83e009__960.jpg",
+  "full": "media/ac166c83e009__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_11.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_11.jpg",
+  "w": 4893,
+  "h": 3262,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/af3e17c31423__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/af3e17c31423__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/af3e17c31423__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/af3e17c31423__2560.webp"
+   }
+  ],
+  "fallback": "media/af3e17c31423__960.jpg",
+  "full": "media/af3e17c31423__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_12.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_12.jpg",
+  "w": 6240,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/8e7a049ce4a6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/8e7a049ce4a6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/8e7a049ce4a6__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/8e7a049ce4a6__2560.webp"
+   }
+  ],
+  "fallback": "media/8e7a049ce4a6__960.jpg",
+  "full": "media/8e7a049ce4a6__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_13.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_13.jpg",
+  "w": 6240,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/59a8672ec8c0__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/59a8672ec8c0__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/59a8672ec8c0__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/59a8672ec8c0__2560.webp"
+   }
+  ],
+  "fallback": "media/59a8672ec8c0__960.jpg",
+  "full": "media/59a8672ec8c0__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_14.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_14.jpg",
+  "w": 3600,
+  "h": 3600,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/af65be6bbee6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/af65be6bbee6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/af65be6bbee6__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/af65be6bbee6__2560.webp"
+   }
+  ],
+  "fallback": "media/af65be6bbee6__960.jpg",
+  "full": "media/af65be6bbee6__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_15.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_15.jpg",
+  "w": 3957,
+  "h": 3957,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/af191ca09bac__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/af191ca09bac__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/af191ca09bac__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/af191ca09bac__2560.webp"
+   }
+  ],
+  "fallback": "media/af191ca09bac__960.jpg",
+  "full": "media/af191ca09bac__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_16.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_16.jpg",
+  "w": 2804,
+  "h": 2804,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/6441972024b4__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/6441972024b4__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/6441972024b4__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/6441972024b4__2560.webp"
+   }
+  ],
+  "fallback": "media/6441972024b4__960.jpg",
+  "full": "media/6441972024b4__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_17.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_17.jpg",
+  "w": 3712,
+  "h": 3712,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/da13f0d49e61__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/da13f0d49e61__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/da13f0d49e61__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/da13f0d49e61__2560.webp"
+   }
+  ],
+  "fallback": "media/da13f0d49e61__960.jpg",
+  "full": "media/da13f0d49e61__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_18.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_18.jpg",
+  "w": 4160,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/b1a7ff314e51__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/b1a7ff314e51__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/b1a7ff314e51__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/b1a7ff314e51__2560.webp"
+   }
+  ],
+  "fallback": "media/b1a7ff314e51__960.jpg",
+  "full": "media/b1a7ff314e51__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_19.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_19.jpg",
+  "w": 3149,
+  "h": 3149,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/957bfe33deb1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/957bfe33deb1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/957bfe33deb1__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/957bfe33deb1__2560.webp"
+   }
+  ],
+  "fallback": "media/957bfe33deb1__960.jpg",
+  "full": "media/957bfe33deb1__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_2.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_2.jpg",
+  "w": 6240,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/945a45558c10__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/945a45558c10__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/945a45558c10__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/945a45558c10__2560.webp"
+   }
+  ],
+  "fallback": "media/945a45558c10__960.jpg",
+  "full": "media/945a45558c10__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_20.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_20.jpg",
+  "w": 4160,
+  "h": 3328,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/1820d86a14bc__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/1820d86a14bc__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/1820d86a14bc__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/1820d86a14bc__2560.webp"
+   }
+  ],
+  "fallback": "media/1820d86a14bc__960.jpg",
+  "full": "media/1820d86a14bc__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_21.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_21.jpg",
+  "w": 4160,
+  "h": 3328,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/6ed4b0ad2507__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/6ed4b0ad2507__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/6ed4b0ad2507__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/6ed4b0ad2507__2560.webp"
+   }
+  ],
+  "fallback": "media/6ed4b0ad2507__960.jpg",
+  "full": "media/6ed4b0ad2507__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_22.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_22.jpg",
+  "w": 3321,
+  "h": 2657,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/6cb2e02df7fd__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/6cb2e02df7fd__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/6cb2e02df7fd__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/6cb2e02df7fd__2560.webp"
+   }
+  ],
+  "fallback": "media/6cb2e02df7fd__960.jpg",
+  "full": "media/6cb2e02df7fd__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_23.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_23.jpg",
+  "w": 4160,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/2fd51157aca0__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/2fd51157aca0__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/2fd51157aca0__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/2fd51157aca0__2560.webp"
+   }
+  ],
+  "fallback": "media/2fd51157aca0__960.jpg",
+  "full": "media/2fd51157aca0__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_24.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_24.jpg",
+  "w": 2250,
+  "h": 2812,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/c3683d30651c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/c3683d30651c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2000,
+    "file": "media/c3683d30651c__1600.webp"
+   }
+  ],
+  "fallback": "media/c3683d30651c__960.jpg",
+  "full": "media/c3683d30651c__1600.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_25.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_25.jpg",
+  "w": 4914,
+  "h": 3931,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/38763407dad0__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/38763407dad0__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/38763407dad0__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/38763407dad0__2560.webp"
+   }
+  ],
+  "fallback": "media/38763407dad0__960.jpg",
+  "full": "media/38763407dad0__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_26.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_26.jpg",
+  "w": 4047,
+  "h": 4047,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/061a58aa01d3__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/061a58aa01d3__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/061a58aa01d3__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/061a58aa01d3__2560.webp"
+   }
+  ],
+  "fallback": "media/061a58aa01d3__960.jpg",
+  "full": "media/061a58aa01d3__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_27.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_27.jpg",
+  "w": 5200,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/970da9b79274__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/970da9b79274__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/970da9b79274__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/970da9b79274__2560.webp"
+   }
+  ],
+  "fallback": "media/970da9b79274__960.jpg",
+  "full": "media/970da9b79274__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_28.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_28.jpg",
+  "w": 4008,
+  "h": 4008,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/bbf3511f3650__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/bbf3511f3650__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/bbf3511f3650__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/bbf3511f3650__2560.webp"
+   }
+  ],
+  "fallback": "media/bbf3511f3650__960.jpg",
+  "full": "media/bbf3511f3650__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_29.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_29.jpg",
+  "w": 4756,
+  "h": 3805,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/fc51b675f034__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/fc51b675f034__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/fc51b675f034__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/fc51b675f034__2560.webp"
+   }
+  ],
+  "fallback": "media/fc51b675f034__960.jpg",
+  "full": "media/fc51b675f034__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_3.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_3.jpg",
+  "w": 5210,
+  "h": 3474,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/5d3a528174c5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/5d3a528174c5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/5d3a528174c5__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/5d3a528174c5__2560.webp"
+   }
+  ],
+  "fallback": "media/5d3a528174c5__960.jpg",
+  "full": "media/5d3a528174c5__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_30.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_30.jpg",
+  "w": 4895,
+  "h": 3916,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/f13a96a40eb8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/f13a96a40eb8__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/f13a96a40eb8__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/f13a96a40eb8__2560.webp"
+   }
+  ],
+  "fallback": "media/f13a96a40eb8__960.jpg",
+  "full": "media/f13a96a40eb8__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_31.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_31.jpg",
+  "w": 4520,
+  "h": 3616,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/91c07af8477a__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/91c07af8477a__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/91c07af8477a__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/91c07af8477a__2560.webp"
+   }
+  ],
+  "fallback": "media/91c07af8477a__960.jpg",
+  "full": "media/91c07af8477a__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_32.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_32.jpg",
+  "w": 5200,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/7ef7ab91f4fb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/7ef7ab91f4fb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/7ef7ab91f4fb__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/7ef7ab91f4fb__2560.webp"
+   }
+  ],
+  "fallback": "media/7ef7ab91f4fb__960.jpg",
+  "full": "media/7ef7ab91f4fb__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_33.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_33.jpg",
+  "w": 3730,
+  "h": 3730,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/1305ba3f6844__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/1305ba3f6844__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/1305ba3f6844__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/1305ba3f6844__2560.webp"
+   }
+  ],
+  "fallback": "media/1305ba3f6844__960.jpg",
+  "full": "media/1305ba3f6844__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_34.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_34.jpg",
+  "w": 5131,
+  "h": 4105,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/806eabb0189e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/806eabb0189e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/806eabb0189e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/806eabb0189e__2560.webp"
+   }
+  ],
+  "fallback": "media/806eabb0189e__960.jpg",
+  "full": "media/806eabb0189e__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_35.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_35.jpg",
+  "w": 5200,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/f693eb70fc65__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/f693eb70fc65__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/f693eb70fc65__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/f693eb70fc65__2560.webp"
+   }
+  ],
+  "fallback": "media/f693eb70fc65__960.jpg",
+  "full": "media/f693eb70fc65__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_36.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_36.jpg",
+  "w": 5105,
+  "h": 4084,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/8e574042db7e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/8e574042db7e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/8e574042db7e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/8e574042db7e__2560.webp"
+   }
+  ],
+  "fallback": "media/8e574042db7e__960.jpg",
+  "full": "media/8e574042db7e__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_37.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_37.jpg",
+  "w": 5063,
+  "h": 5063,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/970e71fda818__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/970e71fda818__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/970e71fda818__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/970e71fda818__2560.webp"
+   }
+  ],
+  "fallback": "media/970e71fda818__960.jpg",
+  "full": "media/970e71fda818__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_38.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_38.jpg",
+  "w": 5200,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/b2077d6cc9fa__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/b2077d6cc9fa__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/b2077d6cc9fa__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/b2077d6cc9fa__2560.webp"
+   }
+  ],
+  "fallback": "media/b2077d6cc9fa__960.jpg",
+  "full": "media/b2077d6cc9fa__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_39.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_39.jpg",
+  "w": 4160,
+  "h": 6240,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/d2dccb8b5971__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/d2dccb8b5971__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/d2dccb8b5971__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/d2dccb8b5971__2560.webp"
+   }
+  ],
+  "fallback": "media/d2dccb8b5971__960.jpg",
+  "full": "media/d2dccb8b5971__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_4.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_4.jpg",
+  "w": 4088,
+  "h": 3270,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/61b7c3638b34__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/61b7c3638b34__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/61b7c3638b34__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/61b7c3638b34__2560.webp"
+   }
+  ],
+  "fallback": "media/61b7c3638b34__960.jpg",
+  "full": "media/61b7c3638b34__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_40.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_40.jpg",
+  "w": 3553,
+  "h": 2842,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/625765ae6d75__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/625765ae6d75__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/625765ae6d75__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/625765ae6d75__2560.webp"
+   }
+  ],
+  "fallback": "media/625765ae6d75__960.jpg",
+  "full": "media/625765ae6d75__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_41.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_41.jpg",
+  "w": 5104,
+  "h": 4083,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/6cb12e5b6049__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/6cb12e5b6049__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/6cb12e5b6049__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/6cb12e5b6049__2560.webp"
+   }
+  ],
+  "fallback": "media/6cb12e5b6049__960.jpg",
+  "full": "media/6cb12e5b6049__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_42.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_42.jpg",
+  "w": 5200,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/c0d820024774__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/c0d820024774__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/c0d820024774__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/c0d820024774__2560.webp"
+   }
+  ],
+  "fallback": "media/c0d820024774__960.jpg",
+  "full": "media/c0d820024774__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_43.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_43.jpg",
+  "w": 4160,
+  "h": 5200,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/6209715465f5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/6209715465f5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2000,
+    "file": "media/6209715465f5__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3200,
+    "file": "media/6209715465f5__2560.webp"
+   }
+  ],
+  "fallback": "media/6209715465f5__960.jpg",
+  "full": "media/6209715465f5__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_44.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_44.jpg",
+  "w": 3891,
+  "h": 4864,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/99f3f63e2f0c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/99f3f63e2f0c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2000,
+    "file": "media/99f3f63e2f0c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3200,
+    "file": "media/99f3f63e2f0c__2560.webp"
+   }
+  ],
+  "fallback": "media/99f3f63e2f0c__960.jpg",
+  "full": "media/99f3f63e2f0c__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_45.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_45.jpg",
+  "w": 4814,
+  "h": 3851,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/3513bb1822cf__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/3513bb1822cf__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/3513bb1822cf__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/3513bb1822cf__2560.webp"
+   }
+  ],
+  "fallback": "media/3513bb1822cf__960.jpg",
+  "full": "media/3513bb1822cf__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_46.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_46.jpg",
+  "w": 4959,
+  "h": 3542,
+  "variants": [
+   {
+    "w": 480,
+    "h": 343,
+    "file": "media/4eea3de63beb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 686,
+    "file": "media/4eea3de63beb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1143,
+    "file": "media/4eea3de63beb__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1828,
+    "file": "media/4eea3de63beb__2560.webp"
+   }
+  ],
+  "fallback": "media/4eea3de63beb__960.jpg",
+  "full": "media/4eea3de63beb__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_5.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_5.jpg",
+  "w": 4160,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/89b60636de06__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/89b60636de06__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/89b60636de06__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/89b60636de06__2560.webp"
+   }
+  ],
+  "fallback": "media/89b60636de06__960.jpg",
+  "full": "media/89b60636de06__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_6.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_6.jpg",
+  "w": 4160,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/c8492ffb306a__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/c8492ffb306a__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/c8492ffb306a__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/c8492ffb306a__2560.webp"
+   }
+  ],
+  "fallback": "media/c8492ffb306a__960.jpg",
+  "full": "media/c8492ffb306a__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_7.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_7.jpg",
+  "w": 4160,
+  "h": 5200,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/2d08fcad2e9b__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/2d08fcad2e9b__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2000,
+    "file": "media/2d08fcad2e9b__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3200,
+    "file": "media/2d08fcad2e9b__2560.webp"
+   }
+  ],
+  "fallback": "media/2d08fcad2e9b__960.jpg",
+  "full": "media/2d08fcad2e9b__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_8.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_8.jpg",
+  "w": 4087,
+  "h": 5109,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/cb8d10101699__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/cb8d10101699__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2000,
+    "file": "media/cb8d10101699__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3200,
+    "file": "media/cb8d10101699__2560.webp"
+   }
+  ],
+  "fallback": "media/cb8d10101699__960.jpg",
+  "full": "media/cb8d10101699__2560.webp"
+ },
+ "2023-05-18_1st_Radical_Party___ATHENS_Kou_9.jpg": {
+  "key": "2023-05-18_1st_Radical_Party___ATHENS_Kou_9.jpg",
+  "w": 5200,
+  "h": 4160,
+  "variants": [
+   {
+    "w": 480,
+    "h": 384,
+    "file": "media/25e53ac5dafb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 768,
+    "file": "media/25e53ac5dafb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1280,
+    "file": "media/25e53ac5dafb__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2048,
+    "file": "media/25e53ac5dafb__2560.webp"
+   }
+  ],
+  "fallback": "media/25e53ac5dafb__960.jpg",
+  "full": "media/25e53ac5dafb__2560.webp"
+ },
+ "2023-06-23_Keep_Vasilitsa_Weird__0.jpg": {
+  "key": "2023-06-23_Keep_Vasilitsa_Weird__0.jpg",
+  "w": 3376,
+  "h": 5063,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/223d736e6c1a__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/223d736e6c1a__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/223d736e6c1a__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3839,
+    "file": "media/223d736e6c1a__2560.webp"
+   }
+  ],
+  "fallback": "media/223d736e6c1a__960.jpg",
+  "full": "media/223d736e6c1a__2560.webp"
+ },
+ "2023-06-23_Keep_Vasilitsa_Weird__1.jpg": {
+  "key": "2023-06-23_Keep_Vasilitsa_Weird__1.jpg",
+  "w": 3233,
+  "h": 4849,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/378d92178fd5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/378d92178fd5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/378d92178fd5__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/378d92178fd5__2560.webp"
+   }
+  ],
+  "fallback": "media/378d92178fd5__960.jpg",
+  "full": "media/378d92178fd5__2560.webp"
+ },
+ "2023-08-29_THESSALONIKI_01_10___Ράντικαλ__0.jpg": {
+  "key": "2023-08-29_THESSALONIKI_01_10___Ράντικαλ__0.jpg",
+  "w": 3477,
+  "h": 3477,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/55ba220fa931__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/55ba220fa931__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/55ba220fa931__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/55ba220fa931__2560.webp"
+   }
+  ],
+  "fallback": "media/55ba220fa931__960.jpg",
+  "full": "media/55ba220fa931__2560.webp"
+ },
+ "2023-08-29_THESSALONIKI_01_10___Ράντικαλ__1.jpg": {
+  "key": "2023-08-29_THESSALONIKI_01_10___Ράντικαλ__1.jpg",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/b3cb97122d68__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/b3cb97122d68__960.webp"
+   }
+  ],
+  "fallback": "media/b3cb97122d68__960.jpg",
+  "full": "media/b3cb97122d68__960.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_0.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_0.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/c09b016df254__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/c09b016df254__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/c09b016df254__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/c09b016df254__2560.webp"
+   }
+  ],
+  "fallback": "media/c09b016df254__960.jpg",
+  "full": "media/c09b016df254__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_1.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_1.jpg",
+  "w": 3716,
+  "h": 5574,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/bdf35be5621c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/bdf35be5621c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/bdf35be5621c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/bdf35be5621c__2560.webp"
+   }
+  ],
+  "fallback": "media/bdf35be5621c__960.jpg",
+  "full": "media/bdf35be5621c__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_10.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_10.jpg",
+  "w": 4756,
+  "h": 3171,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/2b4bf74905d4__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/2b4bf74905d4__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/2b4bf74905d4__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/2b4bf74905d4__2560.webp"
+   }
+  ],
+  "fallback": "media/2b4bf74905d4__960.jpg",
+  "full": "media/2b4bf74905d4__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_11.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_11.jpg",
+  "w": 3517,
+  "h": 5276,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/1e94039f410d__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/1e94039f410d__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/1e94039f410d__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/1e94039f410d__2560.webp"
+   }
+  ],
+  "fallback": "media/1e94039f410d__960.jpg",
+  "full": "media/1e94039f410d__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_12.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_12.jpg",
+  "w": 3706,
+  "h": 5559,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/1c706e5ca999__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/1c706e5ca999__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/1c706e5ca999__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/1c706e5ca999__2560.webp"
+   }
+  ],
+  "fallback": "media/1c706e5ca999__960.jpg",
+  "full": "media/1c706e5ca999__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_13.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_13.jpg",
+  "w": 5359,
+  "h": 3573,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/d90da86eda08__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/d90da86eda08__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/d90da86eda08__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/d90da86eda08__2560.webp"
+   }
+  ],
+  "fallback": "media/d90da86eda08__960.jpg",
+  "full": "media/d90da86eda08__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_14.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_14.jpg",
+  "w": 4000,
+  "h": 4824,
+  "variants": [
+   {
+    "w": 480,
+    "h": 579,
+    "file": "media/8c5769219da9__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1158,
+    "file": "media/8c5769219da9__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1930,
+    "file": "media/8c5769219da9__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3087,
+    "file": "media/8c5769219da9__2560.webp"
+   }
+  ],
+  "fallback": "media/8c5769219da9__960.jpg",
+  "full": "media/8c5769219da9__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_15.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_15.jpg",
+  "w": 4000,
+  "h": 5039,
+  "variants": [
+   {
+    "w": 480,
+    "h": 605,
+    "file": "media/504c671c01c2__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1209,
+    "file": "media/504c671c01c2__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2016,
+    "file": "media/504c671c01c2__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3225,
+    "file": "media/504c671c01c2__2560.webp"
+   }
+  ],
+  "fallback": "media/504c671c01c2__960.jpg",
+  "full": "media/504c671c01c2__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_16.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_16.jpg",
+  "w": 5239,
+  "h": 3880,
+  "variants": [
+   {
+    "w": 480,
+    "h": 355,
+    "file": "media/ccce31752f61__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 711,
+    "file": "media/ccce31752f61__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1185,
+    "file": "media/ccce31752f61__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1896,
+    "file": "media/ccce31752f61__2560.webp"
+   }
+  ],
+  "fallback": "media/ccce31752f61__960.jpg",
+  "full": "media/ccce31752f61__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_17.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_17.jpg",
+  "w": 3745,
+  "h": 5618,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/ba0b006577b2__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/ba0b006577b2__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/ba0b006577b2__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/ba0b006577b2__2560.webp"
+   }
+  ],
+  "fallback": "media/ba0b006577b2__960.jpg",
+  "full": "media/ba0b006577b2__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_18.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_18.jpg",
+  "w": 3661,
+  "h": 5491,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/3556a5d2e66b__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/3556a5d2e66b__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/3556a5d2e66b__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/3556a5d2e66b__2560.webp"
+   }
+  ],
+  "fallback": "media/3556a5d2e66b__960.jpg",
+  "full": "media/3556a5d2e66b__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_19.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_19.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/495ea459ae0c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/495ea459ae0c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/495ea459ae0c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/495ea459ae0c__2560.webp"
+   }
+  ],
+  "fallback": "media/495ea459ae0c__960.jpg",
+  "full": "media/495ea459ae0c__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_2.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_2.jpg",
+  "w": 3400,
+  "h": 5100,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/672f57abec10__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/672f57abec10__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/672f57abec10__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/672f57abec10__2560.webp"
+   }
+  ],
+  "fallback": "media/672f57abec10__960.jpg",
+  "full": "media/672f57abec10__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_20.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_20.jpg",
+  "w": 5796,
+  "h": 3970,
+  "variants": [
+   {
+    "w": 480,
+    "h": 329,
+    "file": "media/465f38b1e5f3__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 658,
+    "file": "media/465f38b1e5f3__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1096,
+    "file": "media/465f38b1e5f3__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1753,
+    "file": "media/465f38b1e5f3__2560.webp"
+   }
+  ],
+  "fallback": "media/465f38b1e5f3__960.jpg",
+  "full": "media/465f38b1e5f3__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_21.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_21.jpg",
+  "w": 3780,
+  "h": 5670,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/051f6b46d397__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/051f6b46d397__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/051f6b46d397__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/051f6b46d397__2560.webp"
+   }
+  ],
+  "fallback": "media/051f6b46d397__960.jpg",
+  "full": "media/051f6b46d397__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_22.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_22.jpg",
+  "w": 3158,
+  "h": 3749,
+  "variants": [
+   {
+    "w": 480,
+    "h": 570,
+    "file": "media/e79ec7d25ff8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1140,
+    "file": "media/e79ec7d25ff8__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1899,
+    "file": "media/e79ec7d25ff8__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3039,
+    "file": "media/e79ec7d25ff8__2560.webp"
+   }
+  ],
+  "fallback": "media/e79ec7d25ff8__960.jpg",
+  "full": "media/e79ec7d25ff8__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_23.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_23.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/49a2b129c9c6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/49a2b129c9c6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/49a2b129c9c6__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/49a2b129c9c6__2560.webp"
+   }
+  ],
+  "fallback": "media/49a2b129c9c6__960.jpg",
+  "full": "media/49a2b129c9c6__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_24.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_24.jpg",
+  "w": 3351,
+  "h": 4908,
+  "variants": [
+   {
+    "w": 480,
+    "h": 703,
+    "file": "media/a0e0b70d2948__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1406,
+    "file": "media/a0e0b70d2948__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2343,
+    "file": "media/a0e0b70d2948__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3749,
+    "file": "media/a0e0b70d2948__2560.webp"
+   }
+  ],
+  "fallback": "media/a0e0b70d2948__960.jpg",
+  "full": "media/a0e0b70d2948__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_25.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_25.jpg",
+  "w": 3900,
+  "h": 5601,
+  "variants": [
+   {
+    "w": 480,
+    "h": 689,
+    "file": "media/81f1f6365aa5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1379,
+    "file": "media/81f1f6365aa5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2298,
+    "file": "media/81f1f6365aa5__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3677,
+    "file": "media/81f1f6365aa5__2560.webp"
+   }
+  ],
+  "fallback": "media/81f1f6365aa5__960.jpg",
+  "full": "media/81f1f6365aa5__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_26.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_26.jpg",
+  "w": 3946,
+  "h": 5342,
+  "variants": [
+   {
+    "w": 480,
+    "h": 650,
+    "file": "media/1d82d3aa22e8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1300,
+    "file": "media/1d82d3aa22e8__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2166,
+    "file": "media/1d82d3aa22e8__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3466,
+    "file": "media/1d82d3aa22e8__2560.webp"
+   }
+  ],
+  "fallback": "media/1d82d3aa22e8__960.jpg",
+  "full": "media/1d82d3aa22e8__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_27.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_27.jpg",
+  "w": 4349,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 441,
+    "file": "media/1f6b78729eae__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 883,
+    "file": "media/1f6b78729eae__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1472,
+    "file": "media/1f6b78729eae__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2355,
+    "file": "media/1f6b78729eae__2560.webp"
+   }
+  ],
+  "fallback": "media/1f6b78729eae__960.jpg",
+  "full": "media/1f6b78729eae__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_28.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_28.jpg",
+  "w": 3709,
+  "h": 5563,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/62eb2e02ab2e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/62eb2e02ab2e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/62eb2e02ab2e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/62eb2e02ab2e__2560.webp"
+   }
+  ],
+  "fallback": "media/62eb2e02ab2e__960.jpg",
+  "full": "media/62eb2e02ab2e__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_29.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_29.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/d02a088ce2ad__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/d02a088ce2ad__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/d02a088ce2ad__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/d02a088ce2ad__2560.webp"
+   }
+  ],
+  "fallback": "media/d02a088ce2ad__960.jpg",
+  "full": "media/d02a088ce2ad__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_3.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_3.jpg",
+  "w": 3043,
+  "h": 4564,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/bca5df508ee2__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/bca5df508ee2__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/bca5df508ee2__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/bca5df508ee2__2560.webp"
+   }
+  ],
+  "fallback": "media/bca5df508ee2__960.jpg",
+  "full": "media/bca5df508ee2__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_30.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_30.jpg",
+  "w": 5879,
+  "h": 2861,
+  "variants": [
+   {
+    "w": 480,
+    "h": 234,
+    "file": "media/f728ae1fc4d9__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 467,
+    "file": "media/f728ae1fc4d9__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 779,
+    "file": "media/f728ae1fc4d9__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1246,
+    "file": "media/f728ae1fc4d9__2560.webp"
+   }
+  ],
+  "fallback": "media/f728ae1fc4d9__960.jpg",
+  "full": "media/f728ae1fc4d9__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_31.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_31.jpg",
+  "w": 3887,
+  "h": 5321,
+  "variants": [
+   {
+    "w": 480,
+    "h": 657,
+    "file": "media/e4c339a83b26__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1314,
+    "file": "media/e4c339a83b26__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2190,
+    "file": "media/e4c339a83b26__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3504,
+    "file": "media/e4c339a83b26__2560.webp"
+   }
+  ],
+  "fallback": "media/e4c339a83b26__960.jpg",
+  "full": "media/e4c339a83b26__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_32.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_32.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/0209ba530b3e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/0209ba530b3e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/0209ba530b3e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/0209ba530b3e__2560.webp"
+   }
+  ],
+  "fallback": "media/0209ba530b3e__960.jpg",
+  "full": "media/0209ba530b3e__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_33.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_33.jpg",
+  "w": 3966,
+  "h": 4654,
+  "variants": [
+   {
+    "w": 480,
+    "h": 563,
+    "file": "media/2390b60c709a__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1127,
+    "file": "media/2390b60c709a__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1878,
+    "file": "media/2390b60c709a__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3004,
+    "file": "media/2390b60c709a__2560.webp"
+   }
+  ],
+  "fallback": "media/2390b60c709a__960.jpg",
+  "full": "media/2390b60c709a__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_34.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_34.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/6b0dec5134e7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/6b0dec5134e7__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/6b0dec5134e7__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/6b0dec5134e7__2560.webp"
+   }
+  ],
+  "fallback": "media/6b0dec5134e7__960.jpg",
+  "full": "media/6b0dec5134e7__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_35.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_35.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/4dab9864bdc0__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/4dab9864bdc0__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/4dab9864bdc0__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/4dab9864bdc0__2560.webp"
+   }
+  ],
+  "fallback": "media/4dab9864bdc0__960.jpg",
+  "full": "media/4dab9864bdc0__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_36.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_36.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/e6db8e3796a7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/e6db8e3796a7__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/e6db8e3796a7__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/e6db8e3796a7__2560.webp"
+   }
+  ],
+  "fallback": "media/e6db8e3796a7__960.jpg",
+  "full": "media/e6db8e3796a7__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_37.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_37.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/8194169d36a2__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/8194169d36a2__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/8194169d36a2__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/8194169d36a2__2560.webp"
+   }
+  ],
+  "fallback": "media/8194169d36a2__960.jpg",
+  "full": "media/8194169d36a2__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_38.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_38.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/0272ab00df94__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/0272ab00df94__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/0272ab00df94__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/0272ab00df94__2560.webp"
+   }
+  ],
+  "fallback": "media/0272ab00df94__960.jpg",
+  "full": "media/0272ab00df94__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_39.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_39.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/75c74d8436bc__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/75c74d8436bc__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/75c74d8436bc__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/75c74d8436bc__2560.webp"
+   }
+  ],
+  "fallback": "media/75c74d8436bc__960.jpg",
+  "full": "media/75c74d8436bc__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_4.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_4.jpg",
+  "w": 2985,
+  "h": 4478,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/bfa006308639__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/bfa006308639__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/bfa006308639__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/bfa006308639__2560.webp"
+   }
+  ],
+  "fallback": "media/bfa006308639__960.jpg",
+  "full": "media/bfa006308639__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_40.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_40.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/8c179f126d33__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/8c179f126d33__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/8c179f126d33__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/8c179f126d33__2560.webp"
+   }
+  ],
+  "fallback": "media/8c179f126d33__960.jpg",
+  "full": "media/8c179f126d33__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_41.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_41.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/3369f34b28a7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/3369f34b28a7__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/3369f34b28a7__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/3369f34b28a7__2560.webp"
+   }
+  ],
+  "fallback": "media/3369f34b28a7__960.jpg",
+  "full": "media/3369f34b28a7__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_42.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_42.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/2372a9158ffb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/2372a9158ffb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/2372a9158ffb__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/2372a9158ffb__2560.webp"
+   }
+  ],
+  "fallback": "media/2372a9158ffb__960.jpg",
+  "full": "media/2372a9158ffb__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_43.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_43.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/7a83340cd4e9__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/7a83340cd4e9__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/7a83340cd4e9__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/7a83340cd4e9__2560.webp"
+   }
+  ],
+  "fallback": "media/7a83340cd4e9__960.jpg",
+  "full": "media/7a83340cd4e9__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_44.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_44.jpg",
+  "w": 5723,
+  "h": 3815,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/05b9eb6c102e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/05b9eb6c102e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/05b9eb6c102e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/05b9eb6c102e__2560.webp"
+   }
+  ],
+  "fallback": "media/05b9eb6c102e__960.jpg",
+  "full": "media/05b9eb6c102e__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_45.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_45.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/86faafb9d311__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/86faafb9d311__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/86faafb9d311__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/86faafb9d311__2560.webp"
+   }
+  ],
+  "fallback": "media/86faafb9d311__960.jpg",
+  "full": "media/86faafb9d311__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_46.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_46.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/5c78fa907e90__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/5c78fa907e90__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/5c78fa907e90__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/5c78fa907e90__2560.webp"
+   }
+  ],
+  "fallback": "media/5c78fa907e90__960.jpg",
+  "full": "media/5c78fa907e90__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_47.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_47.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/f67654f6f268__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/f67654f6f268__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/f67654f6f268__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/f67654f6f268__2560.webp"
+   }
+  ],
+  "fallback": "media/f67654f6f268__960.jpg",
+  "full": "media/f67654f6f268__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_48.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_48.jpg",
+  "w": 4000,
+  "h": 3071,
+  "variants": [
+   {
+    "w": 480,
+    "h": 369,
+    "file": "media/cec36ef080e9__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 737,
+    "file": "media/cec36ef080e9__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1228,
+    "file": "media/cec36ef080e9__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1965,
+    "file": "media/cec36ef080e9__2560.webp"
+   }
+  ],
+  "fallback": "media/cec36ef080e9__960.jpg",
+  "full": "media/cec36ef080e9__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_49.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_49.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/4b1a20986411__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/4b1a20986411__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/4b1a20986411__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/4b1a20986411__2560.webp"
+   }
+  ],
+  "fallback": "media/4b1a20986411__960.jpg",
+  "full": "media/4b1a20986411__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_5.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_5.jpg",
+  "w": 5222,
+  "h": 3481,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/3e9f886c0faa__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/3e9f886c0faa__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/3e9f886c0faa__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/3e9f886c0faa__2560.webp"
+   }
+  ],
+  "fallback": "media/3e9f886c0faa__960.jpg",
+  "full": "media/3e9f886c0faa__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_50.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_50.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/631a3ef49ba1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/631a3ef49ba1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/631a3ef49ba1__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/631a3ef49ba1__2560.webp"
+   }
+  ],
+  "fallback": "media/631a3ef49ba1__960.jpg",
+  "full": "media/631a3ef49ba1__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_51.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_51.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/f05bb87bb6c7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/f05bb87bb6c7__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/f05bb87bb6c7__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/f05bb87bb6c7__2560.webp"
+   }
+  ],
+  "fallback": "media/f05bb87bb6c7__960.jpg",
+  "full": "media/f05bb87bb6c7__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_52.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_52.jpg",
+  "w": 3796,
+  "h": 5468,
+  "variants": [
+   {
+    "w": 480,
+    "h": 691,
+    "file": "media/0a8b03ca4770__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1383,
+    "file": "media/0a8b03ca4770__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2305,
+    "file": "media/0a8b03ca4770__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3688,
+    "file": "media/0a8b03ca4770__2560.webp"
+   }
+  ],
+  "fallback": "media/0a8b03ca4770__960.jpg",
+  "full": "media/0a8b03ca4770__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_53.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_53.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/ff77f0ac5b99__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/ff77f0ac5b99__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/ff77f0ac5b99__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/ff77f0ac5b99__2560.webp"
+   }
+  ],
+  "fallback": "media/ff77f0ac5b99__960.jpg",
+  "full": "media/ff77f0ac5b99__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_54.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_54.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/404d8010d658__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/404d8010d658__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/404d8010d658__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/404d8010d658__2560.webp"
+   }
+  ],
+  "fallback": "media/404d8010d658__960.jpg",
+  "full": "media/404d8010d658__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_55.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_55.jpg",
+  "w": 5698,
+  "h": 3804,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/104d0e30fa2c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 641,
+    "file": "media/104d0e30fa2c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1068,
+    "file": "media/104d0e30fa2c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1709,
+    "file": "media/104d0e30fa2c__2560.webp"
+   }
+  ],
+  "fallback": "media/104d0e30fa2c__960.jpg",
+  "full": "media/104d0e30fa2c__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_6.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_6.jpg",
+  "w": 3873,
+  "h": 5810,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/03969614d52e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/03969614d52e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/03969614d52e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/03969614d52e__2560.webp"
+   }
+  ],
+  "fallback": "media/03969614d52e__960.jpg",
+  "full": "media/03969614d52e__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_7.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_7.jpg",
+  "w": 3445,
+  "h": 5168,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/b43822376d1d__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/b43822376d1d__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/b43822376d1d__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/b43822376d1d__2560.webp"
+   }
+  ],
+  "fallback": "media/b43822376d1d__960.jpg",
+  "full": "media/b43822376d1d__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_8.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_8.jpg",
+  "w": 5320,
+  "h": 3547,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/55b26a71ea57__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/55b26a71ea57__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/55b26a71ea57__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/55b26a71ea57__2560.webp"
+   }
+  ],
+  "fallback": "media/55b26a71ea57__960.jpg",
+  "full": "media/55b26a71ea57__2560.webp"
+ },
+ "2023-10-02_2nd_Radical_Party___Thessaloni_9.jpg": {
+  "key": "2023-10-02_2nd_Radical_Party___Thessaloni_9.jpg",
+  "w": 3615,
+  "h": 5423,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/ec754c006deb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/ec754c006deb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/ec754c006deb__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/ec754c006deb__2560.webp"
+   }
+  ],
+  "fallback": "media/ec754c006deb__960.jpg",
+  "full": "media/ec754c006deb__2560.webp"
+ },
+ "2023-11-03_Elatochori_04_11___Ράντικαλ_Πά_0.jpg": {
+  "key": "2023-11-03_Elatochori_04_11___Ράντικαλ_Πά_0.jpg",
+  "w": 4000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 480,
+    "file": "media/360dd08ace5c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 960,
+    "file": "media/360dd08ace5c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1600,
+    "file": "media/360dd08ace5c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 2560,
+    "file": "media/360dd08ace5c__2560.webp"
+   }
+  ],
+  "fallback": "media/360dd08ace5c__960.jpg",
+  "full": "media/360dd08ace5c__2560.webp"
+ },
+ "2023-11-03_Elatochori_04_11___Ράντικαλ_Πά_1.jpg": {
+  "key": "2023-11-03_Elatochori_04_11___Ράντικαλ_Πά_1.jpg",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/aa1b2c63ac7e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/aa1b2c63ac7e__960.webp"
+   }
+  ],
+  "fallback": "media/aa1b2c63ac7e__960.jpg",
+  "full": "media/aa1b2c63ac7e__960.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_0.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_0.jpg",
+  "w": 4096,
+  "h": 2731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/fc9aad4ef26e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/fc9aad4ef26e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/fc9aad4ef26e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/fc9aad4ef26e__2560.webp"
+   }
+  ],
+  "fallback": "media/fc9aad4ef26e__960.jpg",
+  "full": "media/fc9aad4ef26e__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_1.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_1.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/26a531ca6399__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/26a531ca6399__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/26a531ca6399__1600.webp"
+   }
+  ],
+  "fallback": "media/26a531ca6399__960.jpg",
+  "full": "media/26a531ca6399__1600.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_10.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_10.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/01ca08a2ad7c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/01ca08a2ad7c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/01ca08a2ad7c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/01ca08a2ad7c__2560.webp"
+   }
+  ],
+  "fallback": "media/01ca08a2ad7c__960.jpg",
+  "full": "media/01ca08a2ad7c__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_11.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_11.jpg",
+  "w": 1449,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 751,
+    "file": "media/5c270cfaf225__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1503,
+    "file": "media/5c270cfaf225__960.webp"
+   }
+  ],
+  "fallback": "media/5c270cfaf225__960.jpg",
+  "full": "media/5c270cfaf225__960.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_12.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_12.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/fe9691fe12bb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/fe9691fe12bb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/fe9691fe12bb__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/fe9691fe12bb__2560.webp"
+   }
+  ],
+  "fallback": "media/fe9691fe12bb__960.jpg",
+  "full": "media/fe9691fe12bb__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_13.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_13.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/0695190b78b5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/0695190b78b5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/0695190b78b5__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/0695190b78b5__2560.webp"
+   }
+  ],
+  "fallback": "media/0695190b78b5__960.jpg",
+  "full": "media/0695190b78b5__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_14.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_14.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/196b194de0c4__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/196b194de0c4__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/196b194de0c4__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/196b194de0c4__2560.webp"
+   }
+  ],
+  "fallback": "media/196b194de0c4__960.jpg",
+  "full": "media/196b194de0c4__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_15.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_15.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/8a14eb506e88__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/8a14eb506e88__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/8a14eb506e88__1600.webp"
+   }
+  ],
+  "fallback": "media/8a14eb506e88__960.jpg",
+  "full": "media/8a14eb506e88__1600.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_16.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_16.jpg",
+  "w": 4096,
+  "h": 2731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/aa70a141a6e8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/aa70a141a6e8__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/aa70a141a6e8__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/aa70a141a6e8__2560.webp"
+   }
+  ],
+  "fallback": "media/aa70a141a6e8__960.jpg",
+  "full": "media/aa70a141a6e8__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_2.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_2.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/d8a6d1fcbee8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/d8a6d1fcbee8__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/d8a6d1fcbee8__1600.webp"
+   }
+  ],
+  "fallback": "media/d8a6d1fcbee8__960.jpg",
+  "full": "media/d8a6d1fcbee8__1600.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_3.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_3.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/677f7168b5fb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/677f7168b5fb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/677f7168b5fb__1600.webp"
+   }
+  ],
+  "fallback": "media/677f7168b5fb__960.jpg",
+  "full": "media/677f7168b5fb__1600.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_4.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_4.jpg",
+  "w": 4096,
+  "h": 2731,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/87d2578d4d2e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/87d2578d4d2e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/87d2578d4d2e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/87d2578d4d2e__2560.webp"
+   }
+  ],
+  "fallback": "media/87d2578d4d2e__960.jpg",
+  "full": "media/87d2578d4d2e__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_5.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_5.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/1738938fe6a3__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/1738938fe6a3__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/1738938fe6a3__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/1738938fe6a3__2560.webp"
+   }
+  ],
+  "fallback": "media/1738938fe6a3__960.jpg",
+  "full": "media/1738938fe6a3__2560.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_6.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_6.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/5a17ea36ae0f__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/5a17ea36ae0f__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/5a17ea36ae0f__1600.webp"
+   }
+  ],
+  "fallback": "media/5a17ea36ae0f__960.jpg",
+  "full": "media/5a17ea36ae0f__1600.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_7.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_7.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/8fabe2c15eb7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/8fabe2c15eb7__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/8fabe2c15eb7__1600.webp"
+   }
+  ],
+  "fallback": "media/8fabe2c15eb7__960.jpg",
+  "full": "media/8fabe2c15eb7__1600.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_8.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_8.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/c251c81608d5__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/c251c81608d5__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/c251c81608d5__1600.webp"
+   }
+  ],
+  "fallback": "media/c251c81608d5__960.jpg",
+  "full": "media/c251c81608d5__1600.webp"
+ },
+ "2023-11-05_3rd_Radical_Party___Elatochori_9.jpg": {
+  "key": "2023-11-05_3rd_Radical_Party___Elatochori_9.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/91e6a6ccac03__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/91e6a6ccac03__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/91e6a6ccac03__1600.webp"
+   }
+  ],
+  "fallback": "media/91e6a6ccac03__960.jpg",
+  "full": "media/91e6a6ccac03__1600.webp"
+ },
+ "2023-11-09_VASILITSA_19_20_01___Ράντικαλ__0.png": {
+  "key": "2023-11-09_VASILITSA_19_20_01___Ράντικαλ__0.png",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/c3f5f1141f89__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/c3f5f1141f89__960.webp"
+   }
+  ],
+  "fallback": "media/c3f5f1141f89__960.jpg",
+  "full": "media/c3f5f1141f89__960.webp"
+ },
+ "2023-11-09_VASILITSA_19_20_01___Ράντικαλ__1.jpg": {
+  "key": "2023-11-09_VASILITSA_19_20_01___Ράντικαλ__1.jpg",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/389d1c73101d__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/389d1c73101d__960.webp"
+   }
+  ],
+  "fallback": "media/389d1c73101d__960.jpg",
+  "full": "media/389d1c73101d__960.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__0.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__0.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/fe36d6dd810c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/fe36d6dd810c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/fe36d6dd810c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/fe36d6dd810c__2560.webp"
+   }
+  ],
+  "fallback": "media/fe36d6dd810c__960.jpg",
+  "full": "media/fe36d6dd810c__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__1.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__1.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/227836de5656__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/227836de5656__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/227836de5656__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/227836de5656__2560.webp"
+   }
+  ],
+  "fallback": "media/227836de5656__960.jpg",
+  "full": "media/227836de5656__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__10.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__10.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/dc6f9402872a__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/dc6f9402872a__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/dc6f9402872a__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/dc6f9402872a__2560.webp"
+   }
+  ],
+  "fallback": "media/dc6f9402872a__960.jpg",
+  "full": "media/dc6f9402872a__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__11.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__11.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/b24f233c16f8__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/b24f233c16f8__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/b24f233c16f8__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/b24f233c16f8__2560.webp"
+   }
+  ],
+  "fallback": "media/b24f233c16f8__960.jpg",
+  "full": "media/b24f233c16f8__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__12.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__12.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/817897922f19__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/817897922f19__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/817897922f19__1600.webp"
+   }
+  ],
+  "fallback": "media/817897922f19__960.jpg",
+  "full": "media/817897922f19__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__13.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__13.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/fb7dde9a85b1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/fb7dde9a85b1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/fb7dde9a85b1__1600.webp"
+   }
+  ],
+  "fallback": "media/fb7dde9a85b1__960.jpg",
+  "full": "media/fb7dde9a85b1__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__14.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__14.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/30f6f100c212__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/30f6f100c212__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/30f6f100c212__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/30f6f100c212__2560.webp"
+   }
+  ],
+  "fallback": "media/30f6f100c212__960.jpg",
+  "full": "media/30f6f100c212__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__15.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__15.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/164b17dfda80__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/164b17dfda80__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/164b17dfda80__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/164b17dfda80__2560.webp"
+   }
+  ],
+  "fallback": "media/164b17dfda80__960.jpg",
+  "full": "media/164b17dfda80__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__16.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__16.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/f4cf1f528851__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/f4cf1f528851__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/f4cf1f528851__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/f4cf1f528851__2560.webp"
+   }
+  ],
+  "fallback": "media/f4cf1f528851__960.jpg",
+  "full": "media/f4cf1f528851__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__17.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__17.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/646928025399__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/646928025399__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/646928025399__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/646928025399__2560.webp"
+   }
+  ],
+  "fallback": "media/646928025399__960.jpg",
+  "full": "media/646928025399__2560.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__2.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__2.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/e7be3272c5e1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/e7be3272c5e1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/e7be3272c5e1__1600.webp"
+   }
+  ],
+  "fallback": "media/e7be3272c5e1__960.jpg",
+  "full": "media/e7be3272c5e1__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__3.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__3.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/16a767932194__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/16a767932194__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/16a767932194__1600.webp"
+   }
+  ],
+  "fallback": "media/16a767932194__960.jpg",
+  "full": "media/16a767932194__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__4.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__4.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/bd9cc0bfc768__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/bd9cc0bfc768__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/bd9cc0bfc768__1600.webp"
+   }
+  ],
+  "fallback": "media/bd9cc0bfc768__960.jpg",
+  "full": "media/bd9cc0bfc768__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__5.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__5.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/feddc8924873__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/feddc8924873__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/feddc8924873__1600.webp"
+   }
+  ],
+  "fallback": "media/feddc8924873__960.jpg",
+  "full": "media/feddc8924873__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__6.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__6.jpg",
+  "w": 2268,
+  "h": 1950,
+  "variants": [
+   {
+    "w": 480,
+    "h": 413,
+    "file": "media/839f4a0d6598__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 825,
+    "file": "media/839f4a0d6598__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1376,
+    "file": "media/839f4a0d6598__1600.webp"
+   }
+  ],
+  "fallback": "media/839f4a0d6598__960.jpg",
+  "full": "media/839f4a0d6598__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__7.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__7.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/63e3d563c2c2__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/63e3d563c2c2__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/63e3d563c2c2__1600.webp"
+   }
+  ],
+  "fallback": "media/63e3d563c2c2__960.jpg",
+  "full": "media/63e3d563c2c2__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__8.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__8.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/05c4b6388677__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/05c4b6388677__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/05c4b6388677__1600.webp"
+   }
+  ],
+  "fallback": "media/05c4b6388677__960.jpg",
+  "full": "media/05c4b6388677__1600.webp"
+ },
+ "2024-01-25_4th_Radical_Party___Vasilitsa__9.jpg": {
+  "key": "2024-01-25_4th_Radical_Party___Vasilitsa__9.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/8ce66aba5747__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/8ce66aba5747__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/8ce66aba5747__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/8ce66aba5747__2560.webp"
+   }
+  ],
+  "fallback": "media/8ce66aba5747__960.jpg",
+  "full": "media/8ce66aba5747__2560.webp"
+ },
+ "2024-05-15_Enamel_Camping_Mug___NEW___100_0.png": {
+  "key": "2024-05-15_Enamel_Camping_Mug___NEW___100_0.png",
+  "w": 1920,
+  "h": 1280,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/cfa87512d892__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/cfa87512d892__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/cfa87512d892__1600.webp"
+   }
+  ],
+  "fallback": "media/cfa87512d892__960.jpg",
+  "full": "media/cfa87512d892__1600.webp"
+ },
+ "2024-05-15_Enamel_Camping_Mug___NEW___100_1.png": {
+  "key": "2024-05-15_Enamel_Camping_Mug___NEW___100_1.png",
+  "w": 1920,
+  "h": 1280,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/cc3eaba30341__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/cc3eaba30341__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/cc3eaba30341__1600.webp"
+   }
+  ],
+  "fallback": "media/cc3eaba30341__960.jpg",
+  "full": "media/cc3eaba30341__1600.webp"
+ },
+ "2024-05-16_Athens_07_07___Ράντικαλ_Πάρτι__0.jpg": {
+  "key": "2024-05-16_Athens_07_07___Ράντικαλ_Πάρτι__0.jpg",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/ecba6e970298__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/ecba6e970298__960.webp"
+   }
+  ],
+  "fallback": "media/ecba6e970298__960.jpg",
+  "full": "media/ecba6e970298__960.webp"
+ },
+ "2024-05-16_Athens_07_07___Ράντικαλ_Πάρτι__1.jpg": {
+  "key": "2024-05-16_Athens_07_07___Ράντικαλ_Πάρτι__1.jpg",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/048f296e4003__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/048f296e4003__960.webp"
+   }
+  ],
+  "fallback": "media/048f296e4003__960.jpg",
+  "full": "media/048f296e4003__960.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_0.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_0.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/982556c07cf4__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/982556c07cf4__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/982556c07cf4__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/982556c07cf4__2560.webp"
+   }
+  ],
+  "fallback": "media/982556c07cf4__960.jpg",
+  "full": "media/982556c07cf4__2560.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_1.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_1.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/556c38465317__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/556c38465317__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/556c38465317__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/556c38465317__2560.webp"
+   }
+  ],
+  "fallback": "media/556c38465317__960.jpg",
+  "full": "media/556c38465317__2560.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_2.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_2.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/29201cff73b0__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/29201cff73b0__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/29201cff73b0__1600.webp"
+   }
+  ],
+  "fallback": "media/29201cff73b0__960.jpg",
+  "full": "media/29201cff73b0__1600.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_3.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_3.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/57ffe180b109__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/57ffe180b109__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/57ffe180b109__1600.webp"
+   }
+  ],
+  "fallback": "media/57ffe180b109__960.jpg",
+  "full": "media/57ffe180b109__1600.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_4.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_4.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/c9dea4722bdb__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/c9dea4722bdb__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/c9dea4722bdb__1600.webp"
+   }
+  ],
+  "fallback": "media/c9dea4722bdb__960.jpg",
+  "full": "media/c9dea4722bdb__1600.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_5.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_5.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/d6c1480aacc6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/d6c1480aacc6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/d6c1480aacc6__1600.webp"
+   }
+  ],
+  "fallback": "media/d6c1480aacc6__960.jpg",
+  "full": "media/d6c1480aacc6__1600.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_6.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_6.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/03dfcc23fe81__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/03dfcc23fe81__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/03dfcc23fe81__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/03dfcc23fe81__2560.webp"
+   }
+  ],
+  "fallback": "media/03dfcc23fe81__960.jpg",
+  "full": "media/03dfcc23fe81__2560.webp"
+ },
+ "2024-05-17_5th_Radical_Party___ATHENS_Kou_7.jpg": {
+  "key": "2024-05-17_5th_Radical_Party___ATHENS_Kou_7.jpg",
+  "w": 2268,
+  "h": 4032,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/4d55741cb9e1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/4d55741cb9e1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2844,
+    "file": "media/4d55741cb9e1__1600.webp"
+   }
+  ],
+  "fallback": "media/4d55741cb9e1__960.jpg",
+  "full": "media/4d55741cb9e1__1600.webp"
+ },
+ "2024-12-12_VASILITSA_24_25_01___Ράντικαλ__0.jpg": {
+  "key": "2024-12-12_VASILITSA_24_25_01___Ράντικαλ__0.jpg",
+  "w": 1080,
+  "h": 1350,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/b349f8ecec4f__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1200,
+    "file": "media/b349f8ecec4f__960.webp"
+   }
+  ],
+  "fallback": "media/b349f8ecec4f__960.jpg",
+  "full": "media/b349f8ecec4f__960.webp"
+ },
+ "2024-12-12_VASILITSA_24_25_01___Ράντικαλ__1.jpg": {
+  "key": "2024-12-12_VASILITSA_24_25_01___Ράντικαλ__1.jpg",
+  "w": 864,
+  "h": 1080,
+  "variants": [
+   {
+    "w": 480,
+    "h": 600,
+    "file": "media/60b91aa84b86__480.webp"
+   }
+  ],
+  "fallback": "media/60b91aa84b86__480.jpg",
+  "full": "media/60b91aa84b86__480.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_0.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_0.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/ea8c74ef9a11__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/ea8c74ef9a11__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/ea8c74ef9a11__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/ea8c74ef9a11__2560.webp"
+   }
+  ],
+  "fallback": "media/ea8c74ef9a11__960.jpg",
+  "full": "media/ea8c74ef9a11__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_1.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_1.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/01d3d84de2b6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/01d3d84de2b6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/01d3d84de2b6__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/01d3d84de2b6__2560.webp"
+   }
+  ],
+  "fallback": "media/01d3d84de2b6__960.jpg",
+  "full": "media/01d3d84de2b6__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_10.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_10.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/e632d2f229fd__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/e632d2f229fd__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/e632d2f229fd__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/e632d2f229fd__2560.webp"
+   }
+  ],
+  "fallback": "media/e632d2f229fd__960.jpg",
+  "full": "media/e632d2f229fd__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_11.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_11.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/c96d62767dd1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/c96d62767dd1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/c96d62767dd1__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/c96d62767dd1__2560.webp"
+   }
+  ],
+  "fallback": "media/c96d62767dd1__960.jpg",
+  "full": "media/c96d62767dd1__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_12.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_12.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/71f63b3c8b96__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/71f63b3c8b96__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/71f63b3c8b96__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/71f63b3c8b96__2560.webp"
+   }
+  ],
+  "fallback": "media/71f63b3c8b96__960.jpg",
+  "full": "media/71f63b3c8b96__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_13.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_13.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/8541d4f26140__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/8541d4f26140__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/8541d4f26140__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/8541d4f26140__2560.webp"
+   }
+  ],
+  "fallback": "media/8541d4f26140__960.jpg",
+  "full": "media/8541d4f26140__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_14.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_14.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/52464462af53__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/52464462af53__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/52464462af53__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/52464462af53__2560.webp"
+   }
+  ],
+  "fallback": "media/52464462af53__960.jpg",
+  "full": "media/52464462af53__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_15.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_15.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/6df74a59e22c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/6df74a59e22c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/6df74a59e22c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/6df74a59e22c__2560.webp"
+   }
+  ],
+  "fallback": "media/6df74a59e22c__960.jpg",
+  "full": "media/6df74a59e22c__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_16.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_16.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/8a5c08a2d5a1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/8a5c08a2d5a1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/8a5c08a2d5a1__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/8a5c08a2d5a1__2560.webp"
+   }
+  ],
+  "fallback": "media/8a5c08a2d5a1__960.jpg",
+  "full": "media/8a5c08a2d5a1__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_17.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_17.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/e3f2b217145a__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/e3f2b217145a__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/e3f2b217145a__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/e3f2b217145a__2560.webp"
+   }
+  ],
+  "fallback": "media/e3f2b217145a__960.jpg",
+  "full": "media/e3f2b217145a__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_18.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_18.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/78982c7622e1__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/78982c7622e1__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/78982c7622e1__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/78982c7622e1__2560.webp"
+   }
+  ],
+  "fallback": "media/78982c7622e1__960.jpg",
+  "full": "media/78982c7622e1__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_19.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_19.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/bb776a3d1cc7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/bb776a3d1cc7__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/bb776a3d1cc7__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/bb776a3d1cc7__2560.webp"
+   }
+  ],
+  "fallback": "media/bb776a3d1cc7__960.jpg",
+  "full": "media/bb776a3d1cc7__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_2.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_2.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/ac2dc3c86d31__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/ac2dc3c86d31__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/ac2dc3c86d31__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/ac2dc3c86d31__2560.webp"
+   }
+  ],
+  "fallback": "media/ac2dc3c86d31__960.jpg",
+  "full": "media/ac2dc3c86d31__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_20.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_20.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/6ae1db02ea73__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/6ae1db02ea73__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/6ae1db02ea73__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/6ae1db02ea73__2560.webp"
+   }
+  ],
+  "fallback": "media/6ae1db02ea73__960.jpg",
+  "full": "media/6ae1db02ea73__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_21.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_21.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/27683b8b64cc__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/27683b8b64cc__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/27683b8b64cc__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/27683b8b64cc__2560.webp"
+   }
+  ],
+  "fallback": "media/27683b8b64cc__960.jpg",
+  "full": "media/27683b8b64cc__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_22.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_22.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/f6e97531ae26__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/f6e97531ae26__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/f6e97531ae26__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/f6e97531ae26__2560.webp"
+   }
+  ],
+  "fallback": "media/f6e97531ae26__960.jpg",
+  "full": "media/f6e97531ae26__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_23.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_23.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/25f0eaaee602__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/25f0eaaee602__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/25f0eaaee602__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/25f0eaaee602__2560.webp"
+   }
+  ],
+  "fallback": "media/25f0eaaee602__960.jpg",
+  "full": "media/25f0eaaee602__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_24.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_24.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/86387c2e474d__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/86387c2e474d__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/86387c2e474d__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/86387c2e474d__2560.webp"
+   }
+  ],
+  "fallback": "media/86387c2e474d__960.jpg",
+  "full": "media/86387c2e474d__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_25.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_25.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/9aaa7128d330__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/9aaa7128d330__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/9aaa7128d330__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/9aaa7128d330__2560.webp"
+   }
+  ],
+  "fallback": "media/9aaa7128d330__960.jpg",
+  "full": "media/9aaa7128d330__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_26.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_26.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/3854318909b7__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/3854318909b7__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/3854318909b7__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/3854318909b7__2560.webp"
+   }
+  ],
+  "fallback": "media/3854318909b7__960.jpg",
+  "full": "media/3854318909b7__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_27.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_27.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/2eabf9f94265__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/2eabf9f94265__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/2eabf9f94265__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/2eabf9f94265__2560.webp"
+   }
+  ],
+  "fallback": "media/2eabf9f94265__960.jpg",
+  "full": "media/2eabf9f94265__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_28.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_28.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/5a463bd1d46c__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/5a463bd1d46c__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/5a463bd1d46c__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/5a463bd1d46c__2560.webp"
+   }
+  ],
+  "fallback": "media/5a463bd1d46c__960.jpg",
+  "full": "media/5a463bd1d46c__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_29.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_29.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/c7bed608fa36__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/c7bed608fa36__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/c7bed608fa36__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/c7bed608fa36__2560.webp"
+   }
+  ],
+  "fallback": "media/c7bed608fa36__960.jpg",
+  "full": "media/c7bed608fa36__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_3.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_3.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/a8bffb88d36e__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/a8bffb88d36e__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/a8bffb88d36e__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/a8bffb88d36e__2560.webp"
+   }
+  ],
+  "fallback": "media/a8bffb88d36e__960.jpg",
+  "full": "media/a8bffb88d36e__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_30.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_30.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/c998f0e81be6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/c998f0e81be6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/c998f0e81be6__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/c998f0e81be6__2560.webp"
+   }
+  ],
+  "fallback": "media/c998f0e81be6__960.jpg",
+  "full": "media/c998f0e81be6__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_31.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_31.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/195fa412a598__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/195fa412a598__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/195fa412a598__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/195fa412a598__2560.webp"
+   }
+  ],
+  "fallback": "media/195fa412a598__960.jpg",
+  "full": "media/195fa412a598__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_32.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_32.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/1a5d622c8cfa__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/1a5d622c8cfa__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/1a5d622c8cfa__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/1a5d622c8cfa__2560.webp"
+   }
+  ],
+  "fallback": "media/1a5d622c8cfa__960.jpg",
+  "full": "media/1a5d622c8cfa__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_33.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_33.jpg",
+  "w": 4032,
+  "h": 2268,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/b2b3b9430395__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/b2b3b9430395__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "media/b2b3b9430395__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1440,
+    "file": "media/b2b3b9430395__2560.webp"
+   }
+  ],
+  "fallback": "media/b2b3b9430395__960.jpg",
+  "full": "media/b2b3b9430395__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_4.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_4.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/8d76478d7a35__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/8d76478d7a35__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/8d76478d7a35__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/8d76478d7a35__2560.webp"
+   }
+  ],
+  "fallback": "media/8d76478d7a35__960.jpg",
+  "full": "media/8d76478d7a35__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_5.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_5.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/228643f3477f__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/228643f3477f__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/228643f3477f__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/228643f3477f__2560.webp"
+   }
+  ],
+  "fallback": "media/228643f3477f__960.jpg",
+  "full": "media/228643f3477f__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_6.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_6.jpg",
+  "w": 6000,
+  "h": 4000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/1a6463fef46f__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 640,
+    "file": "media/1a6463fef46f__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "file": "media/1a6463fef46f__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 1707,
+    "file": "media/1a6463fef46f__2560.webp"
+   }
+  ],
+  "fallback": "media/1a6463fef46f__960.jpg",
+  "full": "media/1a6463fef46f__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_7.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_7.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/b73519fc5621__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/b73519fc5621__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/b73519fc5621__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/b73519fc5621__2560.webp"
+   }
+  ],
+  "fallback": "media/b73519fc5621__960.jpg",
+  "full": "media/b73519fc5621__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_8.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_8.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/74d05dee99ce__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/74d05dee99ce__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/74d05dee99ce__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/74d05dee99ce__2560.webp"
+   }
+  ],
+  "fallback": "media/74d05dee99ce__960.jpg",
+  "full": "media/74d05dee99ce__2560.webp"
+ },
+ "2025-01-19_6th_Radical_Party___GREVENA_Va_9.jpg": {
+  "key": "2025-01-19_6th_Radical_Party___GREVENA_Va_9.jpg",
+  "w": 4000,
+  "h": 6000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 720,
+    "file": "media/45b2fc05b9b3__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1440,
+    "file": "media/45b2fc05b9b3__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "file": "media/45b2fc05b9b3__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3840,
+    "file": "media/45b2fc05b9b3__2560.webp"
+   }
+  ],
+  "fallback": "media/45b2fc05b9b3__960.jpg",
+  "full": "media/45b2fc05b9b3__2560.webp"
+ },
+ "vlaks1.jpg": {
+  "key": "vlaks1.jpg",
+  "w": 1080,
+  "h": 1440,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/e96c0ce26514__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "media/e96c0ce26514__960.webp"
+   }
+  ],
+  "fallback": "media/e96c0ce26514__960.jpg",
+  "full": "media/e96c0ce26514__960.webp"
+ },
+ "vlaks2.jpg": {
+  "key": "vlaks2.jpg",
+  "w": 721,
+  "h": 1024,
+  "variants": [
+   {
+    "w": 480,
+    "h": 682,
+    "file": "media/e85cab9e0b78__480.webp"
+   }
+  ],
+  "fallback": "media/e85cab9e0b78__480.jpg",
+  "full": "media/e85cab9e0b78__480.webp"
+ },
+ "vlaks3.jpg": {
+  "key": "vlaks3.jpg",
+  "w": 960,
+  "h": 640,
+  "variants": [
+   {
+    "w": 480,
+    "h": 320,
+    "file": "media/6573ce58fadf__480.webp"
+   }
+  ],
+  "fallback": "media/6573ce58fadf__480.jpg",
+  "full": "media/6573ce58fadf__480.webp"
+ },
+ "vlaks4.jpg": {
+  "key": "vlaks4.jpg",
+  "w": 1080,
+  "h": 1440,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/da3cc84838a6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "media/da3cc84838a6__960.webp"
+   }
+  ],
+  "fallback": "media/da3cc84838a6__960.jpg",
+  "full": "media/da3cc84838a6__960.webp"
+ },
+ "vlaks5.jpg": {
+  "key": "vlaks5.jpg",
+  "w": 677,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 681,
+    "file": "media/9a0c76944dbc__480.webp"
+   }
+  ],
+  "fallback": "media/9a0c76944dbc__480.jpg",
+  "full": "media/9a0c76944dbc__480.webp"
+ },
+ "xeirografo.jpg": {
+  "key": "xeirografo.jpg",
+  "w": 720,
+  "h": 960,
+  "variants": [
+   {
+    "w": 480,
+    "h": 640,
+    "file": "media/03d85b62a81b__480.webp"
+   }
+  ],
+  "fallback": "media/03d85b62a81b__480.jpg",
+  "full": "media/03d85b62a81b__480.webp"
+ }
+}

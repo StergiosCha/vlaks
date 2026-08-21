@@ -1,0 +1,143 @@
+---
+/**
+ * Το διήγημα — the centrepiece. The text is read from vlaks.txt at build time and is
+ * SACRED: nothing is altered, corrected or "improved". The groupie's sidenotes (α΄, β΄…)
+ * are an edition layer anchored on exact substrings; if an anchor is not found the note
+ * is dropped with a build warning — the text always wins. The story's real footnote [1]
+ * keeps its number; site-wide numbering continues from it (see colophon).
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import Fn from '../components/Fn.astro';
+import { REPO_ROOT } from '../lib/paths';
+
+const raw = fs.readFileSync(path.join(REPO_ROOT, 'vlaks.txt'), 'utf8');
+const paras = raw
+  .split('\n')
+  .map((l) => l.trim())
+  .filter((l) => l.length > 0)
+  .map((l) => (/^\*+$/.test(l.replace(/\s/g, '')) ? '§SEP§' : l));
+
+interface Ann { para: number; anchor: string; letter: string; note: string }
+// paragraph indices count REAL paragraphs (separators excluded)
+const ANNS: Ann[] = [
+  {
+    para: 1,
+    anchor: 'γλώσσας Παπιαμέντο))',
+    letter: 'α΄',
+    note: 'Το κουρασάο όντως λέγεται kurasao στα Παπιαμέντο, την κρεολή των νησιών ABC. Το μπλε της απόχρωσης προέρχεται από χρωστική E133 και όχι από το νησί. Στην παλέτα αυτού του ιστότοπου: #1f9fd8, «μπλε κουρασάο, 4 το απόγευμα».',
+  },
+  {
+    para: 1,
+    anchor: 'Αθηναϊκό σκυλάδικο',
+    letter: 'β΄',
+    note: 'Κωστής Παπαγιώργης — η ανατομία της νυχτερινής διασκέδασης, οκτώ χρόνια επιτόπιας έρευνας σε σκυλάδικο ωμέγα κατηγορίας με κακό ουίσκι, όπως ομολογεί ο αφηγητής παρακάτω. Το «τζάμπα κέφι και τζάμπα παρεξηγήσεις» είναι η επιγραφή της σελίδας Μουσική.',
+  },
+  {
+    para: 1,
+    anchor: 'λεωφορείο του Ζορπίδη',
+    letter: 'γ΄',
+    note: 'Το λεωφορείο με την ταμπέλα «προς βλαξ» εμφανίζεται στην παράγραφο 6. Η κορδέλα στην κορυφή της αρχικής σελίδας είναι αυτή η ταμπέλα, σε λειτουργία συνεχούς δρομολογίου.',
+  },
+  {
+    para: 1,
+    anchor: 'χρονολόγηση της καρέκλας',
+    letter: 'δ΄',
+    note: 'Η καρέκλα επιστρέφει στην τελευταία παράγραφο, όπου σπάει στα πλευρά Γερμανού αστυνομικού. Η μεθοδολογική της σημασία για το αρχείο αναλύεται στη σελίδα «Τα στοιχεία διαφωνούν»: αν δύο άνθρωποι που ήταν παρόντες διαφωνούν για μια καρέκλα, φανταστείτε τι γίνεται με τις ημερομηνίες.',
+  },
+  {
+    para: 5,
+    anchor: 'βοηθό αποδείξεων',
+    letter: 'ε΄',
+    note: 'Το πρόβλημα των αδερφών παραμένει τυπικά ανοιχτό. Ο ιστότοπος επανέλαβε το πείραμα για το ερώτημα «ποιος είναι ο ηλίθιος και ποιος ο μπατίρης»· ο βοηθός αποδείξεων δεν τερμάτισε. Η αναστολή αποχαρακτηρισμού ανανεώνεται ετησίως.',
+  },
+  {
+    para: 5,
+    anchor: 'τετρακόσια δύο σκρολτς',
+    letter: 'στ΄',
+    note: 'Ο μετρητής στη γωνία της οθόνης σέβεται και τα δύο ρεκόρ: στα 402 ανακοινώνει, στα 411 ανησυχεί για το γόνατό σας. Διάστρεμμα για την ακρίβεια.',
+  },
+  {
+    para: 5,
+    anchor: '«Πο! Μπατζανάκη μου!»',
+    letter: 'ζ΄',
+    note: 'Η μοναδική λύση που επιτρέπει το σώμα των πηγών. Οι αδερφές υπήρχαν σε κάποιο επίπεδο· έφτασαν κρατώντας ένα διαμελισμένο αρκουδάκι και το αριστερό του πόδι.',
+  },
+];
+
+type Seg = { t: 'text'; s: string } | { t: 'fn1' } | { t: 'ann'; a: Ann };
+const rendered: { sep?: boolean; segs?: Seg[]; lede?: boolean }[] = [];
+let pIdx = 0;
+for (const p of paras) {
+  if (p === '§SEP§') { rendered.push({ sep: true }); continue; }
+  const anns = ANNS.filter((a) => a.para === pIdx).map((a) => {
+    const at = p.indexOf(a.anchor);
+    if (at === -1) console.warn(`[διηγημα] anchor not found (note ${a.letter} dropped): ${a.anchor}`);
+    return { a, at };
+  }).filter((x) => x.at !== -1).sort((x, y) => x.at - y.at);
+
+  const segs: Seg[] = [];
+  let cur = 0;
+  for (const { a, at } of anns) {
+    const end = at + a.anchor.length;
+    segs.push({ t: 'text', s: p.slice(cur, end) });
+    segs.push({ t: 'ann', a });
+    cur = end;
+  }
+  segs.push({ t: 'text', s: p.slice(cur) });
+
+  // the story's real footnote [1]
+  const out: Seg[] = [];
+  for (const s of segs) {
+    if (s.t === 'text' && s.s.includes('[1]')) {
+      const [before, after] = s.s.split('[1]');
+      out.push({ t: 'text', s: before }, { t: 'fn1' }, { t: 'text', s: after });
+    } else out.push(s);
+  }
+  rendered.push({ segs: out, lede: pIdx === 0 });
+  pIdx++;
+}
+---
+<Base title="Βλαξ — το διήγημα" current="διηγημα" palette="charti"
+  description="«Βλαξ», από τη συλλογή «Βατσ'νιές: Πυκνές καρτ-ποστάλ από τα Βαλκάνια». Το πλήρες κείμενο, με τη μία πραγματική υποσημείωση.">
+  <article class="reading" lang="el">
+    <header class="story-head">
+      <h1>Βλαξ</h1>
+      <p class="book small muted">από τη συλλογή <em>«Βατσ'νιές: Πυκνές καρτ-ποστάλ από τα Βαλκάνια»</em> (υπό έκδοση)</p>
+      <p class="book small muted disclaimer">Disclaimer: οποιαδήποτε ομοιότητα με πρόσωπα και καταστάσεις είναι συμπτωματική.</p>
+      <p class="book small muted">Οι σημειώσεις του περιθωρίου (α΄–ζ΄) είναι του γκρούπη, όχι του κειμένου. Το κείμενο δεν αγγίχτηκε.</p>
+    </header>
+
+    {rendered.map((r) =>
+      r.sep
+        ? <p class="sep" aria-hidden="true">✱&ensp;✱&ensp;✱</p>
+        : <p class={r.lede ? 'lede' : undefined}>
+            {r.segs!.map((s) =>
+              s.t === 'text' ? s.s
+              : s.t === 'fn1'
+                ? <Fn n="1">Η υποσημείωση [1] υπάρχει στο χειρόγραφο, αλλά δεν έχει φτάσει ακόμα στο αρχείο. Υπάρχει σε κάποιο επίπεδο. Όταν φτάσει, θα μπει εδώ αυτούσια. (Σημ. του γκρούπη.)</Fn>
+                : <Fn n={s.a.letter} nested>{s.a.note}</Fn>
+            )}
+          </p>
+    )}
+
+    <footer class="story-foot book small muted">
+      <p>Τέλος. Οι αδερφές, ως όφειλαν, στην τελευταία παράγραφο.</p>
+    </footer>
+  </article>
+</Base>
+<style>
+  .story-head { margin-bottom: 2.5rem; }
+  .story-head h1 {
+    /* the 2018 poster is set in a fat Didot on black; the story title honors it on paper */
+    font-family: var(--f-book);
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: clamp(3rem, 9vw, 5.5rem);
+    color: var(--fg);
+  }
+  .disclaimer { font-style: italic; }
+  .sep { text-align: center; color: var(--accent-2); letter-spacing: .4em; margin: 2.2rem 0; }
+  .story-foot { margin-top: 3rem; border-top: 1px solid var(--rule); padding-top: 1rem; }
+</style>
