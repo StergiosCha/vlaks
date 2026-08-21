@@ -6839,5 +6839,19 @@
   ],
   "fallback": "media/03d85b62a81b__480.jpg",
   "full": "media/03d85b62a81b__480.webp"
+ },
+ "afisa-2016.jpg": {
+  "key": "afisa-2016.jpg",
+  "w": 552,
+  "h": 773,
+  "variants": [
+   {
+    "w": 480,
+    "h": 672,
+    "file": "media/e143bc059bfc__480.webp"
+   }
+  ],
+  "fallback": "media/e143bc059bfc__480.jpg",
+  "full": "media/e143bc059bfc__480.webp"
  }
 }

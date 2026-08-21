@@ -17,7 +17,7 @@ import { parse } from 'csv-parse/sync';
 import { ARCHIVE_DIR, NORMALIZED_DIR, SITE_ROOT } from './paths';
 import { OVERRIDES, EXTRA_EVENTS, SUPPRESSED, type EventPatch } from '../data/overrides';
 
-export type Series = 'ΒΛΑΞ' | 'Radical Party' | 'Αθήνα' | 'Other' | 'Merch';
+export type Series = 'ΒΛΑΞ' | 'Περίχωρα' | 'Radical Party' | 'Αθήνα' | 'Other' | 'Merch';
 export type Confidence = 'exact' | 'inferred' | 'unknown';
 
 export interface MediaVariant { w: number; h: number; file: string }
@@ -167,7 +167,7 @@ export function loadEvents(): ArchiveEvent[] {
       volume: extra.volume,
       dateISO: extra.dateISO,
       dateDisplay: extra.dateDisplay ?? (extra.dateISO ? greekDate(extra.dateISO) : 'άγνωστη ημερομηνία'),
-      weekday: extra.dateISO ? greekWeekday(extra.dateISO) : undefined,
+      weekday: extra.dateISO && !extra.dateDisplay ? greekWeekday(extra.dateISO) : undefined,
       time: extra.time,
       venue: extra.venue ?? 'Fuit Art Cafe',
       city: extra.city ?? 'Γρεβενά',
@@ -243,6 +243,7 @@ export function seriesEvents() {
        .sort((a, b) => (a.dateISO ?? '9999').localeCompare(b.dateISO ?? '9999'));
   return {
     vlax: bySeries('ΒΛΑΞ'),
+    perixora: bySeries('Περίχωρα'),
     radical: bySeries('Radical Party'),
     athens: bySeries('Αθήνα'),
     other: all.filter((e) => e.series === 'Other'),

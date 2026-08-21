@@ -27,6 +27,7 @@ const LOOSE = [
   ['vlaks4.jpg', 'vlaks4.jpg'], // lipstick manifesto on the awning
   ['vlaks5.jpg', 'vlaks5.jpg'], // vol.3 «οι ντένεξ» tin-cans poster
   ['vlaks.jpg', 'xeirografo.jpg'], // the handwritten note
+  ['texts/afisa-2016-apo-fb.jpg', 'afisa-2016.jpg'], // vol.01 poster, extracted from the FB PDF
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
