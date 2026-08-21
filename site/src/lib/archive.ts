@@ -56,6 +56,7 @@ export interface ArchiveEvent {
   gallery: Asset[];
   poster?: MediaEntry;      // resolved from overrides' posterKey
   dual?: { series: Series; volume: string }; // e.g. 5th RP is also Αθήνα vol.02
+  sortKey?: string;         // chronology hint for dateless events (never displayed)
 }
 
 const GR_MONTHS = ['Ιανουαρίου','Φεβρουαρίου','Μαρτίου','Απριλίου','Μαΐου','Ιουνίου','Ιουλίου','Αυγούστου','Σεπτεμβρίου','Οκτωβρίου','Νοεμβρίου','Δεκεμβρίου'];
@@ -172,6 +173,7 @@ export function loadEvents(): ArchiveEvent[] {
       venue: extra.venue ?? 'Fuit Art Cafe',
       city: extra.city ?? 'Γρεβενά',
       confidence: extra.confidence ?? 'inferred',
+      sortKey: extra.sortKey,
       cancelled: extra.cancelled,
       announcement: extra.announcement,
       sources: extra.sources ?? [],
@@ -240,7 +242,7 @@ export function seriesEvents() {
   const all = loadEvents();
   const bySeries = (s: Series) =>
     all.filter((e) => e.series === s || e.dual?.series === s)
-       .sort((a, b) => (a.dateISO ?? '9999').localeCompare(b.dateISO ?? '9999'));
+       .sort((a, b) => (a.sortKey ?? a.dateISO ?? '9999').localeCompare(b.sortKey ?? b.dateISO ?? '9999'));
   return {
     vlax: bySeries('ΒΛΑΞ'),
     perixora: bySeries('Περίχωρα'),

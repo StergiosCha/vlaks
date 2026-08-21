@@ -39,7 +39,14 @@ const NAV = [
 <body class={`palette-${palette}`}>
   <a class="visually-hidden" href="#main">Μετάβαση στο περιεχόμενο</a>
   <header class="site">
-    <div class="shell">
+    <div class="shell nav-shell">
+      <a class="brand glitter" href={`${B}/`} aria-label="ΒΛΑΞ — αρχική">ΒΛΑ<span class="brand-xi">Ξ</span></a>
+      <input type="checkbox" id="burger" class="fn-toggle" aria-hidden="true" tabindex="-1" />
+      <label for="burger" class="burger" role="button" tabindex="0" aria-label="Μενού"
+        onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('burger').checked=!document.getElementById('burger').checked;}">
+        <span></span><span></span><span></span>
+        <span class="burger-word">μενού</span>
+      </label>
       <nav class="site-nav" aria-label="Κύρια πλοήγηση">
         {NAV.map(([slug, label]) => (
           <a

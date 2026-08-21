@@ -26,6 +26,7 @@ export interface EventPatch {
 
 export interface ExtraEvent extends EventPatch {
   id?: string;
+  sortKey?: string; // chronology hint for dateless events (never displayed)
   cancelled?: boolean;
   announcement?: string;
   announcementFromUrl?: string;
@@ -161,6 +162,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
     name: 'ΒΛΑΞ vol.02',
     series: 'ΒΛΑΞ',
     volume: 'vol.02',
+    sortKey: '2017-12-30',
     dateDisplay: 'κάπου μεταξύ Δεκεμβρίου 2017 και Ιανουαρίου 2018',
     confidence: 'inferred',
     announcement: 'Καμία αφίσα, καμία ανάρτηση, καμία φωτογραφία δεν έχει βρεθεί. Το πάρτι όμως έγινε — κάπου εκεί. Αν ήσουν, πες μας (σελίδα Κενά).',
@@ -207,6 +209,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
     id: 'vlax-2020',
     name: 'ΒΛΑΞ 2020 — δεν έγινε',
     series: 'ΒΛΑΞ',
+    sortKey: '2020-12-28',
     dateDisplay: 'Δεκέμβριος 2020',
     confidence: 'exact',
     cancelled: true,
@@ -219,6 +222,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
     id: 'vlax-2021',
     name: 'ΒΛΑΞ 2021 — δεν έγινε',
     series: 'ΒΛΑΞ',
+    sortKey: '2021-12-26',
     dateDisplay: 'Δεκέμβριος 2021',
     confidence: 'exact',
     cancelled: true,
