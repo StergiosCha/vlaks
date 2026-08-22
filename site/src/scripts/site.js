@@ -55,6 +55,33 @@ addEventListener('scroll', () => {
 }, { passive: true });
 render();
 
+/* ---------- κάνε σκρολτς: the act itself ---------- */
+let skroltsBusy = false;
+function doSkrolts() {
+  const figs = document.querySelectorAll('#skrolts-stage .fig');
+  if (skroltsBusy && figs.length) {
+    // pressed mid-jump: that's a διπλό σκρολτς, which requires χάρη
+    px += innerHeight;
+    sessionStorage.setItem('skrolts-px', String(px));
+    render();
+    toast('Διπλό σκρολτς;! Απαιτεί προετοιμασία, φυσική κατάσταση και χάρη. Μετρήθηκε πάντως.', 2600);
+    return;
+  }
+  px += innerHeight;
+  sessionStorage.setItem('skrolts-px', String(px));
+  render();
+  if (figs.length) {
+    skroltsBusy = true;
+    figs.forEach((f) => { f.classList.remove('go'); void f.getBoundingClientRect(); f.classList.add('go'); });
+    setTimeout(() => { figs.forEach((f) => f.classList.remove('go')); skroltsBusy = false; }, reduced ? 650 : 1050);
+  }
+  const n = count();
+  if (n === 1) toast('Ένα σκρολτς. Ημισπαγγάτο, επιστροφή, και πάλι από την αρχή.', 2200);
+  else if (n < 20) toast('σκρολτς!', 700);
+}
+document.getElementById('do-skrolts')?.addEventListener('click', doSkrolts);
+document.getElementById('skrolts-plus')?.addEventListener('click', doSkrolts);
+
 /* hovering the wordmark counts as a σκρολτς — it's in the colophon, so it's a rule */
 document.querySelectorAll('.wordmark').forEach((el) => {
   el.addEventListener('mouseenter', () => {

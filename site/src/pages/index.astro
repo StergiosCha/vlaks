@@ -64,6 +64,44 @@ const tape = [...vlax]
     </p>
   </section>
 
+  <section class="shell stage-wrap" id="skrolts-stage">
+    <h2>ΚΑΝΕ ΣΚΡΟΛΤΣ</h2>
+    <p class="book small muted">Κατά την υποσημείωση [1] του διηγήματος: «απλά πηδάς, πέφτοντας
+    ανοίγεις τα πόδια σε θέση ημισπαγγάτου, επιστρέφεις σε κανονική θέση και πάλι από την αρχή».
+    Το διπλό σκρολτς και το σκρολτς επί πάγου απαιτούν προετοιμασία, φυσική κατάσταση και χάρη·
+    εδώ δεν υποστηρίζονται, για λόγους πιστότητας.</p>
+    <div class="stage" aria-hidden="true">
+      <svg viewBox="0 0 320 170" class="figs" role="img">
+        <line x1="0" y1="150" x2="320" y2="150" class="floor" />
+        <g class="fig fig-a" transform="translate(110 0)">
+          <g class="body">
+            <polygon points="-12,38 12,38 0,16" class="hat-a" /><circle cx="8" cy="18" r="4" class="pom" />
+            <circle cx="0" cy="48" r="12" class="head" />
+            <line x1="0" y1="60" x2="0" y2="108" class="torso" />
+            <line x1="0" y1="72" x2="-22" y2="92" class="arm" /><line x1="0" y1="72" x2="22" y2="92" class="arm" />
+            <line x1="0" y1="108" x2="-10" y2="150" class="leg leg-l" />
+            <line x1="0" y1="108" x2="10" y2="150" class="leg leg-r" />
+          </g>
+        </g>
+        <g class="fig fig-b" transform="translate(210 0)">
+          <g class="body">
+            <path d="M-8,36 l-8,-14 M-8,36 l-2,-16 M8,36 l8,-14 M8,36 l2,-16" class="antler" />
+            <circle cx="0" cy="48" r="12" class="head" />
+            <line x1="0" y1="60" x2="0" y2="108" class="torso" />
+            <line x1="0" y1="72" x2="-22" y2="92" class="arm" /><line x1="0" y1="72" x2="22" y2="92" class="arm" />
+            <line x1="0" y1="108" x2="-10" y2="150" class="leg leg-l" />
+            <line x1="0" y1="108" x2="10" y2="150" class="leg leg-r" />
+          </g>
+        </g>
+        <text x="160" y="166" class="caption" text-anchor="middle">ο ηλίθιος · ο μπατίρης (δεν λέμε ποιος είναι ποιος)</text>
+      </svg>
+    </div>
+    <p class="stage-cta">
+      <button type="button" id="do-skrolts" class="btn-skrolts">ΚΑΝΕ ΣΚΡΟΛΤΣ</button>
+      <span class="book small muted">κάθε πάτημα = ένα σκρολτς στον μετρητή· ρεκόρ: 402 (2023), 411 (Ντίσελντορφ, με διάστρεμμα)</span>
+    </p>
+  </section>
+
   <section class="shell doors">
     <div class="pair">
       <a class="door" href={`${B}/διηγημα/`}>
@@ -111,6 +149,37 @@ const tape = [...vlax]
   .misos { border: 1px solid var(--rule); padding: 1.2rem 1.4rem; background: var(--surface); }
   .misos h2 { margin: 0 0 .4rem; }
   .misos p { margin: 0; }
+  .stage-wrap { margin: 2.5rem auto 0; text-align: center; }
+  .stage-wrap h2 { margin-bottom: .3rem; }
+  .stage-wrap > p { max-width: 40rem; margin-left: auto; margin-right: auto; }
+  .stage { max-width: 26rem; margin: .5rem auto 0; background: var(--surface); border: 1px solid var(--rule); padding: .5rem; }
+  .figs { width: 100%; height: auto; display: block; overflow: visible; }
+  .floor { stroke: var(--rule); stroke-width: 2; }
+  .head { fill: var(--charti); }
+  .torso, .arm, .leg { stroke: var(--charti); stroke-width: 4; stroke-linecap: round; }
+  .fig-a .torso, .fig-a .arm, .fig-a .leg { stroke: var(--xryso); } .fig-a .head { fill: var(--xryso); }
+  .fig-b .torso, .fig-b .arm, .fig-b .leg { stroke: var(--kokkino); } .fig-b .head { fill: var(--kokkino); }
+  .hat-a { fill: var(--kokkino); } .pom { fill: var(--charti); } .antler { stroke: var(--bez-arkoudaki); stroke-width: 3; stroke-linecap: round; fill: none; }
+  .caption { font-family: var(--f-note); font-size: 9px; fill: #b8a88e; }
+  .leg { transform-box: view-box; transform-origin: 0px 108px; }
+  .fig-a .leg { transform-origin: 110px 108px; } .fig-b .leg { transform-origin: 210px 108px; }
+  .fig.go .body { animation: skrolts-jump .9s cubic-bezier(.3,.7,.3,1) both; }
+  .fig.go .leg-l { animation: skrolts-split-l .9s ease-out both; }
+  .fig.go .leg-r { animation: skrolts-split-r .9s ease-out both; }
+  .fig-b.go .body, .fig-b.go .leg-l, .fig-b.go .leg-r { animation-delay: .12s; }
+  @keyframes skrolts-jump { 0% { transform: translateY(0); } 35% { transform: translateY(-46px); } 60% { transform: translateY(14px); } 78% { transform: translateY(14px); } 100% { transform: translateY(0); } }
+  @keyframes skrolts-split-l { 0%,35% { transform: rotate(0); } 60%,78% { transform: rotate(58deg); } 100% { transform: rotate(0); } }
+  @keyframes skrolts-split-r { 0%,35% { transform: rotate(0); } 60%,78% { transform: rotate(-58deg); } 100% { transform: rotate(0); } }
+  @media (prefers-reduced-motion: reduce) {
+    .fig.go .body, .fig.go .leg-l, .fig.go .leg-r { animation-timing-function: steps(2, end); animation-duration: .6s; }
+  }
+  .stage-cta { margin: 1rem auto 0; display: flex; flex-direction: column; gap: .5rem; align-items: center; }
+  .btn-skrolts {
+    font-family: var(--f-display); font-weight: 900; font-stretch: 62.5%; font-size: 1.6rem; letter-spacing: .04em;
+    background: var(--kokkino); color: #fff; border: 3px solid var(--xryso); padding: .5rem 1.6rem; cursor: pointer;
+  }
+  .btn-skrolts:hover { background: var(--xryso); color: var(--mavro); }
+  .btn-skrolts:active { transform: translateY(2px); }
   .doors { margin: 2rem auto 0; }
   .door {
     display: block;
