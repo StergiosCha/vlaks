@@ -287,7 +287,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
   },
   {
     id: 'per-10perimena',
-    name: '«teniwasexpecting» — ο Σουλιπόν και η τραγική φιγούρα Θάνος Γκουντάνος',
+    name: '«10 περίμενα» (teniwasexpecting) — ο Σουλιπόν και η τραγική φιγούρα Θάνος Γκουντάνος',
     series: 'Περίχωρα',
     dateISO: '2016-08-30',
     confidence: 'exact',
