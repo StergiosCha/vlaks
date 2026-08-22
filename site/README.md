@@ -25,7 +25,8 @@ and links «πρωτότυπο» to the public Blogger `/s0/` URLs.
 Built locally (raw/ lives here), published to the `gh-pages` branch:
 
 ```bash
-npm run build && npx gh-pages -d dist
+npm run deploy   # build + orphan force-push to gh-pages (no gh-pages tool)
+# (παλιά: npm run build && npx gh-pages -d dist
 ```
 
 Site: https://stergioscha.github.io/vlaks/ — set Pages → «Deploy from branch» → `gh-pages`.

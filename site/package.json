@@ -9,7 +9,8 @@
     "build": "node scripts/derivatives.mjs && astro build",
     "preview": "astro preview",
     "shots": "node scripts/screenshots.mjs",
-    "check:aklisia": "node scripts/check-aklisia.mjs"
+    "check:aklisia": "node scripts/check-aklisia.mjs",
+    "deploy": "bash scripts/deploy.sh"
   },
   "dependencies": {
     "astro": "^5.1.0",
