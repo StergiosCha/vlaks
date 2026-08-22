@@ -12,7 +12,7 @@ cd "$TMP"
 git init -q
 git checkout -q -b gh-pages
 git add -A
-git commit -q -m "deploy ΒΛΑΞ — $(date '+%Y-%m-%d %H:%M')"
+git commit -q -m "deploy ΒΛΑΞ, $(date '+%Y-%m-%d %H:%M')"
 git -c http.postBuffer=524288000 push --force https://github.com/StergiosCha/vlaks.git gh-pages:gh-pages
 cd / && rm -rf "$TMP"
 echo "=== Published → https://stergioscha.github.io/vlaks/ (δώσε ~1 λεπτό στο Pages) ==="

@@ -1,5 +1,5 @@
 /* ΒΛΑΞ site machinery: σκρολτς counter, milestones, ΠΑΟΚ easter egg, καφετιέρα.
-   No tracking, no cookies — localStorage only, and only for the record and the καφετιέρα. */
+   No tracking, no cookies, localStorage only, and only for the record and the καφετιέρα. */
 
 const $ = (s) => document.querySelector(s);
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -32,7 +32,7 @@ function milestone(n) {
   }
   if (n >= RECORD_DUSSELDORF && !announced.has(411)) {
     announced.add(411);
-    toast('411. Ισοφαρίσατε το Ντίσελντορφ. Προσοχή στο γόνατο — διάστρεμμα για την ακρίβεια.');
+    toast('411. Ισοφαρίσατε το Ντίσελντορφ. Προσοχή στο γόνατο. Διάστρεμμα για την ακρίβεια.');
   }
   if (n > RECORD_DUSSELDORF && n % 50 === 0 && !announced.has(n)) {
     announced.add(n);
@@ -82,7 +82,7 @@ function doSkrolts() {
 document.getElementById('do-skrolts')?.addEventListener('click', doSkrolts);
 document.getElementById('skrolts-plus')?.addEventListener('click', doSkrolts);
 
-/* hovering the wordmark counts as a σκρολτς — it's in the colophon, so it's a rule */
+/* hovering the wordmark counts as a σκρολτς, it's in the colophon, so it's a rule */
 document.querySelectorAll('.wordmark').forEach((el) => {
   el.addEventListener('mouseenter', () => {
     px += innerHeight;

@@ -2,13 +2,13 @@
  * Build-time loader for the ΒΛΑΞ archive.
  *
  * Sources, in rank order (nothing hand-copied without a citation):
- *  1. archive/timeline.csv + archive/assets.csv — the pinned merge.py output.
+ *  1. archive/timeline.csv + archive/assets.csv, the pinned merge.py output.
  *     (NEVER re-run `make merge`: archive/ is a pinned build, see DESIGN.md §10.)
- *  2. normalized/blogs.jsonl — full announcement texts (timeline.csv truncates at 200 chars).
- *  3. src/data/overrides.ts — curated corrections, each with an `evidence` field.
+ *  2. normalized/blogs.jsonl, full announcement texts (timeline.csv truncates at 200 chars).
+ *  3. src/data/overrides.ts, curated corrections, each with an `evidence` field.
  *     date_iso in the CSV is the blog PUBLISH timestamp, not the event date; real
  *     dates come from prose/titles/FB posts via overrides. Uncorrected -> asterisk.
- *  4. media-manifest.json — real image dimensions + generated derivatives
+ *  4. media-manifest.json, real image dimensions + generated derivatives
  *     (assets.csv records "0x0" for 822/825 rows).
  */
 import fs from 'node:fs';
@@ -32,7 +32,7 @@ export interface MediaEntry {
 export interface Asset {
   id: string;
   eventId: string;
-  remoteUrl: string;   // blogger /s0/ full-res (public, hotlinkable) — «πρωτότυπο»
+  remoteUrl: string;   // blogger /s0/ full-res (public, hotlinkable), «πρωτότυπο»
   local?: MediaEntry;  // present when we hold the file locally
   credit: string;      // domain-level only; no photographer names exist in the data
 }
@@ -52,7 +52,7 @@ export interface ArchiveEvent {
   cancelled?: boolean;
   announcement?: string;    // full text (blogs.jsonl), never the truncated CSV cell
   sources: SourceRef[];
-  evidence?: string[];      // why we believe the date/facts — rendered on the page
+  evidence?: string[];      // why we believe the date/facts, rendered on the page
   conflictNote?: string;
   gallery: Asset[];
   poster?: MediaEntry;      // resolved from overrides' posterKey
@@ -112,7 +112,7 @@ export function loadEvents(): ArchiveEvent[] {
   const byUrl = new Map<string, any>(blogs.map((b) => [b.source_url, b]));
   const manifest = mediaManifest();
 
-  // group assets per event; local_path in the CSV is an absolute Mac path — key by basename
+  // group assets per event; local_path in the CSV is an absolute Mac path, key by basename
   const assetsByEvent = new Map<string, Asset[]>();
   for (const a of assetRows) {
     const list = assetsByEvent.get(a.event_id) ?? [];

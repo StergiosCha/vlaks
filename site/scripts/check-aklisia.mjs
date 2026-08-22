@@ -1,8 +1,8 @@
 /** Το ακλισία-check: the name ΒΛΑΞ never declines anywhere in the built site.
  *  Fails the build on ΒΛΑΚ-/βλάκ-/Βλάκ- forms, except the sanctioned page title
- *  «Οι Βλάκες» / «ΟΙ ΒΛΑΚΕΣ» / «οι βλάκες» (which quotes people, not the name —
+ *  «Οι Βλάκες» / «ΟΙ ΒΛΑΚΕΣ» / «οι βλάκες» (which quotes people, not the name,
  *  itself footnoted on that page). The word «βλάκας» in running prose quoted from
- *  primary sources is allowed ONLY inside <blockquote> — checked crudely here by
+ *  primary sources is allowed ONLY inside <blockquote>, checked crudely here by
  *  allowing lines that also contain 'fbq' or 'blockquote'.
  */
 import fs from 'node:fs';
@@ -22,7 +22,7 @@ function walk(dir) {
     else if (f.endsWith('.html')) {
       const rel = path.relative(DIST, p);
       // the story text is sacred: the AUTHOR may decline common nouns (Ρούντολφ is
-      // «τελευταία πίστα βλάκας») — the rule governs the NAME in site chrome/prose
+      // «τελευταία πίστα βλάκας»), the rule governs the NAME in site chrome/prose
       if (rel.startsWith('διηγημα/')) continue;
       let html = fs.readFileSync(p, 'utf8');
       html = html.replace(/<blockquote[\s\S]*?<\/blockquote>/g, ''); // quoted primary sources
@@ -32,7 +32,7 @@ function walk(dir) {
     }
   }
 }
-if (!fs.existsSync(DIST)) { console.error('dist/ not found — build first'); process.exit(1); }
+if (!fs.existsSync(DIST)) { console.error('dist/ not found, build first'); process.exit(1); }
 walk(DIST);
 if (bad.length) {
   console.error('ΤΟ ΟΝΟΜΑ ΔΕΝ ΚΛΙΝΕΤΑΙ. Παραβάσεις:');

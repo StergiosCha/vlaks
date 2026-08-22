@@ -42,7 +42,7 @@ const LOOSE = [
   ['raw/own/gleifitzouria-kaktos.jpg', 'gleifitzouria-kaktos.jpg'],
   ['raw/own/kolara.jpg', 'kolara.jpg'],
   ['raw/own/trio-gyalia.jpg', 'trio-gyalia.jpg'],
-  // extracted from the saved FB PDF (21/08/2026) — τα περίχωρα
+  // extracted from the saved FB PDF (21/08/2026). Τα περίχωρα
   ['raw/own/pikatsu.jpg', 'pikatsu.jpg'],
   ['raw/own/grover.jpg', 'grover.jpg'],
   ['raw/own/istories-1.jpg', 'istories-1.jpg'],

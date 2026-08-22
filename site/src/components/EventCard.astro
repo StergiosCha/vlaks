@@ -20,17 +20,17 @@ const excerpt = e.announcement
         ? <Pic m={e.gallery.find((a) => a.local)!.local!} alt={`Φωτογραφία από: ${e.name}`} sizes="9rem" />
         : e.series === 'ΒΛΑΞ'
           ? <div class="noposter book small">αφίσα:<br />ζητείται<br />(→ <a href={`${B}/κενα/`}>Κενά</a>)</div>
-          : <div class="noposter quiet" aria-hidden="true">·</div>}
+          : <div class="noposter quiet" aria-hidden="true"></div>}
   </div>
   <div>
     <time datetime={e.dateISO}>
       {e.weekday ? `${e.weekday} ` : ''}{e.dateDisplay}{uncertain && <span class="asterisk" title="δεν το ξέρουμε στα αλήθεια"> *</span>}
     </time>
-    <h3>{e.cancelled ? <s>{e.name.replace(/ — δεν έγινε$/, '')}</s> : e.name}{e.cancelled && <span class="badge">δεν έγινε</span>}</h3>
+    <h3>{e.cancelled ? <s>{e.name.replace(/, δεν έγινε$/, '')}</s> : e.name}{e.cancelled && <span class="badge">δεν έγινε</span>}</h3>
     <p class="venue">
       {e.volume && <span class="badge">{e.volume}</span>}
       {e.dual && <span class="badge">και {e.dual.series} {e.dual.volume}</span>}
-      {e.venue}{e.city && e.venue !== 'άγνωστο' ? `, ${e.city}` : e.city ? ` — ${e.city}` : ''}{e.time ? ` · ${e.time}` : ''}
+      {e.venue}{e.city && e.venue !== 'άγνωστο' ? `, ${e.city}` : e.city ? `, ${e.city}` : ''}{e.time ? ` , ${e.time}` : ''}
     </p>
     {excerpt && <p class="ann">«{excerpt}»</p>}
     {e.evidence && (
@@ -46,7 +46,7 @@ const excerpt = e.announcement
       {e.gallery.filter((a) => a.local).length > 0 && (
         <a href={`${B}/φωτογραφιες/#${e.id}`}>γκάλερι ({e.gallery.filter((a) => a.local).length}) </a>
       )}
-      {e.sources.map((s) => <> · <a href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}
+      {e.sources.map((s) => <> / <a href={s.url} target="_blank" rel="noopener">{s.label}</a></>)}
     </p>
   </div>
 </article>

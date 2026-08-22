@@ -2,7 +2,7 @@
 /**
  * A photo from the archive: webp srcset + jpg fallback, real dimensions from the
  * manifest, lazy by default, uncropped always. Optional «πρωτότυπο» link to the
- * public Blogger /s0/ original (originals never ship with the site — 1.55 GB).
+ * public Blogger /s0/ original (originals never ship with the site, 1.55 GB).
  */
 import type { MediaEntry } from '../lib/archive';
 interface Props {
@@ -32,7 +32,7 @@ const srcset = m.variants.map((v) => `${B}/${v.file} ${v.w}w`).join(', ');
   {(caption || original) && (
     <figcaption>
       {caption}
-      {original && <> · <a href={original} target="_blank" rel="noopener">πρωτότυπο</a></>}
+      {original && <> , <a href={original} target="_blank" rel="noopener">πρωτότυπο</a></>}
     </figcaption>
   )}
 </figure>

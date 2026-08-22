@@ -7,7 +7,7 @@ import { media } from '../lib/archive';
 
 const lipstick = media('vlaks4.jpg');
 ---
-<Base title="Κρατήσεις — ΒΛΑΞ" current="κρατησεις" palette="lounapark"
+<Base title="Κρατήσεις  - ΒΛΑΞ" current="κρατησεις" palette="lounapark"
   description="Ντι-τζέιλίκια αναλαμβάνονται, πολύ επιλεκτικά. Ζήτα προσφορά και θα δούμε αν μπορούμε. Σκόντο δεν γίνεται.">
   <div class="shell">
     <h1>ΚΡΑΤΗΣΕΙΣ</h1>
@@ -36,7 +36,7 @@ const lipstick = media('vlaks4.jpg');
         <li>3 χιλιάρικα το λάιβ.</li>
         <li>Ένα χιλιάρικο ο μάνατζερ.</li>
         <li>Ό,τι ζητήσει ο γκρούπης.</li>
-        <li>Σκόντο δεν γίνεται — η δουλειά είναι δουλειά.<Fn n="18">
+        <li>Σκόντο δεν γίνεται. Η δουλειά είναι δουλειά.<Fn n="18">
           Ισχύει και για γάμους αδερφών. Τεκμηριωμένο προηγούμενο στο διήγημα: στον γάμο του
           αδερφού του ενός βλαξ, πλήρες τιμολόγιο. «Διασκέδαση ήθελα, θα πλερώ», είπε ο αδερφός,
           και έγινε ο γάμος μια χαρά και δυο τρομάρες.
@@ -48,33 +48,33 @@ const lipstick = media('vlaks4.jpg');
 
       <h2 id="prosfora">Ζήτα προσφορά</h2>
       <p class="book small muted">Συμπλήρωσε, πάτα το κουμπί, και ανοίγει το email σου με όλα
-      έτοιμα προς <a href="mailto:kafouroutsos@gmail.com">kafouroutsos@gmail.com</a>. Εδώ δεν αποθηκεύεται τίποτα — κούκις δεν
-      έχουμε. Το email το διαβάζει ο γκρούπης· ποιος από τους δυο βλαξ αποφασίζει, δεν λέμε.</p>
+      έτοιμα προς <a href="mailto:kafouroutsos@gmail.com">kafouroutsos@gmail.com</a>. Εδώ δεν αποθηκεύεται τίποτα. Κούκις δεν
+      έχουμε. Το email το διαβάζει ο γκρούπης. Ποιος από τους δυο βλαξ αποφασίζει, δεν λέμε.</p>
       <form id="prosfora-form" class="prosfora" action="mailto:kafouroutsos@gmail.com" method="post" enctype="text/plain">
         <label>Ποιος ρωτάει
           <input type="text" name="onoma" autocomplete="name" placeholder="όνομα, ή ψευδώνυμο, ή «ο θαμώνας με την καρέκλα»" />
         </label>
-        <label>Το ιβέντ — τι είναι;<span class="req">*</span>
+        <label>Το ιβέντ: τι είναι;<span class="req">*</span>
           <input type="text" name="event" required placeholder="π.χ. γάμος (αδερφών;), εγκαίνια, σαράντα, κάτι που δεν έχει όνομα ακόμα" />
         </label>
         <label>Ημερομηνία<span class="req">*</span>
           <input type="date" name="imerominia" required />
         </label>
         <label>Πείσε μας ότι πρέπει να παίξουμε<span class="req">*</span>
-          <textarea name="peise" rows="4" required placeholder="Η δουλειά είναι δουλειά, αλλά επιλέγουμε. Τα επιχειρήματα μετράνε· τα αρκουδάκια περισσότερο."></textarea>
+          <textarea name="peise" rows="4" required placeholder="Η δουλειά είναι δουλειά, αλλά επιλέγουμε. Τα επιχειρήματα μετράνε. Τα αρκουδάκια περισσότερο."></textarea>
         </label>
         <label>Γιατί οι βλαξ;<span class="req">*</span>
           <textarea name="giati" rows="3" required placeholder="Γιατί όχι κάποιος που ξέρει τουλάχιστον ένα τραγούδι;"></textarea>
         </label>
         <label>Μια ανάμνηση από τους βλαξ
-          <textarea name="anamnisi" rows="3" placeholder="Αν δεν έχεις, φτιάξε μία — θα καταγραφεί στα Κενά ως διαφωνία, δίπλα στην καρέκλα."></textarea>
+          <textarea name="anamnisi" rows="3" placeholder="Αν δεν έχεις, φτιάξε μία, θα καταγραφεί στα Κενά ως διαφωνία, δίπλα στην καρέκλα."></textarea>
         </label>
         <label>Πώς να σου απαντήσουμε
           <input type="text" name="epikoinonia" autocomplete="email" placeholder="email ή τηλέφωνο (αν δεν βάλεις, απαντάμε στο email απ' όπου θα μας γράψεις)" />
         </label>
         <p class="cta">
           <button type="submit" class="btn">Ζήτα προσφορά</button>
-          <span class="book small muted">ανοίγει το πρόγραμμα email σου · εναλλακτικά,
+          <span class="book small muted">ανοίγει το πρόγραμμα email σου, εναλλακτικά,
           <a href="https://www.facebook.com/alexandros.chantzis" target="_blank" rel="noopener">μήνυμα στο φβ</a></span>
         </p>
       </form>
@@ -84,8 +84,8 @@ const lipstick = media('vlaks4.jpg');
           if (!f) return;
           f.addEventListener('submit', function (e) {
             e.preventDefault();
-            var v = function (n) { var el = f.elements[n]; return el && el.value ? el.value.trim() : '—'; };
-            var subject = 'Προσφορά ΒΛΑΞ — ' + v('event') + ' — ' + v('imerominia');
+            var v = function (n) { var el = f.elements[n]; return el && el.value ? el.value.trim() : '(κενό)'; };
+            var subject = 'Προσφορά ΒΛΑΞ: ' + v('event') + ', ' + v('imerominia');
             var body = [
               'ΑΙΤΗΜΑ ΠΡΟΣΦΟΡΑΣ ΒΛΑΞ (από τη σελίδα Κρατήσεις)',
               '',
@@ -112,7 +112,7 @@ const lipstick = media('vlaks4.jpg');
       </script>
 
       <h2>Οι οδηγίες ασφαλείας</h2>
-      <p class="book small muted">Πρωτογενής πηγή — «ΟΔΗΓΙΕΣ ΓΙΑ ΣΗΜΕΡΑ», του Αλέξανδρου Χαντζή,
+      <p class="book small muted">Πρωτογενής πηγή: «ΟΔΗΓΙΕΣ ΓΙΑ ΣΗΜΕΡΑ», του Αλέξανδρου Χαντζή,
       αχρονολόγητες και μονίμως εν ισχύι:</p>
       <blockquote class="book odigies">
         <ol>

@@ -366,7 +366,7 @@ footer.site a { color: var(--xryso); }
 @keyframes unfurl { from { transform: scaleY(0); } to { transform: scaleY(1); } }
 @media (prefers-reduced-motion: reduce) { #pano .fabric { animation: none; } }
 
-/* redaction — ο κανόνας της μαύρης μπάρας */
+/* redaction. Ο κανόνας της μαύρης μπάρας */
 .redacted {
   background: var(--melani);
   color: var(--melani);
@@ -388,7 +388,7 @@ hr.double { border: none; border-top: 3px double var(--rule); margin: 2.5rem 0; 
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 
 /* ---------- sidenote lane on .shell (dark) pages ----------
-   headings/intros leave room for the margin notes; wide blocks clear them —
+   headings/intros leave room for the margin notes; wide blocks clear them,
    no note ever lands on top of a column again */
 @media (min-width: 64rem) {
   .shell > h1, .shell > p.intro, .shell > p.book, .shell > p.epigraph { max-width: calc(100% - var(--margin-notes) - 4rem); }

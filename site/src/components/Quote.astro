@@ -1,7 +1,7 @@
 ---
 /**
  * A primary-source quote (usually a Facebook post). Renders ⟦…⟧ spans as visible
- * redaction bars — ο κανόνας της μαύρης μπάρας (DESIGN.md §3). Nothing is silently
+ * redaction bars. Ο κανόνας της μαύρης μπάρας (DESIGN.md §3). Nothing is silently
  * rewritten; redaction is always visible.
  */
 import type { FbQuote } from '../data/fbPosts';
@@ -21,7 +21,7 @@ const parts = q.text.split(/(⟦[^⟧]*⟧)/g).filter(Boolean).map((p) =>
         : p.text
     )}»
   </p>
-  <footer class="small muted">— {q.author}, {q.dateDisplay}{q.note && <span class="book"> · {q.note}</span>}</footer>
+  <footer class="small muted">{q.author}, {q.dateDisplay}{q.note && <span class="book"> , {q.note}</span>}</footer>
 </blockquote>
 <style>
   .fbq { margin: 1.4rem 0; padding-left: 1rem; border-left: 3px solid var(--accent-2); }

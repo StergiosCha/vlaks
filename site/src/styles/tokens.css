@@ -1,10 +1,10 @@
-/* ΒΛΑΞ — design tokens.
+/* ΒΛΑΞ, design tokens.
    Sampled from the real artifacts:
    prohibition red = the vol.04 circle AND the fuit logo (identical), poster grey,
    tin-poster black, awning beige, lipstick, curaçao, lollipop tongue. */
 
 :root {
-  /* — primary: το σκυλάδικο — */
+  /*, primary: το σκυλάδικο, */
   --mavro: #0a0605;
   --kokkino: #f3101e;
   --xryso: #d9a92f;
@@ -13,14 +13,14 @@
   --gri-afisas: #615d5c;
   --melani: #1c1512; /* ink on paper */
 
-  /* — secondary: το λούνα παρκ — */
+  /*, secondary: το λούνα παρκ, */
   --mov-gleifitzouri: #8e3fa8;
   --mov-vathy: #5e2373;
   --bez-arkoudaki: #c8ae8b;
   --ble-kourasao: #1f9fd8;
   --kragion: #522f29;
 
-  /* — bus sign — */
+  /*, bus sign, */
   --portokali-tampelas: #ffb400;
 
   /* type */

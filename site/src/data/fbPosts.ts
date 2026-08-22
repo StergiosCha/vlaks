@@ -1,11 +1,11 @@
 /**
  * Curated primary-source quotes from the owners' public Facebook posts.
- * Full transcriptions: ../../texts/fb-posts-transcript.md (posts A–Q) — extracted from the
+ * Full transcriptions: ../../texts/fb-posts-transcript.md (posts A–Q), extracted from the
  * saved search PDF, gaps at page breaks marked there. Post R supplied separately (20/08/2018).
  *
  * Redaction rule (DESIGN.md §3): quotes revealing which μπατζανάκης is «ο ηλίθιος» and which
  * «ο μπατίρης» carry visible ██ bars. The archive knows; the site refuses.
- * Mark redactions with ⟦…⟧ — the Quote component renders them as bars.
+ * Mark redactions with ⟦…⟧, the Quote component renders them as bars.
  */
 export interface FbQuote {
   id: string;
@@ -101,7 +101,7 @@ export const FB: Record<string, FbQuote> = {
   mylos: {
     id: 'mylos',
     date: '',
-    dateDisplay: 'αχρονολόγητο ριπόρτ επομένης (πιθανώς vol.03 ή vol.04 — αν θυμάσαι, Κενά)',
+    dateDisplay: 'αχρονολόγητο ριπόρτ επομένης (πιθανώς vol.03 ή vol.04. Αν θυμάσαι, Κενά)',
     author: 'Αλέξανδρος Χαντζής',
     text: 'Για το πιο ωραίο κομμάτι που παίξαμε χτες το βράδυ. Του είπα να μην το βάλει. Αυτός είπε θα το βάλω. Του λέω μην το βάλεις Στέργιο, δεν θα καταλάβει κανείς τίποτα. Το έβαλε. Μέσα έγινε μύλος. Σηκώθηκε το μαγαζί στον αέρα. Ήταν το σύνθημα του ΠΑΟΚ με τον τρελογιατρό. Καθιερώθηκε κι αυτό για του χρόνου.',
   },
@@ -118,7 +118,7 @@ export const FB: Record<string, FbQuote> = {
     date: '',
     dateDisplay: 'από το ίδιο ριπόρτ',
     author: 'Αλέξανδρος Χαντζής',
-    text: 'Ο ιδιοκτήτης του μαγαζιού, πριν χορέψει ζεϊμπέκικο κι εκσφενδονίσει ένα σκαμπό σαν ακόντιο προς την πόρτα, πριν κεράσει γλειφιτζούρια όλο το μαγαζί, πριν ανεβεί στο μπαρ να παίξει μπουζούκι — σε διάλογο με το περυσινό αντίστοιχο σκηνικό που ανέβηκε στο μπαρ για να παίξει τρομπέτα συνοδεύοντας τον Παντελίδη στο «Γίνεται» — ήταν σοβαρός. Για τα πρώτα πέντε λεπτά δηλαδή.',
+    text: 'Ο ιδιοκτήτης του μαγαζιού, πριν χορέψει ζεϊμπέκικο κι εκσφενδονίσει ένα σκαμπό σαν ακόντιο προς την πόρτα, πριν κεράσει γλειφιτζούρια όλο το μαγαζί, πριν ανεβεί στο μπαρ να παίξει μπουζούκι (σε διάλογο με το περυσινό αντίστοιχο σκηνικό που ανέβηκε στο μπαρ για να παίξει τρομπέτα συνοδεύοντας τον Παντελίδη στο «Γίνεται»), ήταν σοβαρός. Για τα πρώτα πέντε λεπτά δηλαδή.',
   },
   zouraris2016: {
     id: 'zouraris2016',

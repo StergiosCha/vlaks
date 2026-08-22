@@ -1,5 +1,5 @@
 /** Screenshot every page at mobile + desktop into ../screenshots/.
- *  Run with the preview server up: npm run preview (port 4362) — or pass BASE_URL. */
+ *  Run with the preview server up: npm run preview (port 4362), or pass BASE_URL. */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

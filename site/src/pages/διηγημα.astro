@@ -1,9 +1,9 @@
 ---
 /**
- * Το διήγημα — the centrepiece. The text is read from vlaks.txt at build time and is
+ * Το διήγημα, the centrepiece. The text is read from vlaks.txt at build time and is
  * SACRED: nothing is altered, corrected or "improved". The groupie's sidenotes (α΄, β΄…)
  * are an edition layer anchored on exact substrings; if an anchor is not found the note
- * is dropped with a build warning — the text always wins. The story's real footnote [1]
+ * is dropped with a build warning, the text always wins. The story's real footnote [1]
  * keeps its number; site-wide numbering continues from it (see colophon).
  */
 import fs from 'node:fs';
@@ -32,7 +32,7 @@ const ANNS: Ann[] = [
     para: 1,
     anchor: 'Αθηναϊκό σκυλάδικο',
     letter: 'β΄',
-    note: 'Κωστής Παπαγιώργης — η ανατομία της νυχτερινής διασκέδασης, οκτώ χρόνια επιτόπιας έρευνας σε σκυλάδικο ωμέγα κατηγορίας με κακό ουίσκι, όπως ομολογεί ο αφηγητής παρακάτω. Το «τζάμπα κέφι και τζάμπα παρεξηγήσεις» είναι η επιγραφή της σελίδας Μουσική.',
+    note: 'Κωστής Παπαγιώργης, η ανατομία της νυχτερινής διασκέδασης, οκτώ χρόνια επιτόπιας έρευνας σε σκυλάδικο ωμέγα κατηγορίας με κακό ουίσκι, όπως ομολογεί ο αφηγητής παρακάτω. Το «τζάμπα κέφι και τζάμπα παρεξηγήσεις» είναι η επιγραφή της σελίδας Μουσική.',
   },
   {
     para: 1,
@@ -50,7 +50,7 @@ const ANNS: Ann[] = [
     para: 5,
     anchor: 'βοηθό αποδείξεων',
     letter: 'ε΄',
-    note: 'Το πρόβλημα των αδερφών παραμένει τυπικά ανοιχτό. Ο ιστότοπος επανέλαβε το πείραμα για το ερώτημα «ποιος είναι ο ηλίθιος και ποιος ο μπατίρης»· ο βοηθός αποδείξεων δεν τερμάτισε. Η αναστολή αποχαρακτηρισμού ανανεώνεται ετησίως.',
+    note: 'Το πρόβλημα των αδερφών παραμένει τυπικά ανοιχτό. Ο ιστότοπος επανέλαβε το πείραμα για το ερώτημα «ποιος είναι ο ηλίθιος και ποιος ο μπατίρης». Ο βοηθός αποδείξεων δεν τερμάτισε. Η αναστολή αποχαρακτηρισμού ανανεώνεται ετησίως.',
   },
   {
     para: 5,
@@ -62,7 +62,7 @@ const ANNS: Ann[] = [
     para: 5,
     anchor: '«Πο! Μπατζανάκη μου!»',
     letter: 'ζ΄',
-    note: 'Η μοναδική λύση που επιτρέπει το σώμα των πηγών. Οι αδερφές υπήρχαν σε κάποιο επίπεδο· έφτασαν κρατώντας ένα διαμελισμένο αρκουδάκι και το αριστερό του πόδι.',
+    note: 'Η μοναδική λύση που επιτρέπει το σώμα των πηγών. Οι αδερφές υπήρχαν σε κάποιο επίπεδο. Έφτασαν κρατώντας ένα διαμελισμένο αρκουδάκι και το αριστερό του πόδι.',
   },
 ];
 
@@ -99,7 +99,7 @@ for (const p of paras) {
   pIdx++;
 }
 ---
-<Base title="Βλαξ — το διήγημα" current="διηγημα" palette="charti"
+<Base title="Βλαξ: το διήγημα" current="διηγημα" palette="charti"
   description="«Βλαξ», από τη συλλογή «Βατσ'νιές: Πυκνές καρτ-ποστάλ από τα Βαλκάνια». Το πλήρες κείμενο, με τη μία πραγματική υποσημείωση.">
   <article class="reading" lang="el">
     <header class="story-head">
