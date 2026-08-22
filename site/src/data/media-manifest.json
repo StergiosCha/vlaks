@@ -6884,8 +6884,8 @@
  },
  "afisa-vol04-hires.jpg": {
   "key": "afisa-vol04-hires.jpg",
-  "w": 1080,
-  "h": 1533,
+  "w": 3504,
+  "h": 4971,
   "variants": [
    {
     "w": 480,
@@ -6894,12 +6894,22 @@
    },
    {
     "w": 960,
-    "h": 1363,
+    "h": 1362,
     "file": "media/eb9aaef39418__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2270,
+    "file": "media/eb9aaef39418__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3632,
+    "file": "media/eb9aaef39418__2560.webp"
    }
   ],
   "fallback": "media/eb9aaef39418__960.jpg",
-  "full": "media/eb9aaef39418__960.webp"
+  "full": "media/eb9aaef39418__2560.webp"
  },
  "nixta.jpg": {
   "key": "nixta.jpg",
@@ -7224,5 +7234,183 @@
   ],
   "fallback": "media/f78849c68f4d__387.jpg",
   "full": "media/f78849c68f4d__387.webp"
+ },
+ "afisa-vol01-hires.jpg": {
+  "key": "afisa-vol01-hires.jpg",
+  "w": 714,
+  "h": 1000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 672,
+    "file": "media/47f8a2a3d5ba__480.webp"
+   }
+  ],
+  "fallback": "media/47f8a2a3d5ba__480.jpg",
+  "full": "media/47f8a2a3d5ba__480.webp"
+ },
+ "afisa-vol02-hires.jpg": {
+  "key": "afisa-vol02-hires.jpg",
+  "w": 3504,
+  "h": 4971,
+  "variants": [
+   {
+    "w": 480,
+    "h": 681,
+    "file": "media/64f5121e4e2f__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1362,
+    "file": "media/64f5121e4e2f__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2270,
+    "file": "media/64f5121e4e2f__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3632,
+    "file": "media/64f5121e4e2f__2560.webp"
+   }
+  ],
+  "fallback": "media/64f5121e4e2f__960.jpg",
+  "full": "media/64f5121e4e2f__2560.webp"
+ },
+ "afisa-propolisi-2018.jpg": {
+  "key": "afisa-propolisi-2018.jpg",
+  "w": 3504,
+  "h": 4971,
+  "variants": [
+   {
+    "w": 480,
+    "h": 681,
+    "file": "media/6e5b3189ed44__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1362,
+    "file": "media/6e5b3189ed44__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2270,
+    "file": "media/6e5b3189ed44__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3632,
+    "file": "media/6e5b3189ed44__2560.webp"
+   }
+  ],
+  "fallback": "media/6e5b3189ed44__960.jpg",
+  "full": "media/6e5b3189ed44__2560.webp"
+ },
+ "afisa-vol03-hires.jpg": {
+  "key": "afisa-vol03-hires.jpg",
+  "w": 3504,
+  "h": 4971,
+  "variants": [
+   {
+    "w": 480,
+    "h": 681,
+    "file": "media/eef6567b34a6__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1362,
+    "file": "media/eef6567b34a6__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2270,
+    "file": "media/eef6567b34a6__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3632,
+    "file": "media/eef6567b34a6__2560.webp"
+   }
+  ],
+  "fallback": "media/eef6567b34a6__960.jpg",
+  "full": "media/eef6567b34a6__2560.webp"
+ },
+ "afisa-vol04-parallagi.jpg": {
+  "key": "afisa-vol04-parallagi.jpg",
+  "w": 3504,
+  "h": 4971,
+  "variants": [
+   {
+    "w": 480,
+    "h": 681,
+    "file": "media/6574370bee65__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1362,
+    "file": "media/6574370bee65__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2270,
+    "file": "media/6574370bee65__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3632,
+    "file": "media/6574370bee65__2560.webp"
+   }
+  ],
+  "fallback": "media/6574370bee65__960.jpg",
+  "full": "media/6574370bee65__2560.webp"
+ },
+ "afisa-2021-asteia.jpg": {
+  "key": "afisa-2021-asteia.jpg",
+  "w": 3504,
+  "h": 4971,
+  "variants": [
+   {
+    "w": 480,
+    "h": 681,
+    "file": "media/27ac2ea39f49__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1362,
+    "file": "media/27ac2ea39f49__960.webp"
+   },
+   {
+    "w": 1600,
+    "h": 2270,
+    "file": "media/27ac2ea39f49__1600.webp"
+   },
+   {
+    "w": 2560,
+    "h": 3632,
+    "file": "media/27ac2ea39f49__2560.webp"
+   }
+  ],
+  "fallback": "media/27ac2ea39f49__960.jpg",
+  "full": "media/27ac2ea39f49__2560.webp"
+ },
+ "afisa-athina-2024.jpg": {
+  "key": "afisa-athina-2024.jpg",
+  "w": 1125,
+  "h": 2000,
+  "variants": [
+   {
+    "w": 480,
+    "h": 853,
+    "file": "media/aa8242d89add__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 1707,
+    "file": "media/aa8242d89add__960.webp"
+   }
+  ],
+  "fallback": "media/aa8242d89add__960.jpg",
+  "full": "media/aa8242d89add__960.webp"
  }
 }

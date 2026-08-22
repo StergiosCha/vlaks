@@ -54,6 +54,15 @@ const LOOSE = [
   ['raw/own/balkan-4.jpg', 'balkan-4.jpg'],
   ['raw/own/balkan-5.jpg', 'balkan-5.jpg'],
   ['raw/own/sundoeach.jpg', 'sundoeach.jpg'], // ο Φούιτ σήμερα: Sun Do Each, Θεσσαλονίκη
+  // αφίσες σε τυπογραφική ανάλυση, από τον φάκελο των ιδίων (22/08/2026)
+  ['raw/own/afises/afisa-vol01-hires.jpg', 'afisa-vol01-hires.jpg'],
+  ['raw/own/afises/afisa-vol02-hires.jpg', 'afisa-vol02-hires.jpg'],
+  ['raw/own/afises/afisa-propolisi-2018.jpg', 'afisa-propolisi-2018.jpg'],
+  ['raw/own/afises/afisa-vol03-hires.jpg', 'afisa-vol03-hires.jpg'],
+  ['raw/own/afises/afisa-vol04-hires.jpg', 'afisa-vol04-hires.jpg'],
+  ['raw/own/afises/afisa-vol04-parallagi.jpg', 'afisa-vol04-parallagi.jpg'],
+  ['raw/own/afises/afisa-2021-asteia.jpg', 'afisa-2021-asteia.jpg'],
+  ['raw/own/afises/afisa-athina-2024.jpg', 'afisa-athina-2024.jpg'],
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
