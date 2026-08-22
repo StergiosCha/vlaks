@@ -88,8 +88,42 @@ const trombone = media('vlaks1.jpg');
       ο κ. Γκουντάνος, κατά τις πηγές του 2016, «δεν θα δεχτεί έκπτωση κάτω του 60%».</p>
       <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/nEymwH872vk" title="10 περίμενα (teniwasexpecting) — Καφουρούτσος" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
 
-      <p class="book small muted">Αν έχεις έστω δέκα δευτερόλεπτα βίντεο με ήχο από οποιοδήποτε
-      vol.: <a href={`${B}/κενα/`}>Κενά</a>. Θα το μεταχειριστούμε σαν τον Δίσκο της Φαιστού.</p>
+    </section>
+
+    <section id="faistos">
+      <h2>Ο Δίσκος της Φαιστού</h2>
+      <p class="book">
+        Υποσχεθήκαμε στη σελίδα <a href={`${B}/κενα/`}>Κενά</a> ότι αν βρεθούν έστω δέκα
+        δευτερόλεπτα ήχου από πάρτι, θα τα μεταχειριστούμε σαν τον Δίσκο της Φαιστού. Βρέθηκαν
+        τριάντα έξι.<Fn n="20">
+          Τρία βίντεο από τον φάκελο του 2016 — δηλαδή από το vol.01, 29 Δεκεμβρίου 2016.
+          Εννιά, δέκα και δεκαεπτά δευτερόλεπτα· 1080p, σκοτεινά όσο πρέπει, με ήχο που ο
+          μετρητής δίνει κατά μέσο όρο −11 dB και με κορυφές στο μηδέν. Δηλαδή: ένα δωμάτιο
+          στη μέγιστη ένταση. Είναι, μέχρι στιγμής, η μοναδική ηχητική μαρτυρία ΒΛΑΞ πάρτι
+          που σώζεται οπουδήποτε.
+        </Fn> Ό,τι ακούγεται, ακούγεται όπως ακουγόταν.
+      </p>
+      <div class="clips">
+        {[
+          { src: 'vol01-1', poster: 'vol01-1-poster.jpg', label: '9″ — κοντινό πλάνο, αγιοβασιλιάτικο σκουφί, λαμπάκια στο βάθος' },
+          { src: 'vol01-2', poster: 'vol01-2-poster.jpg', label: '10″ — βεγγαλικά ψηλά, χέρια στον αέρα, το μαγαζί γεμάτο' },
+          { src: 'vol01-3', poster: 'vol01-3-poster.jpg', label: '17″ — το μπαρ, οι κανάτες, ο κόσμος από πίσω' },
+        ].map((c) => {
+          const pm = media(c.poster);
+          return (
+            <figure class="clip">
+              <video controls preload="none" playsinline poster={pm ? `${B}/${pm.fallback}` : undefined}>
+                <source src={`${B}/video/${c.src}.mp4`} type="video/mp4" />
+                Ο περιηγητής σου δεν παίζει βίντεο. Ούτε το λάπτοπ των βλαξ έπαιζε, μερικές φορές.
+              </video>
+              <figcaption>{c.label}</figcaption>
+            </figure>
+          );
+        })}
+      </div>
+      <p class="book small muted">Τι ακριβώς παίζει σε κάθε κλιπ, δεν το έχουμε ταυτοποιήσει.
+      Αν αναγνωρίσεις το κομμάτι — ή τη φωνή — <a href={`${B}/κενα/`}>πες μας</a>. Κάπου εκεί
+      μέσα πρέπει να είναι ο πρώτος Νίνο της βραδιάς.</p>
     </section>
   </div>
 </Base>
@@ -105,4 +139,8 @@ const trombone = media('vlaks1.jpg');
   h3 { color: var(--accent); margin-top: 1.5rem; }
   .video { position: relative; max-width: 44rem; aspect-ratio: 16 / 9; margin: 1rem 0 1.5rem; border: 4px solid #241a12; background: #000; }
   .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .clips { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 1.2rem; margin: 1.5rem 0; }
+  .clip { margin: 0; }
+  .clip video { width: 100%; display: block; background: #000; border: 4px solid #241a12; }
+  .clip figcaption { font-family: var(--f-note); font-size: .82rem; padding-top: .4rem; color: color-mix(in srgb, var(--fg) 70%, var(--bg)); }
 </style>

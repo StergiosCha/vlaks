@@ -7412,5 +7412,52 @@
   ],
   "fallback": "media/aa8242d89add__960.jpg",
   "full": "media/aa8242d89add__960.webp"
+ },
+ "vol01-1-poster.jpg": {
+  "key": "vol01-1-poster.jpg",
+  "w": 406,
+  "h": 720,
+  "variants": [
+   {
+    "w": 406,
+    "h": 720,
+    "file": "media/f43d3a36074d__406.webp"
+   }
+  ],
+  "fallback": "media/f43d3a36074d__406.jpg",
+  "full": "media/f43d3a36074d__406.webp"
+ },
+ "vol01-2-poster.jpg": {
+  "key": "vol01-2-poster.jpg",
+  "w": 1280,
+  "h": 720,
+  "variants": [
+   {
+    "w": 480,
+    "h": 270,
+    "file": "media/ab0cf29de6fd__480.webp"
+   },
+   {
+    "w": 960,
+    "h": 540,
+    "file": "media/ab0cf29de6fd__960.webp"
+   }
+  ],
+  "fallback": "media/ab0cf29de6fd__960.jpg",
+  "full": "media/ab0cf29de6fd__960.webp"
+ },
+ "vol01-3-poster.jpg": {
+  "key": "vol01-3-poster.jpg",
+  "w": 406,
+  "h": 720,
+  "variants": [
+   {
+    "w": 406,
+    "h": 720,
+    "file": "media/3f483acf8db1__406.webp"
+   }
+  ],
+  "fallback": "media/3f483acf8db1__406.jpg",
+  "full": "media/3f483acf8db1__406.webp"
  }
 }

@@ -63,6 +63,10 @@ const LOOSE = [
   ['raw/own/afises/afisa-vol04-parallagi.jpg', 'afisa-vol04-parallagi.jpg'],
   ['raw/own/afises/afisa-2021-asteia.jpg', 'afisa-2021-asteia.jpg'],
   ['raw/own/afises/afisa-athina-2024.jpg', 'afisa-athina-2024.jpg'],
+  // καρέ-αφίσες για τα τρία βίντεο του vol.01
+  ['raw/own/video/vol01-1-poster.jpg', 'vol01-1-poster.jpg'],
+  ['raw/own/video/vol01-2-poster.jpg', 'vol01-2-poster.jpg'],
+  ['raw/own/video/vol01-3-poster.jpg', 'vol01-3-poster.jpg'],
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
