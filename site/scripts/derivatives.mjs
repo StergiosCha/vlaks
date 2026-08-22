@@ -72,6 +72,17 @@ const LOOSE = [
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
 const sources = [];
+// party photographs from the owners' own folder, keyed by filename
+const PARTIES_SRC = path.join(REPO, 'raw', 'own', 'parties');
+if (fs.existsSync(PARTIES_SRC)) {
+  for (const year of fs.readdirSync(PARTIES_SRC)) {
+    const dir = path.join(PARTIES_SRC, year);
+    if (!fs.statSync(dir).isDirectory()) continue;
+    for (const f of fs.readdirSync(dir)) {
+      if (/\.(jpe?g|png|webp)$/i.test(f)) sources.push({ key: f, file: path.join(dir, f) });
+    }
+  }
+}
 if (fs.existsSync(MEDIA_SRC)) {
   for (const f of fs.readdirSync(MEDIA_SRC)) {
     if (/\.(jpe?g|png|webp)$/i.test(f)) sources.push({ key: f, file: path.join(MEDIA_SRC, f) });

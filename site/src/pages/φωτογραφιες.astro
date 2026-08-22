@@ -5,6 +5,7 @@ import Base from '../layouts/Base.astro';
 import Fn from '../components/Fn.astro';
 import Pic from '../components/Pic.astro';
 import { seriesEvents, media } from '../lib/archive';
+import { PARTY_PHOTOS, PARTY_SUMMARY } from '../data/partyPhotos';
 
 const B = import.meta.env.BASE_URL.replace(/\/$/, '');
 const { vlax, perixora } = seriesEvents();
@@ -76,40 +77,44 @@ const undated = [
   <div class="shell">
     <h1>ΦΩΤΟΓΡΑΦΙΕΣ</h1>
     <p class="book intro">
-      Το φωτογραφικό σώμα των ΒΛΑΞ μεγάλωσε απότομα στις 21/08/2026, όταν οι ίδιοι άνοιξαν τα
-      αρχεία τους: από μία (1) επίσημη φωτογραφία, φτάσαμε στις δεκατρείς — οι περισσότερες
-      αχρονολόγητες, δύο υπογεγραμμένες.<Fn n="9">
-        Πιστώσεις: Σωκράτης Μήττας (δύο υπογεγραμμένες), «LMP» (μία υπογραφή, ταυτότητα
-        ζητείται), άγνωστοι φίλοι με κινητά (όλες οι υπόλοιπες). Καμία φωτογραφία δεν
-        «καλλωπίστηκε»· είναι φλας φωτογραφίες μπαρ στις 3 τα ξημερώματα, και ακριβώς έτσι
-        πρέπει.
+      Στις 22 Αυγούστου 2026 άνοιξε ένας φάκελος με 143 φωτογραφίες, ταξινομημένες ανά χρονιά.
+      Το μεγαλύτερο κενό του αρχείου — ποια φωτογραφία ανήκει σε ποιο vol. — έκλεισε σε ένα
+      απόγευμα.<Fn n="9">
+        Δημοσιεύονται εκατό. Τα υπόλοιπα σαράντα τρία είναι μαύρα καρέ, κουνημένα, διπλά ή
+        κατά λάθος — μένουν στο αρχείο, δεν μπαίνουν στον τοίχο. Πιστώσεις: όπου φαίνεται
+        υδατογράφημα, Σωκράτης Μήττας· μία υπογραφή «LMP»· όλες οι υπόλοιπες, άγνωστοι φίλοι με
+        κινητά του 2016–2019. Καμία δεν «καλλωπίστηκε»: είναι φλας φωτογραφίες μπαρ στις 3 τα
+        ξημερώματα, και ακριβώς έτσι πρέπει.
       </Fn>
-      Η αντιστοίχιση φωτογραφίας ↔ vol. παραμένει ανοιχτό ερευνητικό πεδίο: όποιος θυμάται,
-      <a href={`${B}/κενα/`}>Κενά</a>. Οι τσέπες, τα κινητά του 2016–2019, οι σκληροί δίσκοι —
-      κάπου υπάρχουν κι άλλες.
+      Οι λεζάντες γράφτηκαν κοιτάζοντας κάθε καρέ ξεχωριστά. Όπου δεν φαίνεται τι συμβαίνει,
+      το λέμε.
     </p>
 
-    {vlax.filter((e) => !e.cancelled).map((e) => (
-      <section id={e.id}>
-        <h2>{e.name}</h2>
-        <p class="small muted">{e.dateDisplay}{e.confidence !== 'exact' && <span class="asterisk"> *</span>}</p>
-        {e.gallery.filter((a) => a.local).length > 0 ? (
-          <div class="wall">
-            {e.gallery.filter((a) => a.local).map((a) => (
-              <Pic
-                m={a.local!}
-                alt={`Φωτογραφία από ${e.name}`}
-                sizes="(max-width: 44rem) 100vw, 30rem"
-                original={a.remoteUrl || undefined}
-                caption={`πηγή: ${a.credit} · φωτογράφος: άγνωστος (ξέρεις; πες μας)`}
-              />
-            ))}
-          </div>
-        ) : (
-          <p class="book none">Καμία φωτογραφία δεν σώζεται στο αρχείο. Ήταν όλοι απασχολημένοι.</p>
-        )}
-      </section>
-    ))}
+    {vlax.filter((e) => !e.cancelled).map((e) => {
+      const own = PARTY_PHOTOS[e.id] ?? [];
+      const blog = e.gallery.filter((a) => a.local);
+      return (
+        <section id={e.id}>
+          <h2>{e.name}</h2>
+          <p class="small muted">{e.dateDisplay}{e.confidence !== 'exact' && <span class="asterisk"> *</span>} · {own.length + blog.length} φωτογραφίες</p>
+          {PARTY_SUMMARY[e.id] && <p class="book yearsum">{PARTY_SUMMARY[e.id]}</p>}
+          {own.length + blog.length > 0 ? (
+            <div class="wall">
+              {own.map((ph) => {
+                const m = media(ph.key);
+                return m ? <Pic m={m} alt={ph.alt} sizes="(max-width: 44rem) 100vw, 30rem" caption={ph.caption} /> : null;
+              })}
+              {blog.map((a) => (
+                <Pic m={a.local!} alt={`Φωτογραφία από ${e.name}`} sizes="(max-width: 44rem) 100vw, 30rem"
+                  original={a.remoteUrl || undefined} caption={`πηγή: ${a.credit}`} />
+              ))}
+            </div>
+          ) : (
+            <p class="book none">Καμία φωτογραφία δεν σώζεται στο αρχείο. Ήταν όλοι απασχολημένοι.</p>
+          )}
+        </section>
+      );
+    })}
 
     <hr class="double" />
 
@@ -149,4 +154,5 @@ const undated = [
   section { margin: 2.5rem 0; }
   section h2 { color: var(--accent); }
   .none { border: 1px dashed var(--rule); padding: 1.2rem; max-width: 34rem; }
+  .yearsum { max-width: 44rem; font-size: 1.02rem; }
 </style>

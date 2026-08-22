@@ -16,6 +16,7 @@ import path from 'node:path';
 import { parse } from 'csv-parse/sync';
 import { ARCHIVE_DIR, NORMALIZED_DIR, SITE_ROOT } from './paths';
 import { OVERRIDES, EXTRA_EVENTS, SUPPRESSED, type EventPatch } from '../data/overrides';
+import { PARTY_PHOTOS } from '../data/partyPhotos';
 
 export type Series = 'ΒΛΑΞ' | 'Περίχωρα' | 'Radical Party' | 'Αθήνα' | 'Other' | 'Merch';
 export type Confidence = 'exact' | 'inferred' | 'unknown';
@@ -200,6 +201,12 @@ export function loadEvents(): ArchiveEvent[] {
       if (b?.text && !extra.announcement) ev.announcement = b.text;
     }
     if (extra.posterKey) ev.poster = media(extra.posterKey);
+    // party photos from the owners' folder count as gallery for this event
+    const own = PARTY_PHOTOS[ev.id] ?? [];
+    for (const ph of own) {
+      const m = media(ph.key);
+      if (m) ev.gallery.push({ id: `${ev.id}_own_${ph.key}`, eventId: ev.id, remoteUrl: '', local: m, credit: 'αρχείο των ιδίων' });
+    }
     events.push(ev);
   }
 
