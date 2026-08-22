@@ -46,11 +46,70 @@ const lipstick = media('vlaks4.jpg');
         δευτερόλεπτα.</li>
       </ul>
 
-      <p class="cta">
-        <a class="btn" href="https://www.facebook.com/alexandros.chantzis" target="_blank" rel="noopener">Ζήτα προσφορά</a>
-        <span class="book small muted">μήνυμα στο φβ· email θα αποκτήσουμε όταν αποφασιστεί
-        ποιος από τους δυο θα το διαχειρίζεται (ο βοηθός αποδείξεων δεν τερμάτισε ούτε εκεί)</span>
-      </p>
+      <h2 id="prosfora">Ζήτα προσφορά</h2>
+      <p class="book small muted">Συμπλήρωσε, πάτα το κουμπί, και ανοίγει το email σου με όλα
+      έτοιμα προς <a href="mailto:kafouroutsos@gmail.com">kafouroutsos@gmail.com</a>. Εδώ δεν αποθηκεύεται τίποτα — κούκις δεν
+      έχουμε. Το email το διαβάζει ο γκρούπης· ποιος από τους δυο βλαξ αποφασίζει, δεν λέμε.</p>
+      <form id="prosfora-form" class="prosfora" action="mailto:kafouroutsos@gmail.com" method="post" enctype="text/plain">
+        <label>Ποιος ρωτάει
+          <input type="text" name="onoma" autocomplete="name" placeholder="όνομα, ή ψευδώνυμο, ή «ο θαμώνας με την καρέκλα»" />
+        </label>
+        <label>Το ιβέντ — τι είναι;<span class="req">*</span>
+          <input type="text" name="event" required placeholder="π.χ. γάμος (αδερφών;), εγκαίνια, σαράντα, κάτι που δεν έχει όνομα ακόμα" />
+        </label>
+        <label>Ημερομηνία<span class="req">*</span>
+          <input type="date" name="imerominia" required />
+        </label>
+        <label>Πείσε μας ότι πρέπει να παίξουμε<span class="req">*</span>
+          <textarea name="peise" rows="4" required placeholder="Η δουλειά είναι δουλειά, αλλά επιλέγουμε. Τα επιχειρήματα μετράνε· τα αρκουδάκια περισσότερο."></textarea>
+        </label>
+        <label>Γιατί οι βλαξ;<span class="req">*</span>
+          <textarea name="giati" rows="3" required placeholder="Γιατί όχι κάποιος που ξέρει τουλάχιστον ένα τραγούδι;"></textarea>
+        </label>
+        <label>Μια ανάμνηση από τους βλαξ
+          <textarea name="anamnisi" rows="3" placeholder="Αν δεν έχεις, φτιάξε μία — θα καταγραφεί στα Κενά ως διαφωνία, δίπλα στην καρέκλα."></textarea>
+        </label>
+        <label>Πώς να σου απαντήσουμε
+          <input type="text" name="epikoinonia" autocomplete="email" placeholder="email ή τηλέφωνο (αν δεν βάλεις, απαντάμε στο email απ' όπου θα μας γράψεις)" />
+        </label>
+        <p class="cta">
+          <button type="submit" class="btn">Ζήτα προσφορά</button>
+          <span class="book small muted">ανοίγει το πρόγραμμα email σου · εναλλακτικά,
+          <a href="https://www.facebook.com/alexandros.chantzis" target="_blank" rel="noopener">μήνυμα στο φβ</a></span>
+        </p>
+      </form>
+      <script is:inline>
+        (function () {
+          var f = document.getElementById('prosfora-form');
+          if (!f) return;
+          f.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var v = function (n) { var el = f.elements[n]; return el && el.value ? el.value.trim() : '—'; };
+            var subject = 'Προσφορά ΒΛΑΞ — ' + v('event') + ' — ' + v('imerominia');
+            var body = [
+              'ΑΙΤΗΜΑ ΠΡΟΣΦΟΡΑΣ ΒΛΑΞ (από τη σελίδα Κρατήσεις)',
+              '',
+              'Ποιος ρωτάει: ' + v('onoma'),
+              'Το ιβέντ: ' + v('event'),
+              'Ημερομηνία: ' + v('imerominia'),
+              '',
+              'Πείσε μας ότι πρέπει να παίξουμε:',
+              v('peise'),
+              '',
+              'Γιατί οι βλαξ;',
+              v('giati'),
+              '',
+              'Μια ανάμνηση από τους βλαξ:',
+              v('anamnisi'),
+              '',
+              'Επικοινωνία: ' + v('epikoinonia'),
+              '',
+              'Υπενθύμιση όρων: 3 χιλιάρικα το λάιβ, ένα χιλιάρικο ο μάνατζερ, ό,τι ζητήσει ο γκρούπης. Σκόντο δεν γίνεται.'
+            ].join('\n');
+            window.location.href = 'mailto:kafouroutsos@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+          });
+        })();
+      </script>
 
       <h2>Οι οδηγίες ασφαλείας</h2>
       <p class="book small muted">Πρωτογενής πηγή — «ΟΔΗΓΙΕΣ ΓΙΑ ΣΗΜΕΡΑ», του Αλέξανδρου Χαντζή,
@@ -96,6 +155,19 @@ const lipstick = media('vlaks4.jpg');
     border: 3px solid var(--kragion);
   }
   .btn:hover { background: var(--ble-kourasao); color: #fff; }
+  .prosfora { display: grid; gap: 1rem; max-width: 40rem; margin: 1rem 0 2.5rem; }
+  .prosfora label { display: grid; gap: .35rem; font-family: var(--f-ui); font-weight: 700; font-size: .95rem; }
+  .prosfora .req { color: var(--kokkino); margin-left: .2em; }
+  .prosfora input, .prosfora textarea {
+    font: inherit; font-family: var(--f-book); font-weight: 400; font-size: 1.05rem;
+    padding: .6rem .75rem; border: 2px solid var(--kragion); background: #fff8ee; color: var(--fg);
+    border-radius: var(--radius); width: 100%;
+  }
+  .prosfora textarea { resize: vertical; }
+  .prosfora input:focus, .prosfora textarea:focus { outline: 3px solid var(--mov-gleifitzouri); outline-offset: 1px; }
+  .prosfora ::placeholder { color: #8a7a66; font-style: italic; }
+  .prosfora .cta { margin: .5rem 0 0; }
+  .btn { cursor: pointer; font: inherit; font-family: var(--f-ui); }
   .odigies { border-left: 3px solid var(--kragion); padding: .4rem 0 .4rem 1.2rem; margin: 1rem 0 2rem; }
   .odigies ol { margin: 0; padding-left: 1.2rem; }
   .odigies li { margin-bottom: .45rem; }
