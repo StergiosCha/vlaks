@@ -382,6 +382,23 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
     sources: [],
   },
   {
+    id: 'per-fuit-kleinei',
+    name: 'Το Fuit Art Cafe κλείνει',
+    series: 'Περίχωρα',
+    sortKey: '2023-06-30',
+    dateDisplay: '2023',
+    venue: 'Ηλία Φάσσα 2',
+    city: 'Γρεβενά',
+    confidence: 'inferred',
+    announcement:
+      'Έντεκα χρόνια (2012–2023), τέσσερα ΒΛΑΞ, ένα Νόμπελ Νύχτας. Το «θα περιμένουμε λίγο» της ματαίωσης του 2021 έγινε οριστικό: το μαγαζί όπου γεννήθηκε το συμβάν δεν υπάρχει πια. Ο Φούιτ μετακόμισε στη Θεσσαλονίκη — Sun Do Each, «τα καλύτερα σάντουιτς της Θεσσαλονίκης», κατά τους βλαξ.',
+    evidence: [
+      'Προφορική κατάθεση ενός εκ των βλαξ, 22/08/2026: «Fuit is closed now, closed 2023». Ακριβής μέρα άγνωστη· αστερίσκος.',
+      'Το έτος ανοίγματος από τον Τύπο: «Ένας χρόνος fuit art cafe με GLOBAL VIBE», grevenamedia.gr, Ιούλιος 2013.',
+    ],
+    sources: [{ url: 'https://www.facebook.com/p/Sun-Do-Each-61578184842196/', label: 'Sun Do Each (facebook)' }],
+  },
+  {
     id: 'per-thanatos',
     posterKey: 'thanatos-eikonografisi.jpg',
     name: 'Απόσπασμα: «Ο θάνατος του μπατζανάκη μου»',
