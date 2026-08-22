@@ -6,6 +6,9 @@ import path from 'node:path';
 import Base from '../layouts/Base.astro';
 import Fn from '../components/Fn.astro';
 import { NORMALIZED_DIR } from '../lib/paths';
+import Pic from '../components/Pic.astro';
+import { media } from '../lib/archive';
+const sundoeach = media('sundoeach.jpg');
 
 const B = import.meta.env.BASE_URL.replace(/\/$/, '');
 // the pinned About-Fuit manifesto, straight from the archive (blogs.jsonl)
@@ -34,6 +37,12 @@ const paras = manifesto.split('\n').map((s: string) => s.trim()).filter(Boolean)
       — «τα καλύτερα σάντουιτς της Θεσσαλονίκης», κατά δήλωση των βλαξ, που ως γνωστόν είναι
       αντικειμενικοί σε ό,τι συνδιοργανώνουν ή τρώνε.
     </p>
+    {sundoeach && (
+      <figure class="sundoeach">
+        <Pic m={sundoeach} alt="Το ρολό του Sun Do Each στη Θεσσαλονίκη: γκράφιτι με έναν ήλιο με γυαλιά ηλίου που κρατά σάντουιτς· από πάνω η ταμπέλα «Sun do each — cold cuts & cheese · homemade jams · aperitivo»." sizes="(max-width: 44rem) 100vw, 30rem"
+          caption="Sun Do Each, Θεσσαλονίκη: φρέσκα ψωμιά, premium αλλαντικά και τυριά, σπιτικές μαρμελάδες, aperitivo. Ο ήλιος κρατάει σάντουιτς· ο Φούιτ κρατάει το μαγαζί. Keep Grevena Weird, τώρα εξ αποστάσεως." />
+      </figure>
+    )}
 
     <p>
       Εδώ γεννήθηκαν και τα τέσσερα ΒΛΑΞ. Ιδιοκτήτης: ο Γιάννης «Μπάλκαν Φούιτ» Ευαγγελόπουλος,
@@ -82,6 +91,9 @@ const paras = manifesto.split('\n').map((s: string) => s.trim()).filter(Boolean)
 <style>
   h1 { color: var(--fg); }
   h2 { color: var(--accent); font-size: 1.5rem; margin-top: 2.2rem; }
+  .sundoeach { max-width: 30rem; margin: 1.5rem 0 2rem; }
+  .sundoeach :global(img) { border: 4px solid var(--kragion); }
+  .sundoeach :global(figcaption) { font-family: var(--f-note); font-size: .9rem; padding-top: .5rem; }
   .manifesto {
     margin: 1.5rem 0;
     padding: 1.2rem 1.5rem;

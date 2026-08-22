@@ -396,6 +396,7 @@ export const EXTRA_EVENTS: ExtraEvent[] = [
       'Προφορική κατάθεση ενός εκ των βλαξ, 22/08/2026: «Fuit is closed now, closed 2023». Ακριβής μέρα άγνωστη· αστερίσκος.',
       'Το έτος ανοίγματος από τον Τύπο: «Ένας χρόνος fuit art cafe με GLOBAL VIBE», grevenamedia.gr, Ιούλιος 2013.',
     ],
+    posterKey: 'sundoeach.jpg',
     sources: [{ url: 'https://www.facebook.com/p/Sun-Do-Each-61578184842196/', label: 'Sun Do Each (facebook)' }],
   },
   {

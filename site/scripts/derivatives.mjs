@@ -53,6 +53,7 @@ const LOOSE = [
   ['raw/own/balkan-3.jpg', 'balkan-3.jpg'],
   ['raw/own/balkan-4.jpg', 'balkan-4.jpg'],
   ['raw/own/balkan-5.jpg', 'balkan-5.jpg'],
+  ['raw/own/sundoeach.jpg', 'sundoeach.jpg'], // ο Φούιτ σήμερα: Sun Do Each, Θεσσαλονίκη
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
