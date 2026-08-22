@@ -161,8 +161,10 @@ const tape = [...vlax]
   .fig-b .torso, .fig-b .arm, .fig-b .leg { stroke: var(--kokkino); } .fig-b .head { fill: var(--kokkino); }
   .hat-a { fill: var(--kokkino); } .pom { fill: var(--charti); } .antler { stroke: var(--bez-arkoudaki); stroke-width: 3; stroke-linecap: round; fill: none; }
   .caption { font-family: var(--f-note); font-size: 9px; fill: #b8a88e; }
-  .leg { transform-box: view-box; transform-origin: 0px 108px; }
-  .fig-a .leg { transform-origin: 110px 108px; } .fig-b .leg { transform-origin: 210px 108px; }
+  /* pivot at the hip: each leg's own bbox corner that touches (0,108) */
+  .leg { transform-box: fill-box; }
+  .leg-l { transform-origin: 100% 0%; }
+  .leg-r { transform-origin: 0% 0%; }
   .fig.go .body { animation: skrolts-jump .9s cubic-bezier(.3,.7,.3,1) both; }
   .fig.go .leg-l { animation: skrolts-split-l .9s ease-out both; }
   .fig.go .leg-r { animation: skrolts-split-r .9s ease-out both; }
