@@ -395,3 +395,5 @@ hr.double { border: none; border-top: 3px double var(--rule); margin: 2.5rem 0; 
   .shell > .pair, .shell > section, .shell > aside, .shell > figure, .shell > hr,
   .shell > .doors, .shell > .posterwall, .shell > .terms, .shell > .wall, .shell > .lipstick { clear: right; }
 }
+
+.kolofonas code { font-family: var(--f-matrix); font-size: .85em; color: var(--xryso); background: rgb(0 0 0 / .35); padding: 0 .3em; }

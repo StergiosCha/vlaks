@@ -26,6 +26,7 @@ function walk(dir) {
       if (rel.startsWith('διηγημα/')) continue;
       let html = fs.readFileSync(p, 'utf8');
       html = html.replace(/<blockquote[\s\S]*?<\/blockquote>/g, ''); // quoted primary sources
+      html = html.replace(/<code[\s\S]*?<\/code>/g, ''); // ο κολοφώνας παραθέτει το ίδιο το regex
       html = html.replace(SANCTIONED, '');
       const m = html.match(new RegExp(`.{0,60}${DECLINED.source}.{0,60}`));
       if (m) bad.push(`${rel}: …${m[0].trim()}…`);
