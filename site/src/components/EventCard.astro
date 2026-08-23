@@ -30,7 +30,7 @@ const excerpt = e.announcement
     <p class="venue">
       {e.volume && <span class="badge">{e.volume}</span>}
       {e.dual && <span class="badge">και {e.dual.series} {e.dual.volume}</span>}
-      {e.venue}{e.city && e.venue !== 'άγνωστο' ? `, ${e.city}` : e.city ? `, ${e.city}` : ''}{e.time ? ` , ${e.time}` : ''}
+      {e.venue}{e.city && e.venue !== 'άγνωστο' ? `, ${e.city}` : e.city ? `, ${e.city}` : ''}{e.time ? `, ${e.time}` : ''}
     </p>
     {excerpt && <p class="ann">«{excerpt}»</p>}
     {e.evidence && (
