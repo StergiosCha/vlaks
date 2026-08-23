@@ -9,5 +9,5 @@
  * Όσο είναι κενό, η φόρμα πέφτει πίσω στο mailto (ανοίγει το πρόγραμμα email).
  * Τα μηνύματα πάνε κατευθείαν στο kafouroutsos@gmail.com. Τίποτα δεν αποθηκεύεται εδώ.
  */
-export const WEB3FORMS_KEY = '';
+export const WEB3FORMS_KEY = 'f73432ba-987a-41ab-99d9-fa856ec513fe';
 export const CONTACT_EMAIL = 'kafouroutsos@gmail.com';

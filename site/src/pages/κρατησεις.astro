@@ -110,17 +110,28 @@ const lipstick = media('vlaks4.jpg');
             ].join('\n');
           }
           function subject() { return 'Προσφορά ΒΛΑΞ: ' + v('event') + ', ' + v('imerominia'); }
+          function mailtoHref() {
+            return 'mailto:' + MAIL + '?subject=' + encodeURIComponent(subject()) + '&body=' + encodeURIComponent(body());
+          }
           function say(msg, kind) {
             box.hidden = false;
             box.className = 'status ' + (kind || '');
             box.textContent = msg;
+            if (kind === 'bad') {
+              var a = document.createElement('a');
+              a.href = mailtoHref();
+              a.className = 'status-btn';
+              a.textContent = 'Άνοιξε το email μου με όλα συμπληρωμένα';
+              box.appendChild(document.createElement('br'));
+              box.appendChild(a);
+            }
             box.scrollIntoView({ block: 'center', behavior: 'smooth' });
           }
           f.addEventListener('submit', function (e) {
             e.preventDefault();
             if (f.elements['botcheck'] && f.elements['botcheck'].checked) return;
             if (!KEY) {
-              window.location.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent(subject()) + '&body=' + encodeURIComponent(body());
+              window.location.href = mailtoHref();
               return;
             }
             var btn = f.querySelector('button[type=submit]');
@@ -142,10 +153,10 @@ const lipstick = media('vlaks4.jpg');
                 f.reset();
                 say('Η προσφορά παραλήφθηκε. Θα την κοιτάξει ο γκρούπης και θα απαντήσει ο ένας από τους δυο. Ποιος, δεν λέμε.', 'ok');
               } else {
-                say('Κάτι δεν πήγε καλά και δεν έφυγε. Στείλ’ το με email στο ' + MAIL + ', η δουλειά είναι δουλειά.', 'bad');
+                say('Κάτι δεν πήγε καλά και δεν έφυγε. Δεν χάθηκε όμως:', 'bad');
               }
             }).catch(function () {
-              say('Κάτι δεν πήγε καλά και δεν έφυγε. Στείλ’ το με email στο ' + MAIL + ', η δουλειά είναι δουλειά.', 'bad');
+              say('Κάτι δεν πήγε καλά και δεν έφυγε. Δεν χάθηκε όμως:', 'bad');
             }).then(function () { btn.disabled = false; btn.textContent = old; });
           });
         })();
@@ -215,6 +226,11 @@ const lipstick = media('vlaks4.jpg');
     background: color-mix(in srgb, var(--accent) 10%, transparent);
   }
   .status.ok { border-color: var(--mov-vathy); background: color-mix(in srgb, var(--mov-vathy) 12%, transparent); }
+  .status-btn {
+    display: inline-block; margin-top: .6rem; font-family: var(--f-ui); font-weight: 700;
+    font-size: .95rem; background: var(--accent); color: #fff; text-decoration: none;
+    padding: .5rem 1rem; border: 2px solid var(--kragion);
+  }
   .status.bad { border-color: var(--kokkino); background: color-mix(in srgb, var(--kokkino) 10%, transparent); }
   .odigies { border-left: 3px solid var(--kragion); padding: .4rem 0 .4rem 1.2rem; margin: 1rem 0 2rem; }
   .odigies ol { margin: 0; padding-left: 1.2rem; }
