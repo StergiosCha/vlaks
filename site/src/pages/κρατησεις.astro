@@ -4,6 +4,7 @@ import Base from '../layouts/Base.astro';
 import Fn from '../components/Fn.astro';
 import Pic from '../components/Pic.astro';
 import { media } from '../lib/archive';
+import { WEB3FORMS_KEY, CONTACT_EMAIL } from '../data/forms';
 
 const lipstick = media('vlaks4.jpg');
 ---
@@ -47,9 +48,9 @@ const lipstick = media('vlaks4.jpg');
       </ul>
 
       <h2 id="prosfora">Ζήτα προσφορά</h2>
-      <p class="book small muted">Συμπλήρωσε, πάτα το κουμπί, και ανοίγει το email σου με όλα
-      έτοιμα προς <a href="mailto:kafouroutsos@gmail.com">kafouroutsos@gmail.com</a>. Εδώ δεν αποθηκεύεται τίποτα. Κούκις δεν
-      έχουμε. Το email το διαβάζει ο γκρούπης. Ποιος από τους δυο βλαξ αποφασίζει, δεν λέμε.</p>
+      <p class="book small muted">Συμπλήρωσε και πάτα το κουμπί. Το μήνυμα φεύγει κατευθείαν
+      στους βλαξ. Εδώ δεν αποθηκεύεται τίποτα, κούκις δεν έχουμε. Το διαβάζει ο γκρούπης,
+      απαντάει ο ένας από τους δυο. Ποιος, δεν λέμε.</p>
       <form id="prosfora-form" class="prosfora" action="mailto:kafouroutsos@gmail.com" method="post" enctype="text/plain">
         <label>Ποιος ρωτάει
           <input type="text" name="onoma" autocomplete="name" placeholder="όνομα, ή ψευδώνυμο, ή «ο θαμώνας με την καρέκλα»" />
@@ -72,21 +73,22 @@ const lipstick = media('vlaks4.jpg');
         <label>Πώς να σου απαντήσουμε
           <input type="text" name="epikoinonia" autocomplete="email" placeholder="email ή τηλέφωνο (αν δεν βάλεις, απαντάμε στο email απ' όπου θα μας γράψεις)" />
         </label>
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
         <p class="cta">
           <button type="submit" class="btn">Ζήτα προσφορά</button>
           <span class="book small muted">ανοίγει το πρόγραμμα email σου, εναλλακτικά,
           <a href="https://www.facebook.com/alexandros.chantzis" target="_blank" rel="noopener">μήνυμα στο φβ</a></span>
         </p>
       </form>
-      <script is:inline>
+      <p id="prosfora-status" class="status" role="status" aria-live="polite" hidden></p>
+      <script is:inline define:vars={{ KEY: WEB3FORMS_KEY, MAIL: CONTACT_EMAIL }}>
         (function () {
           var f = document.getElementById('prosfora-form');
+          var box = document.getElementById('prosfora-status');
           if (!f) return;
-          f.addEventListener('submit', function (e) {
-            e.preventDefault();
-            var v = function (n) { var el = f.elements[n]; return el && el.value ? el.value.trim() : '(κενό)'; };
-            var subject = 'Προσφορά ΒΛΑΞ: ' + v('event') + ', ' + v('imerominia');
-            var body = [
+          var v = function (n) { var el = f.elements[n]; return el && el.value ? el.value.trim() : '(κενό)'; };
+          function body() {
+            return [
               'ΑΙΤΗΜΑ ΠΡΟΣΦΟΡΑΣ ΒΛΑΞ (από τη σελίδα Κρατήσεις)',
               '',
               'Ποιος ρωτάει: ' + v('onoma'),
@@ -106,7 +108,45 @@ const lipstick = media('vlaks4.jpg');
               '',
               'Υπενθύμιση όρων: 3 χιλιάρικα το λάιβ, ένα χιλιάρικο ο μάνατζερ, ό,τι ζητήσει ο γκρούπης. Σκόντο δεν γίνεται.'
             ].join('\n');
-            window.location.href = 'mailto:kafouroutsos@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+          }
+          function subject() { return 'Προσφορά ΒΛΑΞ: ' + v('event') + ', ' + v('imerominia'); }
+          function say(msg, kind) {
+            box.hidden = false;
+            box.className = 'status ' + (kind || '');
+            box.textContent = msg;
+            box.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          }
+          f.addEventListener('submit', function (e) {
+            e.preventDefault();
+            if (f.elements['botcheck'] && f.elements['botcheck'].checked) return;
+            if (!KEY) {
+              window.location.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent(subject()) + '&body=' + encodeURIComponent(body());
+              return;
+            }
+            var btn = f.querySelector('button[type=submit]');
+            btn.disabled = true;
+            var old = btn.textContent;
+            btn.textContent = 'φεύγει…';
+            fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+              body: JSON.stringify({
+                access_key: KEY,
+                subject: subject(),
+                from_name: 'Κρατήσεις ΒΛΑΞ',
+                replyto: v('epikoinonia'),
+                message: body()
+              })
+            }).then(function (r) { return r.json(); }).then(function (d) {
+              if (d && d.success) {
+                f.reset();
+                say('Η προσφορά παραλήφθηκε. Θα την κοιτάξει ο γκρούπης και θα απαντήσει ο ένας από τους δυο. Ποιος, δεν λέμε.', 'ok');
+              } else {
+                say('Κάτι δεν πήγε καλά και δεν έφυγε. Στείλ’ το με email στο ' + MAIL + ', η δουλειά είναι δουλειά.', 'bad');
+              }
+            }).catch(function () {
+              say('Κάτι δεν πήγε καλά και δεν έφυγε. Στείλ’ το με email στο ' + MAIL + ', η δουλειά είναι δουλειά.', 'bad');
+            }).then(function () { btn.disabled = false; btn.textContent = old; });
           });
         })();
       </script>
@@ -168,6 +208,14 @@ const lipstick = media('vlaks4.jpg');
   .prosfora ::placeholder { color: #8a7a66; font-style: italic; }
   .prosfora .cta { margin: .5rem 0 0; }
   .btn { cursor: pointer; font: inherit; font-family: var(--f-ui); }
+  .hp { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .status {
+    max-width: 40rem; margin: 0 0 2rem; padding: .9rem 1.1rem; font-family: var(--f-book);
+    font-size: 1.05rem; border-left: 4px solid var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+  }
+  .status.ok { border-color: var(--mov-vathy); background: color-mix(in srgb, var(--mov-vathy) 12%, transparent); }
+  .status.bad { border-color: var(--kokkino); background: color-mix(in srgb, var(--kokkino) 10%, transparent); }
   .odigies { border-left: 3px solid var(--kragion); padding: .4rem 0 .4rem 1.2rem; margin: 1rem 0 2rem; }
   .odigies ol { margin: 0; padding-left: 1.2rem; }
   .odigies li { margin-bottom: .45rem; }
